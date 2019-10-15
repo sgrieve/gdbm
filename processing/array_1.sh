@@ -2,7 +2,7 @@
 
 #$ -cwd
 #$ -j y
-#$ -N grbm-test
+#$ -N gdbm-test
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
 #$ -l node_type=sm
@@ -17,7 +17,7 @@ module load gcc/6.3.0
 module load python/3.6.3
 module load proj/5.2.0
 
-# 8. Parse parameter file to get variables.
+# Parse parameter file to get variables.
 number=$SGE_TASK_ID
 paramfile=/data/home/faw513/gdbm/processing/array_params_0_1.txt
 
@@ -26,5 +26,5 @@ variable1=`sed -n ${number}p $paramfile | awk '{print $2}'`
 variable2=`sed -n ${number}p $paramfile | awk '{print $3}'`
 variable3=`sed -n ${number}p $paramfile | awk '{print $4}'`
 
-# 8. Run the application.
+# Run the application.
 sh /data/home/faw513/gdbm/processing/runner.sh $variable1 $variable2 $variable3
