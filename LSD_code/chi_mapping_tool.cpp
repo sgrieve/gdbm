@@ -300,8 +300,11 @@ int main (int nNumberofArgs,char *argv[])
   float sigma = this_float_map["sigma"];
   int target_nodes = this_int_map["target_nodes"];
   int skip = this_int_map["skip"];
-  int threshold_contributing_pixels = this_int_map["threshold_contributing_pixels"];
-  int minimum_basin_size_pixels = this_int_map["minimum_basin_size_pixels"];
+  // int threshold_contributing_pixels = this_int_map["threshold_contributing_pixels"];
+  int threshold_contributing_pixels = atoi(argv[6]);
+  // int minimum_basin_size_pixels = this_int_map["minimum_basin_size_pixels"];
+  int minimum_basin_size_pixels = atoi(argv[7]);
+  int maximum_basin_size_pixels = atoi(argv[8]);
   int basic_Mchi_regression_nodes = this_int_map["basic_Mchi_regression_nodes"];
 
   // load the  DEM

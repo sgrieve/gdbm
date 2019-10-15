@@ -6,7 +6,7 @@
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist.
 read path: NULL
-write path: /home/ccearie/Scratch/LSD_output
+write path: /data/Geog-c2s2/gdbm/
 read fname: NULL
 channel heads fname: NULL
 
