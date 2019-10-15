@@ -3,7 +3,7 @@ import os
 import json
 import utm
 
-path = '/Users/stuart/CardiffProject/climate_zones/singlepart_files_split/'
+path = '/Users/stuart/gdbm/climate_zones/singlepart_files_split/'
 
 results = {}
 for f in os.listdir(path):

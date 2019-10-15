@@ -5215,22 +5215,6 @@
         "west_max": true,
         "west_min": true
     },
-    "17_26.shp": {
-        "bbox": [
-            62.3,
-            55.199999999999996,
-            -127.1,
-            -143.3
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            7,
-            "north"
-        ],
-        "west_max": true,
-        "west_min": true
-    },
     "17_27.shp": {
         "bbox": [
             65.4,
@@ -8655,22 +8639,6 @@
         "west_max": false,
         "west_min": false
     },
-    "21_9.shp": {
-        "bbox": [
-            66.6,
-            55.9,
-            152.5,
-            126.60000000000002
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            52,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
     "25_0.shp": {
         "bbox": [
             28.199999999999996,
@@ -8799,38 +8767,6 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_0612589f_1410_46df_aa7c_93a5847f3d53.shp": {
-        "bbox": [
-            56.349999999999994,
-            51.9875,
-            46.45000000000002,
-            27.625000000000014
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            35,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "25_102_071b7fc2_3a23_4ed0_9a5d_054b3295a75f.shp": {
-        "bbox": [
-            60.71249999999999,
-            56.349999999999994,
-            135.15,
-            112.97500000000001
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            49,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
     "25_102_0814cbe8_cf8f_487f_9601_10694c5a73d4.shp": {
         "bbox": [
             60.3125,
@@ -8922,38 +8858,6 @@
         "south_min": false,
         "utm_zone": [
             42,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "25_102_1a23c5b2_7ba1_444f_86ba_63d63dd8f376.shp": {
-        "bbox": [
-            51.9875,
-            48.5,
-            68.62500000000001,
-            46.45000000000002
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            38,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "25_102_1e28bc13_e3fe_4a62_8737_636e3312528e.shp": {
-        "bbox": [
-            60.3125,
-            56.349999999999994,
-            69.4,
-            48.000000000000014
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            39,
             "north"
         ],
         "west_max": false,
@@ -9183,22 +9087,6 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_53c5c657_0e1a_4257_bf63_da1f9646c214.shp": {
-        "bbox": [
-            60.71249999999999,
-            56.349999999999994,
-            112.97500000000001,
-            90.80000000000001
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            46,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
     "25_102_5429693e_ede8_42e5_9f6b_82257bf79512.shp": {
         "bbox": [
             53.425,
@@ -9226,22 +9114,6 @@
         "south_min": false,
         "utm_zone": [
             33,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "25_102_5c70f84a_7cc0_49af_a018_c2bcdc9dfcdc.shp": {
-        "bbox": [
-            56.349999999999994,
-            51.9875,
-            90.80000000000001,
-            68.62500000000001
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            42,
             "north"
         ],
         "west_max": false,
@@ -9338,22 +9210,6 @@
         "south_min": false,
         "utm_zone": [
             36,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "25_102_7518de3a_25c4_4ca3_b736_5ed0e4c79e4e.shp": {
-        "bbox": [
-            51.9875,
-            47.625,
-            89.10000000000002,
-            68.62500000000001
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            42,
             "north"
         ],
         "west_max": false,
@@ -9567,22 +9423,6 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_9eec1bf9_f725_4417_a4e6_9c3bb9970660.shp": {
-        "bbox": [
-            56.349999999999994,
-            51.9875,
-            68.62500000000001,
-            46.45000000000002
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            38,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
     "25_102_a2771995_66e3_4e82_bc63_03e7dea67e0b.shp": {
         "bbox": [
             45.44375,
@@ -9631,22 +9471,6 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_aa5fd30e_9601_4eeb_abc2_70339496f513.shp": {
-        "bbox": [
-            51.9875,
-            47.625,
-            46.45000000000002,
-            27.625000000000014
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            35,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
     "25_102_ac4f18af_d68b_469e_94ab_ed89fe1b5249.shp": {
         "bbox": [
             56.349999999999994,
@@ -9674,22 +9498,6 @@
         "south_min": false,
         "utm_zone": [
             37,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "25_102_ada76b9b_0625_410d_bde6_824263252ff5.shp": {
-        "bbox": [
-            60.3125,
-            56.349999999999994,
-            90.80000000000001,
-            69.4
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            42,
             "north"
         ],
         "west_max": false,
@@ -9770,22 +9578,6 @@
         "south_min": false,
         "utm_zone": [
             34,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "25_102_d018e04f_a790_4963_9cfc_3062fe4c8e18.shp": {
-        "bbox": [
-            56.349999999999994,
-            51.9875,
-            27.625000000000014,
-            9.300000000000011
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            32,
             "north"
         ],
         "west_max": false,
@@ -11322,22 +11114,6 @@
         "south_min": false,
         "utm_zone": [
             18,
-            "north"
-        ],
-        "west_max": true,
-        "west_min": true
-    },
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398.shp": {
-        "bbox": [
-            67.7,
-            59.825,
-            -96.425,
-            -111.85
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            12,
             "north"
         ],
         "west_max": true,
