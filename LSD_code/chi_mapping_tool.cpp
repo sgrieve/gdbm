@@ -1209,11 +1209,4 @@ int main (int nNumberofArgs,char *argv[])
     ChiTool.print_knickpoint_to_csv(FlowInfo,csv_full_fname_knockpoint);
   }
 
-std::cout << "Thats us done:-" << '\n';
-std::cout << "threshold_contributing_pixels " << threshold_contributing_pixels << '\n';
-std::cout << "minimum_basin_size_pixels " << minimum_basin_size_pixels << '\n';
-std::cout << "min basin int map " << this_int_map["minimum_basin_size_pixels"] << '\n';
-std::cout << "max basin int map" << this_int_map["maximum_basin_size_pixels"] << '\n';
-std::cout << "cont px int map " << this_int_map["threshold_contributing_pixels"] << '\n';
-
 }
