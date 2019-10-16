@@ -11,7 +11,7 @@ median_norm_offsets = []
 output_filename = sys.argv[1]
 
 # Store the output strings as a list, where the first item is a header
-output = ['RiverName,NCI,Relief,FlowLength,TotalSlope\n']
+output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n\n']
 
 # Get the list of files to be processed from the second command line arg
 processing_path = sys.argv[2]
@@ -31,6 +31,8 @@ for i, filename in enumerate(final_file_list, start=1):
 
     A = data[:, 5]  # FlowLength
     B = data[:, 4]  # Elevation
+
+    AI = data[:, 8]  # Aridity index
 
     # Cant use np.ptp as it doesnt handle nans
     R = np.nanmax(B) - np.nanmin(B)
@@ -57,8 +59,12 @@ for i, filename in enumerate(final_file_list, start=1):
     river_name = os.path.splitext(os.path.basename(filename))[0]
 
     output.append('{},{},{},{},{}\n'.format(river_name, NCI, R,
-                                            FlowLength, R / FlowLength))
-
+                                            FlowLength, R / FlowLength,
+                                            np.nanmean(AI), np.nanmedian(AI),
+                                            np.nanstd(AI), np.nanmin(AI),
+                                            np.nanmax(AI),
+                                            np.count_nonzero(~np.isnan(AI))
+                                            ))
 
 with open('{}.csv'.format(output_filename), 'w') as f:
     for o in output:
