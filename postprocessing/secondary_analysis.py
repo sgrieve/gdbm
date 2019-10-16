@@ -11,7 +11,7 @@ median_norm_offsets = []
 output_filename = sys.argv[1]
 
 # Store the output strings as a list, where the first item is a header
-output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n\n']
+output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n\n']
 
 # Get the list of files to be processed from the second command line arg
 processing_path = sys.argv[2]
@@ -31,6 +31,8 @@ for i, filename in enumerate(final_file_list, start=1):
 
     A = data[:, 5]  # FlowLength
     B = data[:, 4]  # Elevation
+
+    area = np.max(data[:, 6])
 
     AI = data[:, 8]  # Aridity index
 
@@ -58,13 +60,13 @@ for i, filename in enumerate(final_file_list, start=1):
     # Also need the total river length, river relief, river slope and name
     river_name = os.path.splitext(os.path.basename(filename))[0]
 
-    output.append('{},{},{},{},{}\n'.format(river_name, NCI, R,
-                                            FlowLength, R / FlowLength,
-                                            np.nanmean(AI), np.nanmedian(AI),
-                                            np.nanstd(AI), np.nanmin(AI),
-                                            np.nanmax(AI),
-                                            np.count_nonzero(~np.isnan(AI))
-                                            ))
+    output.append('{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(river_name, NCI, R,
+                                                                FlowLength, R / FlowLength, area,
+                                                                np.nanmean(AI), np.nanmedian(AI),
+                                                                np.nanstd(AI), np.nanmin(AI),
+                                                                np.nanmax(AI),
+                                                                np.count_nonzero(~np.isnan(AI))
+                                                                ))
 
 with open('{}.csv'.format(output_filename), 'w') as f:
     for o in output:
