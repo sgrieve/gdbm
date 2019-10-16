@@ -27,3 +27,8 @@ rm *.hgt
 rm *.vrt
 
 gdalinfo $1.bil -json > $1.json
+
+# Remove the raster files
+rm $1.bil
+rm $1.hdr
+rm $1.bil.aux.xml
