@@ -119,7 +119,7 @@ int main (int nNumberofArgs,char *argv[])
   // Selecting basins
   int_default_map["threshold_contributing_pixels"] = 1000;
   int_default_map["minimum_basin_size_pixels"] = 5000;
-  int_default_map["maximum_basin_size_pixels"] = 500000;
+  int_default_map["maximum_basin_size_pixels"] = atoi(argv[9]);
   bool_default_map["test_drainage_boundaries"] = true;
   bool_default_map["only_take_largest_basin"] = false;
   string_default_map["BaselevelJunctions_file"] = "NULL";
@@ -238,6 +238,9 @@ int main (int nNumberofArgs,char *argv[])
   string OUT_DIR = argv[5];
   string OUT_ID = argv[6];
 
+  int threshold_contributing_pixels = atoi(argv[7]);
+  int minimum_basin_size_pixels = atoi(argv[8]);
+
   string raster_ext =  LSDPP.get_dem_read_extension();
   vector<string> boundary_conditions = LSDPP.get_boundary_conditions();
   string CHeads_file = LSDPP.get_CHeads_file();
@@ -282,11 +285,11 @@ int main (int nNumberofArgs,char *argv[])
   LSDRasterInfo RI((DATA_DIR+DEM_ID), raster_ext);
 
   // check the threshold pixels for chi
-  if (this_int_map["threshold_pixels_for_chi"] > this_int_map["threshold_contributing_pixels"])
+  if (this_int_map["threshold_pixels_for_chi"] > threshold_contributing_pixels)
   {
     cout << "WARNING: you have chosen a threshold pixels for chi which is greater" << endl;
     cout << "   the threshold contributing pixels. Defaulting so these are equal." << endl;
-    this_int_map["threshold_pixels_for_chi"] = this_int_map["threshold_contributing_pixels"];
+    this_int_map["threshold_pixels_for_chi"] = threshold_contributing_pixels;
   }
 
   // initialise variables to be assigned from .driver file
@@ -300,8 +303,10 @@ int main (int nNumberofArgs,char *argv[])
   float sigma = this_float_map["sigma"];
   int target_nodes = this_int_map["target_nodes"];
   int skip = this_int_map["skip"];
-  int threshold_contributing_pixels = this_int_map["threshold_contributing_pixels"];
-  int minimum_basin_size_pixels = this_int_map["minimum_basin_size_pixels"];
+
+  // int threshold_contributing_pixels = this_int_map["threshold_contributing_pixels"];
+  // int minimum_basin_size_pixels = this_int_map["minimum_basin_size_pixels"];
+
   int basic_Mchi_regression_nodes = this_int_map["basic_Mchi_regression_nodes"];
 
   // load the  DEM
@@ -509,7 +514,7 @@ int main (int nNumberofArgs,char *argv[])
       cout << "I am going to look for basins in a pixel window that are not influended by nodata." << endl;
       cout << "I am also going to remove any nested basins." << endl;
       BaseLevelJunctions = JunctionNetwork.Prune_Junctions_By_Contributing_Pixel_Window_Remove_Nested_And_Nodata(FlowInfo, filled_topography, FlowAcc,
-                                              this_int_map["minimum_basin_size_pixels"],this_int_map["maximum_basin_size_pixels"]);
+                                              minimum_basin_size_pixels,this_int_map["maximum_basin_size_pixels"]);
     }
     else
     {
@@ -895,42 +900,6 @@ int main (int nNumberofArgs,char *argv[])
   //============================================================================
 
 
-
-
-  if (this_bool_map["MCMC_movern_analysis"])
-  {
-    cout << "I am going to explore m/n using the MCMC method" << endl;
-    cout << "WARNING!!! This could take a while." << endl;
-    // Lets make a new chi tool: this won't be segmented since we only
-    // need it for m/n
-    LSDChiTools ChiTool_MCMC(FlowInfo);
-    ChiTool_MCMC.chi_map_automator_chi_only(FlowInfo, source_nodes, outlet_nodes, baselevel_node_of_each_basin,
-                            filled_topography, DistanceFromOutlet,
-                            DrainageArea, chi_coordinate);
-
-
-    // Get the pixel threshold. Make it one less than the previous threshold to ensure
-    // you get all the nodes in the basin
-    int pixel_thresh_for_this_example = this_int_map["threshold_contributing_pixels"] -1;
-
-    bool use_points = true;
-    ChiTool_MCMC.MCMC_driver(FlowInfo, pixel_thresh_for_this_example,
-                             this_float_map["collinearity_MLE_sigma"],
-                             this_float_map["MCMC_movern_minimum"],
-                             this_float_map["MCMC_movern_maximum"],
-                             this_float_map["MCMC_chain_links"],
-                             OUT_DIR, OUT_ID, use_points);
-
-  }
-
-
-
-
-
-
-
-
-
   if (this_bool_map["movern_residuals_test"])
   {
     cout << "I am going to explore m/n using the residuals method" << endl;
@@ -1246,6 +1215,5 @@ std::cout << "minimum_basin_size_pixels " << minimum_basin_size_pixels << '\n';
 std::cout << "min basin int map " << this_int_map["minimum_basin_size_pixels"] << '\n';
 std::cout << "max basin int map" << this_int_map["maximum_basin_size_pixels"] << '\n';
 std::cout << "cont px int map " << this_int_map["threshold_contributing_pixels"] << '\n';
-
 
 }
