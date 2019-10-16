@@ -2,7 +2,7 @@ import csv
 import os
 import sys
 from collections import Counter
-
+import rasterio
 
 def koppen_number_to_string(filename):
     '''
@@ -50,22 +50,32 @@ with open(input_file, 'r') as csvfile:
     for row in reader:
         basins[row[12]].append((row[1:5] + row[6:9] + [row[11]]))
 
+source_path = 'ai.tif'
+with rasterio.open(source_path) as src:
 
-# get the main stem ID for each basin in the input file
-for basin_key in basins:
-    sources = []
+    # get the main stem ID for each basin in the input file
+    for basin_key in basins:
+        sources = []
 
-    for x in basins[basin_key]:
-        sources.append(x[7])
+        for x in basins[basin_key]:
+            sources.append(x[7])
 
-    # Main stem is the ID of the longest channel in each basin
-    main_stem = Counter(sources).most_common()[0][0]
+        # Main stem is the ID of the longest channel in each basin
+        main_stem = Counter(sources).most_common()[0][0]
 
-    # Write each main stem's data to its own file
-    with open('{}_river_{}.csv'.format(sub_zone, main_stem), 'w') as o:
-        for data in basins[basin_key][::-1]:
-            if data[7] == main_stem:
-                o.write(','.join(data) + '\n')
+        # Write each main stem's data to its own file
+        with open('{}_river_{}.csv'.format(sub_zone, main_stem), 'w') as o:
+            for data in basins[basin_key][::-1]:
+                if data[7] == main_stem:
+                    # where we write the ai data for each row
+                    ai = src.sample([data[3], data[2]])[0]
+
+                    if ai >= 0:
+                        ai = str(round(ai, 4))
+                    else:
+                        ai = 'NaN'
+
+                    o.write(','.join(data) + ',' + ai + '\n')
 
 # Rename the MChiSegmented file to a more descriptive name
 new_input_name = input_file.replace('MChiSegmented', 'RawBasins')
