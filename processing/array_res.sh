@@ -2,7 +2,7 @@
 
 #$ -cwd
 #$ -j y
-#$ -N gdbm-test
+#$ -N gdbm-resolution
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
 #$ -l node_type=sm
@@ -19,7 +19,7 @@ module load proj/5.2.0
 
 # Parse parameter file to get variables.
 number=$SGE_TASK_ID
-paramfile=/data/home/faw513/gdbm/processing/array_params_0_200.txt
+paramfile=/data/home/faw513/gdbm/processing/resolution_array_params.txt
 
 index=`sed -n ${number}p $paramfile | awk '{print $1}'`
 variable1=`sed -n ${number}p $paramfile | awk '{print $2}'`
