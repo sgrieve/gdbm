@@ -22,62 +22,67 @@ input_file = sys.argv[1]
 filename = os.path.basename(input_file)
 sub_zone = filename.split('MChiSegmented')[0][:-1]
 
-# We want to convert back from the numerical climate zone codes to the strings
-sub_zone = koppen_number_to_string(sub_zone)
 
-with open(input_file, 'r') as csvfile:
-    reader = csv.reader(csvfile, delimiter=',')
-    # Skip the header
-    next(reader)
+if os.path.isfile(input_file):
 
-    # Load all of the basin ids from the file
-    basin_ids = []
-    for r in reader:
-        basin_ids.append(r[12])
+    # We want to convert back from the numerical climate zone codes to the strings
+    sub_zone = koppen_number_to_string(sub_zone)
 
-    # Set will give us a unique set of basin ids with no duplicates
-    basin_ids = set(basin_ids)
+    with open(input_file, 'r') as csvfile:
+        reader = csv.reader(csvfile, delimiter=',')
+        # Skip the header
+        next(reader)
 
-    # Create a dictionary keyed with basin ids and the values are empty lists
-    basins = {id: [] for id in basin_ids}
+        # Load all of the basin ids from the file
+        basin_ids = []
+        for r in reader:
+            basin_ids.append(r[12])
 
-    # Jump back to the start of the file and skip the header
-    csvfile.seek(0)
-    next(reader)
+        # Set will give us a unique set of basin ids with no duplicates
+        basin_ids = set(basin_ids)
 
-    # Select the data we want from the raw file so we have a list of rows of
-    # data for each basin.
-    for row in reader:
-        basins[row[12]].append((row[1:5] + row[6:9] + [row[11]]))
+        # Create a dictionary keyed with basin ids and the values are empty lists
+        basins = {id: [] for id in basin_ids}
 
-source_path = '/data/Geog-c2s2/ai.tif'
-with rasterio.open(source_path) as src:
+        # Jump back to the start of the file and skip the header
+        csvfile.seek(0)
+        next(reader)
 
-    # get the main stem ID for each basin in the input file
-    for basin_key in basins:
-        sources = []
+        # Select the data we want from the raw file so we have a list of rows of
+        # data for each basin.
+        for row in reader:
+            basins[row[12]].append((row[1:5] + row[6:9] + [row[11]]))
 
-        for x in basins[basin_key]:
-            sources.append(x[7])
+    source_path = '/data/Geog-c2s2/ai.tif'
+    with rasterio.open(source_path) as src:
 
-        # Main stem is the ID of the longest channel in each basin
-        main_stem = Counter(sources).most_common()[0][0]
+        # get the main stem ID for each basin in the input file
+        for basin_key in basins:
+            sources = []
 
-        # Write each main stem's data to its own file
-        with open('{}_river_{}.csv'.format(sub_zone, main_stem), 'w') as o:
-            for data in basins[basin_key][::-1]:
-                if data[7] == main_stem:
-                    # where we write the ai data for each row
-                    ai = src.sample([data[3], data[2]])[0]
+            for x in basins[basin_key]:
+                sources.append(x[7])
 
-                    if ai >= 0:
-                        ai = str(round(ai, 4))
-                    else:
-                        ai = 'NaN'
+            # Main stem is the ID of the longest channel in each basin
+            main_stem = Counter(sources).most_common()[0][0]
 
-                    o.write(','.join(data) + ',' + ai + '\n')
+            # Write each main stem's data to its own file
+            with open('{}_river_{}.csv'.format(sub_zone, main_stem), 'w') as o:
+                for data in basins[basin_key][::-1]:
+                    if data[7] == main_stem:
+                        # where we write the ai data for each row
+                        ai = src.sample([data[3], data[2]])[0]
 
-# Rename the MChiSegmented file to a more descriptive name
-new_input_name = input_file.replace('MChiSegmented', 'RawBasins')
-new_input_name = koppen_number_to_string(new_input_name)
-os.rename(input_file, new_input_name)
+                        if ai >= 0:
+                            ai = str(round(ai, 4))
+                        else:
+                            ai = 'NaN'
+
+                        o.write(','.join(data) + ',' + ai + '\n')
+
+    # Rename the MChiSegmented file to a more descriptive name
+    new_input_name = input_file.replace('MChiSegmented', 'RawBasins')
+    new_input_name = koppen_number_to_string(new_input_name)
+    os.rename(input_file, new_input_name)
+else:
+    print('No rivers to process')
