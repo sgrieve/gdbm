@@ -85,5 +85,8 @@ if os.path.isfile(input_file):
     new_input_name = input_file.replace('MChiSegmented', 'RawBasins')
     new_input_name = koppen_number_to_string(new_input_name)
     os.rename(input_file, new_input_name)
+
+    # These two print statements will allow me to grep for failure and success
+    print('Successfully generated some river files')
 else:
-    print('No rivers to process')
+    print('No rivers to process, as the basins file was not found')
