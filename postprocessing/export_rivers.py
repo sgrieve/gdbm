@@ -72,7 +72,7 @@ if os.path.isfile(input_file):
                     if data[7] == main_stem:
                         # sample returns a generator, so we use next() to yield
                         # the first (and only) result
-                        ai = next(src.sample([(data[3], data[2])]))[0]
+                        ai = next(src.sample([(float(data[3]), float(data[2]))]))[0]
 
                         if ai >= 0:
                             ai = str(round(ai, 4))
