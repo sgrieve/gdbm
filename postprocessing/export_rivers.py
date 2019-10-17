@@ -70,8 +70,9 @@ if os.path.isfile(input_file):
             with open('{}_river_{}.csv'.format(sub_zone, main_stem), 'w') as o:
                 for data in basins[basin_key][::-1]:
                     if data[7] == main_stem:
-                        # where we write the ai data for each row
-                        ai = src.sample([data[3], data[2]])[0]
+                        # sample returns a generator, so we use next() to yield
+                        # the first (and only) result
+                        ai = next(src.sample([(data[3], data[2])]))[0]
 
                         if ai >= 0:
                             ai = str(round(ai, 4))
