@@ -3,6 +3,9 @@
 # $1 - shapefile name without .shp
 # $2 - utm zone
 # $3 - north or south
+# $4 - drainage threshold in pixels
+# $5 - min basin size in pixels
+# $6 - max basin size in pixels
 
 # Set up paths so we have a folder for each sub zone
 cd /data/Geog-c2s2/gdbm/
@@ -27,15 +30,10 @@ rm *.hgt
 rm *.vrt
 
 # Run the LSD code (on legion)
-/data/home/faw513/LSDTopoTools_ChiMudd2014/driver_functions_MuddChi2014/chi_mapping_tool.exe /data/home/faw513/gdbm/processing/ SRTM.driver /data/Geog-c2s2/gdbm/$1/ $1 /data/Geog-c2s2/gdbm/$1/ $1 25000 50000 500000
+/data/home/faw513/LSDTopoTools_ChiMudd2014/driver_functions_MuddChi2014/chi_mapping_tool.exe /data/home/faw513/gdbm/processing/ SRTM.driver /data/Geog-c2s2/gdbm/$1/ $1 /data/Geog-c2s2/gdbm/$1/ $1 $4 $5 $6
 
 # Extract the rivers from the output data
 python /data/home/faw513/gdbm/postprocessing/export_rivers.py $1_MChiSegmented.csv
-
-
-# export_rivers.py needs more params added eg area
-# Also need to generate the AI river stats
-# When running secondary_analysis.py, need to add in the AI, area and any other params
 
 # Remove the raster files
 rm $1.bil
