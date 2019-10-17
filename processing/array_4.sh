@@ -6,7 +6,7 @@
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
 #$ -l node_type=sm
-#$ -l h_vmem=1024G
+#$ -l h_vmem=500G
 #$ -l highmem
 #$ -l h_rt=12:0:0
 #$ -t 1-81
