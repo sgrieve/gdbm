@@ -2,14 +2,14 @@
 
 #$ -cwd
 #$ -j y
-#$ -N gdbm-test
+#$ -N gdbm-1
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
 #$ -l node_type=sm
 #$ -l h_vmem=64G
 #$ -l highmem
 #$ -l h_rt=1:0:0
-#$ -t 1-3
+#$ -t 1-174
 #$ -tc 100
 
 module load gdal/2.3.1
