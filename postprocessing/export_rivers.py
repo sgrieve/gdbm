@@ -50,7 +50,7 @@ with open(input_file, 'r') as csvfile:
     for row in reader:
         basins[row[12]].append((row[1:5] + row[6:9] + [row[11]]))
 
-source_path = 'ai.tif'
+source_path = '/data/Geog-c2s2/ai.tif'
 with rasterio.open(source_path) as src:
 
     # get the main stem ID for each basin in the input file
