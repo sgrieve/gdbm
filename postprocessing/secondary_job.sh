@@ -11,6 +11,7 @@
 
 module load python/3.6.3
 
+source /data/home/faw513/toku-env/bin/activate
 
 # Run the application.
-python /data/home/faw513/gdbm/postprocessing/secondary_analysis.py 
+python /data/home/faw513/gdbm/postprocessing/secondary_analysis.py
