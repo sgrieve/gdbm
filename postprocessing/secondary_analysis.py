@@ -20,7 +20,7 @@ for zone in ['Af', 'Am', 'Aw', 'BWh','BWk', 'BSh', 'BSk', 'Cs', 'Cw', 'Cf', 'Ds'
 
     # Cycle through every river file in our list and get the metrics.
     for i, filename in enumerate(final_file_list, start=1):
-        print(zonem, i, 'of', len(final_file_list))
+        print(zone, i, 'of', len(final_file_list))
 
         data = np.genfromtxt(filename, delimiter=',')
 
