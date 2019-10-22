@@ -10,7 +10,7 @@ for zone in ['Af', 'Am', 'Aw', 'BWh','BWk', 'BSh', 'BSk', 'Cs', 'Cw', 'Cf', 'Ds'
     median_norm_offsets = []
 
     # The first input argument is the name of the output file, without extension
-    output_filename = '/data/Geog-c2s2/gdbm/{}_data.csv'.format(zone)
+    output_filename = '/data/Geog-c2s2/gdbm/{}_data'.format(zone)
 
     # Store the output strings as a list, where the first item is a header
     output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n\n']
@@ -19,8 +19,7 @@ for zone in ['Af', 'Am', 'Aw', 'BWh','BWk', 'BSh', 'BSk', 'Cs', 'Cw', 'Cf', 'Ds'
     final_file_list = glob('/data/Geog-c2s2/gdbm-complete/*/{}*river*.csv'.format(zone))
 
     # Cycle through every river file in our list and get the metrics.
-    for i, filename in enumerate(final_file_list, start=1):
-        print(zone, i, 'of', len(final_file_list))
+    for i, filename in final_file_list:
 
         data = np.genfromtxt(filename, delimiter=',')
 
