@@ -7,7 +7,7 @@ import numpy as np
 offset_elevs = []
 median_norm_offsets = []
 
-# The first input argument is the name of the output figure, without extension
+# The first input argument is the name of the output file, without extension
 output_filename = sys.argv[1]
 
 # Store the output strings as a list, where the first item is a header
