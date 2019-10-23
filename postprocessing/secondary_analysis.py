@@ -20,7 +20,7 @@ output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_
 final_file_list = glob('/data/Geog-c2s2/gdbm-complete/*/{}*river*.csv'.format(zone))
 
 # Cycle through every river file in our list and get the metrics.
-for i, filename in final_file_list:
+for filename in final_file_list:
 
     data = np.genfromtxt(filename, delimiter=',')
 
