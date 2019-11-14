@@ -6,7 +6,7 @@ import numpy as np
 
 output_data = []
 
-for input_file in glob('*RawBasins.csv'):
+for input_file in glob('/data/Geog-c2s2/gdbm-complete/*/*RawBasins.csv'):
     filename = os.path.basename(input_file)
     sub_zone = filename.split('RawBasins')[0][:-1]
 
@@ -71,7 +71,7 @@ for input_file in glob('*RawBasins.csv'):
     for key, value in basins.items():
         output_data.append('{}_river_{},{}\n'.format(sub_zone,river_ids[key], np.sum(value)))
 
-with open('output.csv', 'w') as w:
+with open('/data/Geog-c2s2/gdbm-complete/total-length-data.csv', 'w') as w:
     w.write('river_id,total_length\n')
     for line in output_data:
         w.write(line)
