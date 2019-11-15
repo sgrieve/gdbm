@@ -9,7 +9,6 @@ import fiona
 Data files used to generate this figure:
 Humid: Af_72_RawBasins.csv
 Arid: BWh_6_fb4df8b4_bcfc_4ad9_86f3_02782e742005_RawBasins.csv
-Cold: Dw_10_ec7164ec_3c42_4f75_9dbe_dc478ce15f7b_RawBasins.csv
 '''
 
 def load_line(path):
