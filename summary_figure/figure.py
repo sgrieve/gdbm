@@ -52,7 +52,7 @@ def plot_bottom_panels(rivers):
 
     for i, river in enumerate(rivers, start=1):
 
-        ax = plt.subplot(2, 3, 3 + i)
+        ax = plt.subplot(2, 2, 2 + i)
         project_and_plot(load_line(river), color='b')
         project_and_plot(load_line(mainstem[i]), color='r')
 
@@ -63,40 +63,32 @@ def plot_bottom_panels(rivers):
         x0, x1, y0, y1 = format_axis(ax)
 
         if i == 1:
-            plt.plot([9394000,9396000], [11285500, 11285500],
+            plt.plot([9394000,9404000], [11285500, 11285500],
                      'k-', linewidth=3)
         elif i == 2:
-            plt.plot([10165500, 10167500], [14239500, 14239500],
-                     'k-', linewidth=3)
-        elif i == 3:
-            plt.plot([11265000, 11267000], [6809500, 6809500],
+            plt.plot([10145500, 10155500], [14289500, 14289500],
                      'k-', linewidth=3)
 
     return x0, x1, y0, y1
 
 def plot_top_panels(x0, x1, y0, y1):
 
-    for i in range(1, 4):
+    for i in range(1, 3):
 
-        ax = plt.subplot(2, 3, i)
+        ax = plt.subplot(2, 2, i)
 
         ax.set_xticklabels([])
         ax.set_yticklabels([])
-        ax.set_xlim(x0, x1)
-        ax.set_ylim(y0, y1)
-        ax.set_aspect((x1 - x0) / (y1 - y0))
 
         plt.tick_params(axis='both', which='both', bottom='off', top='off',
                         left='off', right='off')
 
 
-rivers = ['shapefiles/humid_line.shp', 'shapefiles/arid_line_s.shp',
-          'shapefiles/cold_line.shp']
+rivers = ['shapefiles/humid_line.shp', 'shapefiles/arid_line_s.shp']
 mainstem = [None, 'shapefiles/humid_mainstem.shp',
-            'shapefiles/arid_mainstem.shp', 'shapefiles/cold_mainstem.shp']
+            'shapefiles/arid_mainstem.shp']
 basins = [None, ('shapefiles/humid_outline.shp','shapefiles/humid_all.shp'),
-          ('shapefiles/arid_outline.shp','shapefiles/arid_all.shp'),
-          ('shapefiles/cold_outline.shp','shapefiles/cold_all.shp')]
+          ('shapefiles/arid_outline.shp','shapefiles/arid_all.shp')]
 
 plt.figure(figsize=(12,8))
 x0, x1, y0, y1 = plot_bottom_panels(rivers)
