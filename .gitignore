@@ -3,3 +3,4 @@ ai_processing/*
 *.tif.*
 res_jsons/
 Results/
+GLWD-level1/*
