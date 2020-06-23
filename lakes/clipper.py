@@ -1,6 +1,8 @@
 import os
 import fiona
 import matplotlib.pyplot as plt
+from glob import glob
+from progress.bar import ChargingBar
 from shapely.geometry import shape, mapping, Polygon
 
 def punch_out_lakes(in_path, cz_in, out_path):
@@ -39,6 +41,15 @@ def punch_out_lakes(in_path, cz_in, out_path):
         print(cz_in, 'does not seem to be a polygon, something has gone wrong.')
 
 
-punch_out_lakes('../climate_zones/singlepart_files_split/',
-                '14_197_7405a2dc_fa14_48a1_bdef_d6f844359eda.shp',
-                '/Users/stuart/gdbm/lakes/')
+czs = glob('../climate_zones/singlepart_files_split/*.shp')
+
+
+bar = ChargingBar('Processing', max=len(czs))
+
+
+for cz in czs:
+    cz_name = os.path.basename(cz)
+    punch_out_lakes('../climate_zones/singlepart_files_split/', cz_name,
+                    '/Users/stuart/gdbm/lakes/punched_out_zones')
+    bar.next()
+bar.finish()
