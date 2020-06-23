@@ -17,14 +17,26 @@ def punch_out_lakes(in_path, cz_in, out_path):
 
     schema = {'geometry': 'Polygon', 'properties': {'id': 'int'}}
 
-    cz_id = os.path.splitext(cz_in)[0]
 
-    for i, sub_cz in enumerate(cz):
-        # Arbitraty minimum size of new polygons set at 1/5 of original size
-        if sub_cz.area / cz.area > 0.2:
-            out_name = '{}_{}.shp'.format(cz_id, i)
-            with fiona.open(os.path.join(out_path, out_name), 'w', 'ESRI Shapefile', schema) as c:
-                c.write({'geometry': mapping(sub_cz), 'properties': {'id': i}})
+    # Clipping out lakes may give us a MultiPolygon which needs split up
+    if cz.geom_type == 'MultiPolygon':
+
+        cz_id = os.path.splitext(cz_in)[0]
+
+        for i, sub_cz in enumerate(cz):
+            # Arbitraty minimum area of new polygons set at 1/5 of original area
+            if sub_cz.area / cz.area > 0.2:
+                out_name = '{}_{}.shp'.format(cz_id, i)
+                with fiona.open(os.path.join(out_path, out_name), 'w', 'ESRI Shapefile', schema) as c:
+                    c.write({'geometry': mapping(sub_cz), 'properties': {'id': i}})
+
+    # otherwise we just write out our single Polygon
+    elif cz.geom_type == 'Polygon':
+        with fiona.open(os.path.join(out_path, cz_in), 'w', 'ESRI Shapefile', schema) as c:
+            c.write({'geometry': mapping(cz), 'properties': {'id': 1}})
+
+    else:
+        print(cz_in, 'does not seem to be a polygon, something has gone wrong.')
 
 
 punch_out_lakes('../climate_zones/singlepart_files_split/',
