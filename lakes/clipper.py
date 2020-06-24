@@ -14,11 +14,6 @@ def punch_out_lakes(in_path, cz_in, out_path):
             lake = shape(s['geometry'])
             if lake.intersects(cz):
                 # We only want the external outline of each lake
-
-                if lake.geom_type == 'MultiPolygon':
-                    print('\n', 'seems like we have a complex topology in',
-                          cz_in, 'and lake id', s['properties']['GLWD_ID'])
-
                 lake = Polygon(lake.exterior)
                 cz = cz.difference(lake)
 
