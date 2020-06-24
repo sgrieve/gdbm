@@ -1,8 +1,8 @@
 import os
 import fiona
-import tqdm
 import matplotlib.pyplot as plt
 from glob import glob
+from tqdm import tqdm
 from shapely.geometry import shape, mapping, Polygon
 
 def punch_out_lakes(in_path, cz_in, out_path):
