@@ -1,22 +1,23 @@
 import os
 import fiona
+import tqdm
 import matplotlib.pyplot as plt
 from glob import glob
-from progress.bar import ChargingBar
 from shapely.geometry import shape, mapping, Polygon
 
 def punch_out_lakes(in_path, cz_in, out_path):
     with fiona.open(os.path.join(in_path, cz_in)) as shp:
         cz = shape(shp[0]['geometry'])
 
-    with fiona.open('GLWD-level1/glwd_1.shp') as shp:
+    with fiona.open('GLWD-level1/glwd_1_single.shp') as shp:
         for s in shp:
             lake = shape(s['geometry'])
             if lake.intersects(cz):
                 # We only want the external outline of each lake
 
                 if lake.geom_type == 'MultiPolygon':
-                    print('\n', 'seems like we have a complex topology in', cz_in)
+                    print('\n', 'seems like we have a complex topology in',
+                          cz_in, 'and lake id', s['properties']['GLWD_ID'])
 
                 lake = Polygon(lake.exterior)
                 cz = cz.difference(lake)
@@ -47,13 +48,7 @@ def punch_out_lakes(in_path, cz_in, out_path):
 
 czs = glob('../climate_zones/singlepart_files_split/*.shp')
 
-
-bar = ChargingBar('Processing', max=len(czs))
-
-
-for cz in czs:
+for cz in tqdm(czs):
     cz_name = os.path.basename(cz)
     punch_out_lakes('../climate_zones/singlepart_files_split/', cz_name,
                     '/Users/stuart/gdbm/lakes/punched_out_zones')
-    bar.next()
-bar.finish()
