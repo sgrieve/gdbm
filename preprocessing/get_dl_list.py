@@ -12,7 +12,7 @@ def bounds_to_poly(bbox):
 
 results = {}
 
-base_url = 'https://cloud.sdsc.edu/v1/AUTH_opentopography/Raster/SRTM_GL1/'
+base_url = 's3://raster/SRTM_GL1/'
 
 
 with open('srtm_coords.json') as srtm:
