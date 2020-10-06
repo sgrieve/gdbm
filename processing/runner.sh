@@ -13,7 +13,7 @@ mkdir $1
 cd $1
 
 # Download the tiles we need
-python /data/home/faw513/gdbm/processing/get_urls.py $1.shp | xargs -n 1 -P 8 -I FILEPATH ./data/home/faw513/aws/v2/current/bin/aws s3 cp FILEPATH . --endpoint-url https://opentopography.s3.sdsc.edu --no-sign-request
+python /data/home/faw513/gdbm/processing/get_urls.py $1.shp | xargs -n 1 -P 8 -I FILEPATH /data/home/faw513/aws/v2/current/bin/aws s3 cp FILEPATH . --endpoint-url https://opentopography.s3.sdsc.edu --no-sign-request
 
 # Build virtual raster from tiles
 gdalbuildvrt input.vrt *.hgt
