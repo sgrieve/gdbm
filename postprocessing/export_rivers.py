@@ -51,7 +51,7 @@ if os.path.isfile(input_file):
         # Select the data we want from the raw file so we have a list of rows of
         # data for each basin.
         for row in reader:
-            basins[row[12]].append((row[1:5] + row[6:9] + [row[11]]))
+            basins[row[12]].append((row[1:5] + row[6:9] + [row[11]] + [row[13]]))
 
     source_path = '/data/Geog-c2s2/ai.tif'
     with rasterio.open(source_path) as src:
