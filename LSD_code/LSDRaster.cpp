@@ -6167,6 +6167,189 @@ LSDRaster LSDRaster::fill(float& MinSlope)
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 
+LSDRaster LSDRaster::fill(float& MinSlope, vector<string>& Filled_nodes)
+{
+  //cout << "Inside NewFill" << endl;
+  //cout << "DataResolution is: " << DataResolution << endl;
+  //cout << "Data[200][200]: "  << RasterData[200][200] << endl;
+
+  //declare 1/root(2)
+  float one_over_root2 = 0.707106781;
+
+  //Declare the priority Queue with greater than comparison
+  priority_queue< FillNode, vector<FillNode>, greater<FillNode> > PriorityQueue;
+  //Declare a temporary FillNode structure which we populate before adding to the PQ
+  //Declare a central node or node of interest
+  FillNode TempFillNode, CentreFillNode;
+
+  //declare vectors for slopes and row and col indices
+  vector<float> slopes(8,NoDataValue);
+  vector<int> row_kernal(8);
+  vector<int> col_kernal(8);
+
+  //Get Dimensions
+  //int NRows = Zeta.dim1();
+  //int NCols = Zeta.dim2();
+
+  //Index array to track whether nodes are in queue or have been processed
+  //-9999 = no_data, 0 = data but not processed or in queue,
+  //1 = in queue but not processed, 2 = fully processed and removed from queue
+  Array2D<int> FillIndex(NRows,NCols,NoDataValue);
+  Array2D<float> FilledZeta;
+  FilledZeta = RasterData.copy();
+
+  //Collect boundary cells
+  for (int i=0; i<NRows; ++i)
+  {
+    for (int j=0; j<NCols; ++j)
+    {
+      if (FilledZeta[i][j] != NoDataValue)
+      {
+        //If there is data the cell needs to be filled so
+        //set fill index to zero (i.e. yet to be filled)
+        FillIndex[i][j] = 0;
+
+        //If we're at the edge or next to an NoDataValue then
+        //put the cell into the priority queue
+        if (i==0 || j==0 || i==NRows-1 || j==NCols-1 ||
+          FilledZeta[i-1][j-1]==NoDataValue || FilledZeta[i-1][j]==NoDataValue ||
+          FilledZeta[i-1][j+1]==NoDataValue || FilledZeta[i][j-1]==NoDataValue ||
+          FilledZeta[i][j+1]==NoDataValue || FilledZeta[i+1][j-1]==NoDataValue ||
+          FilledZeta[i+1][j]==NoDataValue || FilledZeta[i+1][j+1]==NoDataValue)
+        {
+          TempFillNode.Zeta = FilledZeta[i][j];
+          TempFillNode.RowIndex = i;
+          TempFillNode.ColIndex = j;
+          PriorityQueue.push(TempFillNode);
+          FillIndex[i][j] = 1;
+        }
+      }
+    }
+  }
+
+  //Loop through the priority queue from lowest to highest elevations
+  //filling as we go and adding unassessed neighbours to the priority queue
+  while (!PriorityQueue.empty())
+  {
+    //first get the highest priority node and assign it before
+    //removing it from the queue and declaring it processed
+    CentreFillNode = PriorityQueue.top();
+    int row=CentreFillNode.RowIndex, col=CentreFillNode.ColIndex;
+    //cout << "Pop from Queue: Zeta = " << CentreFillNode.Zeta << endl;
+
+    PriorityQueue.pop();
+    FillIndex[row][col] = 2;
+
+    //get neighbour indices
+    //rows
+    row_kernal[0] = row-1;
+    row_kernal[1] = row-1;
+    row_kernal[2] = row;
+    row_kernal[3] = row+1;
+    row_kernal[4] = row+1;
+    row_kernal[5] = row+1;
+    row_kernal[6] = row;
+    row_kernal[7] = row-1;
+    //cols
+    col_kernal[0] = col;
+    col_kernal[1] = col+1;
+    col_kernal[2] = col+1;
+    col_kernal[3] = col+1;
+    col_kernal[4] = col;
+    col_kernal[5] = col-1;
+    col_kernal[6] = col-1;
+    col_kernal[7] = col-1;
+
+    //check if on array boundary and set kernal to NoDataValues to avoid
+    //segmentation fault
+    if (row == 0)
+    {
+      row_kernal[0] = NoDataValue;
+      row_kernal[1] = NoDataValue;
+      row_kernal[7] = NoDataValue;
+    }
+    else if (row==NRows-1)
+    {
+      row_kernal[3] = NoDataValue;
+      row_kernal[4] = NoDataValue;
+      row_kernal[5] = NoDataValue;
+    }
+    if (col == 0)
+    {
+      col_kernal[5] = NoDataValue;
+      col_kernal[6] = NoDataValue;
+      col_kernal[7] = NoDataValue;
+    }
+    else if (col == NCols-1)
+    {
+      col_kernal[1] = NoDataValue;
+      col_kernal[2] = NoDataValue;
+      col_kernal[3] = NoDataValue;
+    }
+
+    //loop through neighbours
+    for (int Neighbour = 0; Neighbour<8; ++Neighbour)
+    {
+      //If the neighbour has data and is not already in the priority queue and has not been processed
+      if (  row_kernal[Neighbour] == NoDataValue || col_kernal[Neighbour] == NoDataValue ||
+          FillIndex[row_kernal[Neighbour]][col_kernal[Neighbour]] == 1 ||
+          FillIndex[row_kernal[Neighbour]][col_kernal[Neighbour]] == 2 ||
+          FillIndex[row_kernal[Neighbour]][col_kernal[Neighbour]] == NoDataValue ) {}
+      else
+      {
+        //check if neighbour is equal/lower and therefore needs filling
+        if (FilledZeta[row_kernal[Neighbour]][col_kernal[Neighbour]] <= CentreFillNode.Zeta)
+        {
+          //Modify neighbour's elevation
+          if(Neighbour%2 == 0)
+          {
+            if (MinSlope > 0)
+            {
+              FilledZeta[row_kernal[Neighbour]][col_kernal[Neighbour]] =
+                               CentreFillNode.Zeta + MinSlope*DataResolution;
+              cout << row_kernal[Neighbour] << " " << col_kernal[Neighbour] << endl;
+
+              stringstream output_line;
+              output_line << row_kernal[Neighbour] << " " << col_kernal[Neighbour];
+              Filled_nodes.push_back(output_line.str());
+
+            }
+            else
+            {
+              FilledZeta[row_kernal[Neighbour]][col_kernal[Neighbour]] = CentreFillNode.Zeta;
+            }
+          }
+          else
+          {
+            if (MinSlope > 0)
+            {
+              FilledZeta[row_kernal[Neighbour]][col_kernal[Neighbour]] = CentreFillNode.Zeta
+                                                   + MinSlope*DataResolution*one_over_root2;
+              stringstream output_line;
+              output_line << row_kernal[Neighbour] << " " << col_kernal[Neighbour];
+              Filled_nodes.push_back(output_line.str());
+            }
+            else
+            {
+              FilledZeta[row_kernal[Neighbour]][col_kernal[Neighbour]] = CentreFillNode.Zeta;
+            }
+          }
+        }
+        //New neighbour needs to be added to the priority queue
+        TempFillNode.Zeta = FilledZeta[row_kernal[Neighbour]][col_kernal[Neighbour]];
+        TempFillNode.RowIndex = row_kernal[Neighbour];
+        TempFillNode.ColIndex = col_kernal[Neighbour];
+        PriorityQueue.push(TempFillNode);
+        FillIndex[row_kernal[Neighbour]][col_kernal[Neighbour]] = 1;
+        FillIndex[row][col] = 2;
+      }
+    }
+  }
+  LSDRaster FilledDEM(NRows,NCols,XMinimum,YMinimum,DataResolution,
+                      NoDataValue,FilledZeta,GeoReferencingStrings);
+  return FilledDEM;
+}
+
 
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //D-inf modules
