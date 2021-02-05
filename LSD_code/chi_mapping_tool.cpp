@@ -369,6 +369,16 @@ int main (int nNumberofArgs,char *argv[])
     filled_topography = topography_raster.fill(this_float_map["min_slope_for_fill"], Filled_nodes);
 
     string filled_node_name = OUT_DIR+OUT_ID+"_Filled_nodes.csv";
+
+    ofstream WriteData;
+    WriteData.open(filled_node_name.c_str());
+
+    WriteData << "row,col" << endl;
+
+    for(int q = 0; q < int(Filled_nodes.size()); q++){
+      WriteData << Filled_nodes[q] << endl;
+    }
+
     string filled_raster_name = OUT_DIR+OUT_ID+"_Fill";
     filled_topography.write_raster(filled_raster_name,raster_ext);
 
@@ -382,6 +392,32 @@ int main (int nNumberofArgs,char *argv[])
       }
     }
 
+    vector<int> flat_diff = Flatten_Without_Nodata(diff, topography_raster.get_NoDataValue());
+
+    float diff_90 = get_percentile(flat_diff, 90.0);
+
+    Array2D<float> diff2(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
+
+    for (int i=0; i < filled_topography.get_NRows(); ++i){
+      for (int j=0; j < filled_topography.get_NCols(); ++j){
+
+        if diff[i][j] > diff_90{
+          diff2[i][j] = diff[i][j];
+        }
+
+      }
+    }
+
+
+    LSDRaster diff2DEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
+                      topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
+                        topography_raster.get_NoDataValue(),diff2,topography_raster.get_GeoReferencingStrings());
+
+
+    string diff2_raster_name = OUT_DIR+OUT_ID+"_diff2";
+    diff2DEM.write_raster(diff2_raster_name,raster_ext);
+
+
     LSDRaster diffDEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
                       topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
                         topography_raster.get_NoDataValue(),diff,topography_raster.get_GeoReferencingStrings());
@@ -389,16 +425,6 @@ int main (int nNumberofArgs,char *argv[])
 
     string diff_raster_name = OUT_DIR+OUT_ID+"_diff";
     diffDEM.write_raster(diff_raster_name,raster_ext);
-
-
-    ofstream WriteData;
-    WriteData.open(filled_node_name.c_str());
-
-    WriteData << "row,col" << endl;
-
-    for(int q = 0; q < int(Filled_nodes.size()); q++){
-      WriteData << Filled_nodes[q] << endl;
-    }
 
   }
 
