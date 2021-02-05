@@ -372,6 +372,25 @@ int main (int nNumberofArgs,char *argv[])
     string filled_raster_name = OUT_DIR+OUT_ID+"_Fill";
     filled_topography.write_raster(filled_raster_name,raster_ext);
 
+    Array2D<float> diff(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
+
+    for (int i=0; i < filled_topography.get_NRows(); ++i){
+      for (int j=0; j < filled_topography.get_NCols(); ++j){
+
+        diff[i][j] = filled_topography.get_data_element(i,j) - topography_raster.get_data_element(i,j);
+
+      }
+    }
+
+    LSDRaster diffDEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
+                      topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
+                        topography_raster.get_NoDataValue(),diff,topography_raster.get_GeoReferencingStrings());
+
+
+    string diff_raster_name = OUT_DIR+OUT_ID+"_diff";
+    diffDEM.write_raster(diff_raster_name,raster_ext);
+
+
     ofstream WriteData;
     WriteData.open(filled_node_name.c_str());
 
