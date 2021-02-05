@@ -6310,7 +6310,7 @@ LSDRaster LSDRaster::fill(float& MinSlope, vector<string>& Filled_nodes)
               cout << row_kernal[Neighbour] << " " << col_kernal[Neighbour] << endl;
 
               stringstream output_line;
-              output_line << row_kernal[Neighbour] << " " << col_kernal[Neighbour];
+              output_line << row_kernal[Neighbour] << "," << col_kernal[Neighbour];
               Filled_nodes.push_back(output_line.str());
 
             }
@@ -6326,7 +6326,7 @@ LSDRaster LSDRaster::fill(float& MinSlope, vector<string>& Filled_nodes)
               FilledZeta[row_kernal[Neighbour]][col_kernal[Neighbour]] = CentreFillNode.Zeta
                                                    + MinSlope*DataResolution*one_over_root2;
               stringstream output_line;
-              output_line << row_kernal[Neighbour] << " " << col_kernal[Neighbour];
+              output_line << row_kernal[Neighbour] << "," << col_kernal[Neighbour];
               Filled_nodes.push_back(output_line.str());
             }
             else
