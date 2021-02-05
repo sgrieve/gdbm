@@ -392,7 +392,7 @@ int main (int nNumberofArgs,char *argv[])
       }
     }
 
-    vector<int> flat_diff = Flatten_Without_Nodata(diff, topography_raster.get_NoDataValue());
+    vector<float> flat_diff = Flatten_Without_Nodata(diff, topography_raster.get_NoDataValue());
 
     float diff_90 = get_percentile(flat_diff, 90.0);
 
@@ -401,7 +401,7 @@ int main (int nNumberofArgs,char *argv[])
     for (int i=0; i < filled_topography.get_NRows(); ++i){
       for (int j=0; j < filled_topography.get_NCols(); ++j){
 
-        if diff[i][j] > diff_90{
+        if (diff[i][j] > diff_90){
           diff2[i][j] = diff[i][j];
         }
 
