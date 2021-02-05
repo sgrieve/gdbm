@@ -1388,6 +1388,8 @@ class LSDRaster
   /// @date 12/3/13
   LSDRaster fill(float& MinSlope);
 
+  LSDRaster fill(float& MinSlope, vector<string>& Filled_nodes);
+
   // multidirection flow routing
   /// @brief Generate a flow area raster using a multi direction algorithm.
   ///
