@@ -36,6 +36,6 @@ rm *.vrt
 python /data/home/faw513/gdbm/postprocessing/export_rivers.py $1_MChiSegmented.csv
 
 # Remove the raster files
-rm $1.bil
-rm $1.hdr
-rm $1.bil.aux.xml
+# rm $1.bil
+# rm $1.hdr
+# rm $1.bil.aux.xml
