@@ -368,16 +368,16 @@ int main (int nNumberofArgs,char *argv[])
     vector<string> Filled_nodes;
     filled_topography = topography_raster.fill(this_float_map["min_slope_for_fill"], Filled_nodes);
 
-    string filled_node_name = OUT_DIR+OUT_ID+"_Filled_nodes.csv";
-
-    ofstream WriteData;
-    WriteData.open(filled_node_name.c_str());
-
-    WriteData << "row,col" << endl;
-
-    for(int q = 0; q < int(Filled_nodes.size()); q++){
-      WriteData << Filled_nodes[q] << endl;
-    }
+    // string filled_node_name = OUT_DIR+OUT_ID+"_Filled_nodes.csv";
+    //
+    // ofstream WriteData;
+    // WriteData.open(filled_node_name.c_str());
+    //
+    // WriteData << "row,col" << endl;
+    //
+    // for(int q = 0; q < int(Filled_nodes.size()); q++){
+    //   WriteData << Filled_nodes[q] << endl;
+    // }
 
     string filled_raster_name = OUT_DIR+OUT_ID+"_Fill";
     filled_topography.write_raster(filled_raster_name,raster_ext);
@@ -394,7 +394,20 @@ int main (int nNumberofArgs,char *argv[])
 
     vector<float> flat_diff = Flatten_Without_Nodata(diff, topography_raster.get_NoDataValue());
 
-    float diff_90 = get_percentile(flat_diff, 90.0);
+    string deltas_name = OUT_DIR+OUT_ID+"_deltas.csv";
+
+    ofstream WriteData;
+    WriteData.open(deltas_name.c_str());
+
+    for(int q = 0; q < int(flat_diff.size()); q++){
+      WriteData << flat_diff[q] << endl;
+    }
+
+    vector<size_t> index_map;
+    vector<float> data_sorted;
+    matlab_float_sort(flat_diff, data_sorted, index_map);
+
+    float diff_90 = get_percentile(data_sorted, 95.0);  // 2 standard devs of the mean
 
     Array2D<float> diff2(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
 
