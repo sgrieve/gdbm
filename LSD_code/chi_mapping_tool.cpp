@@ -375,7 +375,7 @@ int main (int nNumberofArgs,char *argv[])
       for (int j=0; j < filled_topography.get_NCols(); ++j){
         float diff_val = filled_topography.get_data_element(i,j) - topography_raster.get_data_element(i,j);
 
-        if (diff > 0){
+        if (diff > 0.0){
           diff[i][j] = diff_val;
         }
       }
