@@ -364,20 +364,7 @@ int main (int nNumberofArgs,char *argv[])
     cout << "Let me fill that raster for you, the min slope is: "
          << this_float_map["min_slope_for_fill"] << endl;
 
-    // Filled_nodes contains the row col indexes of all filled cells in the DEM
-    vector<string> Filled_nodes;
-    filled_topography = topography_raster.fill(this_float_map["min_slope_for_fill"], Filled_nodes);
-
-    // string filled_node_name = OUT_DIR+OUT_ID+"_Filled_nodes.csv";
-    //
-    // ofstream WriteData;
-    // WriteData.open(filled_node_name.c_str());
-    //
-    // WriteData << "row,col" << endl;
-    //
-    // for(int q = 0; q < int(Filled_nodes.size()); q++){
-    //   WriteData << Filled_nodes[q] << endl;
-    // }
+    filled_topography = topography_raster.fill(this_float_map["min_slope_for_fill"]);
 
     string filled_raster_name = OUT_DIR+OUT_ID+"_Fill";
     filled_topography.write_raster(filled_raster_name,raster_ext);
@@ -386,9 +373,11 @@ int main (int nNumberofArgs,char *argv[])
 
     for (int i=0; i < filled_topography.get_NRows(); ++i){
       for (int j=0; j < filled_topography.get_NCols(); ++j){
+        float diff = filled_topography.get_data_element(i,j) - topography_raster.get_data_element(i,j);
 
-        diff[i][j] = filled_topography.get_data_element(i,j) - topography_raster.get_data_element(i,j);
-
+        if (diff > 0){
+          diff[i][j] = diff
+        }
       }
     }
 
