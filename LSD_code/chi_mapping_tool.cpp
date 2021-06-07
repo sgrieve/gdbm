@@ -396,37 +396,37 @@ int main (int nNumberofArgs,char *argv[])
     vector<float> data_sorted;
     matlab_float_sort(flat_diff, data_sorted, index_map);
 
-    float diff_90 = get_percentile(data_sorted, 95.0);  // 2 standard devs of the mean
+    float diff_pc = get_percentile(data_sorted, 98.0);  // 2 standard devs of the mean
 
-    Array2D<float> diff2(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
+    Array2D<float> diff_pc_array(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
 
     for (int i=0; i < filled_topography.get_NRows(); ++i){
       for (int j=0; j < filled_topography.get_NCols(); ++j){
 
-        if (diff[i][j] > diff_90){
-          diff2[i][j] = diff[i][j];
+        if (diff[i][j] > diff_pc){
+          diff_pc_array[i][j] = diff[i][j];
         }
 
       }
     }
 
 
-    LSDRaster diff2DEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
+    LSDRaster diff_pc_DEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
                       topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
-                        topography_raster.get_NoDataValue(),diff2,topography_raster.get_GeoReferencingStrings());
+                        topography_raster.get_NoDataValue(),diff_pc_array,topography_raster.get_GeoReferencingStrings());
 
 
-    string diff2_raster_name = OUT_DIR+OUT_ID+"_diff2";
-    diff2DEM.write_raster(diff2_raster_name,raster_ext);
+    string diff_pc_raster_name = OUT_DIR+OUT_ID+"_diff_pc";
+    diff_pc_DEM.write_raster(diff_pc_raster_name,raster_ext);
 
 
-    LSDRaster diffDEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
-                      topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
-                        topography_raster.get_NoDataValue(),diff,topography_raster.get_GeoReferencingStrings());
-
-
-    string diff_raster_name = OUT_DIR+OUT_ID+"_diff";
-    diffDEM.write_raster(diff_raster_name,raster_ext);
+    // LSDRaster diffDEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
+    //                   topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
+    //                     topography_raster.get_NoDataValue(),diff,topography_raster.get_GeoReferencingStrings());
+    //
+    //
+    // string diff_raster_name = OUT_DIR+OUT_ID+"_diff";
+    // diffDEM.write_raster(diff_raster_name,raster_ext);
 
   }
 
