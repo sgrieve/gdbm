@@ -426,11 +426,11 @@ int main (int nNumberofArgs,char *argv[])
 
     string deltas_pc_name = OUT_DIR+OUT_ID+"_deltas_pc.csv";
 
-    ofstream WriteData;
-    WriteData.open(deltas_pc_name.c_str());
+    ofstream WriteData_pc;
+    WriteData_pc.open(deltas_pc_name.c_str());
 
     for(int q = 0; q < int(flat_diff_pc.size()); q++){
-      WriteData << flat_diff_pc[q] << endl;
+      WriteData_pc << flat_diff_pc[q] << endl;
     }
 
     // --------
