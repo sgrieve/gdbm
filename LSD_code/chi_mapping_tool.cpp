@@ -420,6 +420,21 @@ int main (int nNumberofArgs,char *argv[])
     diff_pc_DEM.write_raster(diff_pc_raster_name,raster_ext);
 
 
+    // ----------
+
+    vector<float> flat_diff_pc = Flatten_Without_Nodata(diff_pc_array, topography_raster.get_NoDataValue());
+
+    string deltas_pc_name = OUT_DIR+OUT_ID+"_deltas_pc.csv";
+
+    ofstream WriteData;
+    WriteData.open(deltas_pc_name.c_str());
+
+    for(int q = 0; q < int(flat_diff_pc.size()); q++){
+      WriteData << flat_diff_pc[q] << endl;
+    }
+
+    // --------
+
     // LSDRaster diffDEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
     //                   topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
     //                     topography_raster.get_NoDataValue(),diff,topography_raster.get_GeoReferencingStrings());
