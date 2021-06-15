@@ -6395,15 +6395,8 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
   cout << " I'm starting with " << Junctions_Initial.size() << " junctions." << endl;
   cout << "The lower limit is: " << lower_limit << " and upper limit "<< upper_limit << endl;
   vector<int> first_pruning = Prune_Junctions_By_Contributing_Pixel_Window(Junctions_Initial,FlowInfo,
-                                              FlowAcc, lower_limit, upper_limit);
+                                             FlowAcc, lower_limit, upper_limit);
   cout << "Right, I've pruned those and have " << first_pruning.size() << " junctions left." << endl;
-
-
-
-  // Now prune based on nesting
-  cout << "Now I'm pruning out any nested junctions." << endl;
-  vector<int> second_pruning = Prune_Junctions_If_Nested(first_pruning,FlowInfo, FlowAcc);
-  cout << "Before nodata prune there are###### " << second_pruning.size() << " junctions left." << endl;
 
   // So now we need to prune the basins bounded by nodata, and prune the nested
   // basins. Which to do first? The nodata pruning is computationally expensive:
@@ -6413,24 +6406,28 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
   // nodata pruning. So even though it will be slow we need to prune by
   // nodata first.
   cout << "Now I am going to see if any are draining to the edge. " << endl;
-  int N_total_juncs = int(second_pruning.size());
-  vector<int> third_pruning;
+  int N_total_juncs = int(first_pruning.size());
+  vector<int> second_pruning;
   for(int this_junc_index = 0; this_junc_index< N_total_juncs; this_junc_index++)
   {
-    // get the current node index
-    int this_NI = JunctionVector[ second_pruning[this_junc_index] ];
-    bool is_influenced_by_nodata = FlowInfo.is_upstream_influenced_by_nodata(this_NI, TestRaster);
+   // get the current node index
+   int this_NI = JunctionVector[ first_pruning[this_junc_index] ];
+   bool is_influenced_by_nodata = FlowInfo.is_upstream_influenced_by_nodata(this_NI, TestRaster);
 
-    // only record data if it is not influenced by nodata
-    if (not is_influenced_by_nodata)
-    {
-      third_pruning.push_back( second_pruning[this_junc_index] );
-    }
+   // only record data if it is not influenced by nodata
+   if (not is_influenced_by_nodata)
+   {
+     second_pruning.push_back( first_pruning[this_junc_index] );
+   }
   }
-  cout << "Final Count &&&&&&& is " << third_pruning.size() << " Junctions left." << endl;
+  cout << "I now have " << second_pruning.size() << " Junctions left." << endl;
 
-
+  // Now prune based on nesting
+  cout << "Now I'm pruning out any nested junctions." << endl;
+  vector<int> third_pruning = Prune_Junctions_If_Nested(second_pruning,FlowInfo, FlowAcc);
+  cout << "Finished with pruning, I have " << third_pruning.size() << " junctions left." << endl;
   return third_pruning;
+  // &&&&&&&& - placing this to help me find this line via grep
 }
 
 
