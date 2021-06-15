@@ -399,17 +399,18 @@ int main (int nNumberofArgs,char *argv[])
     float diff_pc = get_percentile(data_sorted, 98.0);  // 2 standard devs of the mean
 
     Array2D<float> diff_pc_array(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
-
+    cout << "start1234" << endl;
     for (int i=0; i < filled_topography.get_NRows(); ++i){
       for (int j=0; j < filled_topography.get_NCols(); ++j){
 
         if (diff[i][j] > diff_pc){
+          cout << i << "," << j << endl;
           diff_pc_array[i][j] = diff[i][j];
         }
 
       }
     }
-
+    cout << "end1234" << endl;
 
     LSDRaster diff_pc_DEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
                       topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
