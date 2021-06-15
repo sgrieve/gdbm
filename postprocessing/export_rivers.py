@@ -22,8 +22,19 @@ input_file = sys.argv[1]
 filename = os.path.basename(input_file)
 sub_zone = filename.split('MChiSegmented')[0][:-1]
 
+# This file gives us a list of the row,col of each filled pit above a theshold
+pit_id_file = '{}_pit_id.csv'.format(sub_zone)
 
-if os.path.isfile(input_file):
+if os.path.isfile(input_file) and os.path.isfile(pit_id_file):
+
+    # Not using csv reader here as we want the whole row
+    with open(pit_id_file) as pit_file:
+        pit_keys = pit_file.readlines()
+
+    # Dump all the row,col id pairs into a list, then convert to a set for more
+    # efficient lookup: O(1) vs O(n)
+    pit_keys = [p.strip() for p in pit_keys]
+    pit_keys = set(pit_keys)
 
     # We want to convert back from the numerical climate zone codes to the strings
     sub_zone = koppen_number_to_string(sub_zone)
@@ -79,7 +90,14 @@ if os.path.isfile(input_file):
                         else:
                             ai = 'NaN'
 
-                        o.write(','.join(data) + ',' + ai + '\n')
+                        # pit_flag is 0 if there has not been any changes to the DEM cell
+                        # and is 1 if there has been
+                        pit_flag = '0'
+                        pit_key = ','.join(data[:2])
+                        if pit_key in pit_keys:
+                            pit_flag = '1'
+
+                        o.write(','.join(data) + ',' + ai + ',' + pit_flag + '\n')
 
     # Rename the MChiSegmented file to a more descriptive name
     new_input_name = input_file.replace('MChiSegmented', 'RawBasins')

@@ -383,66 +383,29 @@ int main (int nNumberofArgs,char *argv[])
 
     vector<float> flat_diff = Flatten_Without_Nodata(diff, topography_raster.get_NoDataValue());
 
-    string deltas_name = OUT_DIR+OUT_ID+"_deltas.csv";
-
-    ofstream WriteData;
-    WriteData.open(deltas_name.c_str());
-
-    for(int q = 0; q < int(flat_diff.size()); q++){
-      WriteData << flat_diff[q] << endl;
-    }
-
     vector<size_t> index_map;
     vector<float> data_sorted;
     matlab_float_sort(flat_diff, data_sorted, index_map);
 
-    float diff_pc = get_percentile(data_sorted, 98.0);  // 2 standard devs of the mean
+    float diff_pc = get_percentile(data_sorted, 98.0);  // >2 standard devs of the mean
 
-    Array2D<float> diff_pc_array(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
-    cout << "start1234" << endl;
+    string deltas_pc_name = OUT_DIR+OUT_ID+"_pit_id.csv";
+
+    ofstream WritePitData;
+    WritePitData.open(deltas_pc_name.c_str());
+
     for (int i=0; i < filled_topography.get_NRows(); ++i){
       for (int j=0; j < filled_topography.get_NCols(); ++j){
 
         if (diff[i][j] > diff_pc){
-          cout << i << "," << j << endl;
-          diff_pc_array[i][j] = diff[i][j];
+          WritePitData << i << "," << j << endl;
+
         }
 
       }
     }
-    cout << "end1234" << endl;
 
-    LSDRaster diff_pc_DEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
-                      topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
-                        topography_raster.get_NoDataValue(),diff_pc_array,topography_raster.get_GeoReferencingStrings());
-
-
-    string diff_pc_raster_name = OUT_DIR+OUT_ID+"_diff_pc";
-    diff_pc_DEM.write_raster(diff_pc_raster_name,raster_ext);
-
-
-    // ----------
-
-    vector<float> flat_diff_pc = Flatten_Without_Nodata(diff_pc_array, topography_raster.get_NoDataValue());
-
-    string deltas_pc_name = OUT_DIR+OUT_ID+"_deltas_pc.csv";
-
-    ofstream WriteData_pc;
-    WriteData_pc.open(deltas_pc_name.c_str());
-
-    for(int q = 0; q < int(flat_diff_pc.size()); q++){
-      WriteData_pc << flat_diff_pc[q] << endl;
-    }
-
-    // --------
-
-    // LSDRaster diffDEM(topography_raster.get_NRows(),topography_raster.get_NCols(),topography_raster.get_XMinimum(),
-    //                   topography_raster.get_YMinimum(),topography_raster.get_DataResolution(),
-    //                     topography_raster.get_NoDataValue(),diff,topography_raster.get_GeoReferencingStrings());
-    //
-    //
-    // string diff_raster_name = OUT_DIR+OUT_ID+"_diff";
-    // diffDEM.write_raster(diff_raster_name,raster_ext);
+    WritePitData.close();
 
   }
 
