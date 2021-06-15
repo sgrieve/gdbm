@@ -10,6 +10,7 @@
 #$ -l h_rt=4:0:0
 #$ -t 1-1
 #$ -tc 100
+#$ -l highmem
 
 module load gdal/2.3.1
 module load gcc/6.3.0
