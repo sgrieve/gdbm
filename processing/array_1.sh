@@ -11,8 +11,6 @@
 #$ -t 1-174
 #$ -tc 100
 
-# full number of jobs should be 1-174
-
 module load gdal/2.3.1
 module load gcc/6.3.0
 module load python/3.6.3

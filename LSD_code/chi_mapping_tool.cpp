@@ -366,9 +366,6 @@ int main (int nNumberofArgs,char *argv[])
 
     filled_topography = topography_raster.fill(this_float_map["min_slope_for_fill"]);
 
-    string filled_raster_name = OUT_DIR+OUT_ID+"_Fill";
-    filled_topography.write_raster(filled_raster_name,raster_ext);
-
     Array2D<float> diff(filled_topography.get_NRows(), filled_topography.get_NCols(),filled_topography.get_NoDataValue());
 
     for (int i=0; i < filled_topography.get_NRows(); ++i){
