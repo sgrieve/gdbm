@@ -17,7 +17,7 @@ zone = sys.argv[1]
 output_filename = '/data/Geog-c2s2/gdbm/{}_data'.format(zone)
 
 # Store the output strings as a list, where the first item is a header
-output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n,pit_pixel_proportion,pit_lenth_proportion\n']
+output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n,pit_pixel_proportion,pit_lenth_proportion,straightness_proportion\n']
 
 # Get the list of files to be processed
 final_file_list = glob('/data/Geog-c2s2/gdbm-complete/*/{}*river*.csv'.format(zone))
@@ -70,17 +70,36 @@ for filename in final_file_list:
     # and divide by total channel lenth
     length_pit_prop = np.sum(pit_lengths) / FlowLength
 
+    # Calculating the maximum streak of repeated flowdirections, as a way of flagging
+    # channels that are anomalously straight. Inspired by code from: https://gist.github.com/alimanfoo/c5977e87111abe8127453b21204c1065
+    chan_px_count = len(flowdir)
+    loc_run_start = np.empty(chan_px_count, dtype=bool)
+    loc_run_start[0] = True
+    np.not_equal(x[:-1], x[1:], out=loc_run_start[1:])
+    run_starts = np.nonzero(loc_run_start)[0]
+
+    # find run lengths
+    run_lengths = np.diff(np.append(run_starts, chan_px_count))
+
+    # get maximum streak length (does not care about ties)
+    max_streak = np.max(run_lengths)
+
+    # pixel ratio between the longest streak and the total number of pixels in the channel
+    # if this is very high, the channel is anomalously straight
+    streak_ratio = max_streak / chan_px_count
+
     # Also need the total river length, river relief, river slope and name
     river_name = os.path.splitext(os.path.basename(filename))[0]
 
-    output.append('{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(river_name, NCI, R,
+    output.append('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(river_name, NCI, R,
                                                                 FlowLength, R / FlowLength, area,
                                                                 np.nanmean(AI), np.nanmedian(AI),
                                                                 np.nanstd(AI), np.nanmin(AI),
                                                                 np.nanmax(AI),
                                                                 np.count_nonzero(~np.isnan(AI)),
                                                                 pixel_pit_prop,
-                                                                length_pit_prop
+                                                                length_pit_prop,
+                                                                streak_ratio
                                                                 ))
 
 with open('{}.csv'.format(output_filename), 'w') as f:
