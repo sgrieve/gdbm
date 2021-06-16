@@ -4,6 +4,9 @@ import numpy as np
 from glob import glob
 import sys
 
+# Reminder of the headers of a river file:
+# row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag
+
 # We collect each file's data into a list of arrays
 offset_elevs = []
 median_norm_offsets = []
@@ -29,7 +32,7 @@ for filename in final_file_list:
 
     area = np.max(data[:, 6])
 
-    AI = data[:, 8]  # Aridity index
+    AI = data[:, 9]  # Aridity index
 
     # Cant use np.ptp as it doesnt handle nans
     R = np.nanmax(B) - np.nanmin(B)
