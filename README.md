@@ -102,15 +102,12 @@ This section outlines the steps required to go from the Koppen climate zone rast
 
 #### 2. SRTM Tile Processing
 
-1. Download SRTM filenames from OpenTopography
+1. Download SRTM filenames from OpenTopography: `aws s3 ls s3://raster/SRTM_GL1/ --recursive --endpoint-url https://opentopography.s3.sdsc.edu --no-sign-request`
 1. `parse_srtm_filenames.py`
 1. `get_bbox.py`
 1. `get_dl_list.py`
 
 #### 3. HPC Processing
-
-For a single job:
-1. `legion_script.sh`
 
 For an array job:
 1. `build_array_params.py`
