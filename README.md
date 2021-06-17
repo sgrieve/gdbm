@@ -1,10 +1,19 @@
-# Global River Concavity
+# Global Database of Basin Morphology
 
 This project aims to perform an analysis of global rivers using the SRTM 30 dataset and the LSDTopoTools package. The code presented here could be adapted to other projects which require the bulk downloading and processing of SRTM data based on polygon areas of interest.
 
-This workflow has been designed to run on the UCL Legion supercomputer so some modification of the scripts will most likely be needed if this is to be run in a different environment.
+This workflow has been designed to run on the QMUL Apocrita supercomputer (which uses Univa Grid Engine as its scheduler) so some modification of the scripts will most likely be needed if this is to be run in a different environment.
 
-The original project plan for this project can be found in `ProjectPlan/` in both markdown and pdf formats.
+## Requirements
+
+- Python modules required to run scripts can be found within `requirements.txt`
+- Data is accessed using the AWS CLI (v2), installation details can be found [here](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- Topographic analysis is done using a [2018 release of LSDTopoTools](https://zenodo.org/record/1291889), patched with the files found in `LSD_code/`.
+- The code uses the following modules on the QMUL HPC system:
+  - gdal 2.3.1
+  - gcc 6.3.0
+  - python 3.6.3
+  - proj 5.2.0
 
 ## Directory Structure
 
@@ -14,17 +23,13 @@ This section provides an overview of the files contained within this repository 
 
 The files within this directory are generated using some of the preprocessing scripts. The initial input data, taken from [this paper](https://www.hydrol-earth-syst-sci.net/11/1633/2007/hess-11-1633-2007.html) is provided as a `geotiff`. This raster is split into a series shapefiles, which are subdivided until each climate sub zone is small enough to be processed in a sane amount of time and with a sane amount of memory. The final files which should be used are contained within `singlepart_files_split/`, the other folders contain intermediate data which is preserved for debugging purposes.
 
-An additional folder `singlepart_files_split_rerun/` contains polygons which had to be re-run after their initial processing hit memory or wallclock limits. Some of the polygons in this folder were split further using `quadpoly.py`.
+An additional folder, `singlepart_files_split_original/`, contains the climate zones prior to the lake processing step.
+
+Full code is for these preprocessing steps can be found in https://zenodo.org/record/3257656.
 
 #### `preprocessing/`
 
 `srtm_filenames.lst` is the list of every SRTM 30 tile stored on the OpenTopography servers.
-
-`reclassify.py` is used to reclassify the input Koppen climate zone raster to merge the similar climate zones to produce a final file which can be used for the rest of the preprocessing. This resultant final file is stored in `climate_zones/`.
-
-`multi_to_single.py` Following the conversion of the reclassified climate zone raster to a polygon shapefile using QGIS, this script is used to break each multipart polygon geometry into a singlepart polygon geometry, needed so that we can create a single tile for each contiguous climate sub zone without having to nest attribute queries within GDAL commands.
-
-`quadpoly.py` Script to use a quadtree-like algorithm to divide large climate sub zones into smaller chunks, to cut down on processing time on Legion. This script is hard coded with a list of the climate sub zones which need to be split and an approximate maximum size of polygon to be processed in one step. This second value will need tweaked based on the compute power available.
 
 `parse_srtm_filenames.py` This script processes the list of SRTM tiles into a json file, `srtm_coords.json`, which stores the corner coordinates of each SRTM tile, keyed with the filename of the tile on the OpenTopography server.
 
@@ -36,7 +41,18 @@ An additional folder `singlepart_files_split_rerun/` contains polygons which had
 
 `get_urls.py` Simple command line script to return a list of the download urls for a given input climate sub zone filename.
 
-`runner.sh` Main script which handles the download, merging, clipping and reprojection of the SRTM tiles, runs the file through the LSD code and postprocesses the outputs. Takes three input arguments:
+`runner.sh` Main script which handles the download, merging, clipping and reprojection of the SRTM tiles, runs the file through the LSD code and postprocesses the outputs. Takes six input arguments:
+
+```
+$1 - shapefile name without .shp
+$2 - utm zone
+$3 - north or south
+$4 - drainage threshold in pixels
+$5 - min basin size in pixels
+$6 - max basin size in pixels
+```
+
+`res_runner.sh` Script used to get the resolution data for each tile prior to the full analysis being run. Takes three input arguments:
 
 ```
 $1 - shapefile name without .shp
@@ -44,31 +60,31 @@ $2 - utm zone
 $3 - north or south
 ```
 
-`legion_script.sh` Example legion script used to deploy a single instance of `runner.sh`.
-
 `build_array_params.py` Use this script to generate a file containing the matrix of parameters needed to deploy an array job. Takes 2 input arguments, the minimum and maximum number of SRTM tiles to be included in the job. This allows multiple array jobs to be created with different memory requirements.
 
-`legion_array_job.sh` Example legion script used to deploy an array job composed of multiple instances of `runner.sh`.
+`Array_{1..4}.sh` Example UGE job scripts used to deploy array job composed of multiple instances of `runner.sh`.
 
-`SRTM.driver` parameter file for the LSD code. Write path will need to be configured for the user who is running the code, and the other parameters are documented in the [LSDTopoTools User Guide](http://lsdtopotools.github.io/LSDTT_book/).
+`Array_res.sh` Example UGE job script used to deploy array job to get the resolution data. Calls `res_runner.sh`.
 
-There are numerous other shell scripts and parameter files in this folder, which are used to trigger re-runs of specific portions of the whole dataset, and will not be of any specific use to other users, except as a basis for their own debugging and rerunning.
+`array_params_*.txt` Output parameter files generated by `build_array_params.py`.
+
+`SRTM.driver` parameter file for the LSD code. Most other parameters can be ignored, as they are not used in this analysis.
+
+`bboxes.json` JSON containing the bounding boxes of each climate zone tile.
+
+`download_links.json` JSON containing the download links needed to build the topographic data for each climate zone tile.
+
+`threshold_areas.json` JSON containing the basin min and max areas, and the channel extraction threshold for each climate zone tile, ensuring a consistent channel extraction threshold across all of the analysis.
 
 #### `LSD_code/`
 
-This project lightly modifies the LSDTopoTools `chi_mapping_tool` to generate the required output data from the clipped SRTM tiles. This driver can be used with any recent LSDTopoTools distribution. If you need guidance on getting started with LSDTopoTools, see [this user guide](http://lsdtopotools.github.io/LSDTT_book/).
+This project lightly modifies the LSDTopoTools `chi_mapping_tool.cpp` and `LSDChiTools.cpp` files to generate the required output data from the clipped SRTM tiles. These patches should be applied to this [2018 release of LSDTopoTools](https://zenodo.org/record/1291889), by copying these 2 files into the appropriate folders in the LSDTopoTools installation and making the driver file with the command: `make -f chi_mapping_tool.make`.
+
+If you need guidance on getting started with LSDTopoTools, see [this user guide](http://lsdtopotools.github.io/LSDTT_book/).
 
 #### `postprocessing/`
 
-Following the execution of the LSD code, `export_rivers.py` or `export_rivers_batch.py` is used to identify the longest river in each drainage basin and export it to its own `csv` file.
-
-`concavity.py` is the new visualisation script for these output river files. It is an optimized port of the original `concavity.m` script described above and can be used at the command line as follows:
-
-```
-$ python concavity.py <output_filename> <list of river filenames>
-```
-
-Which will write the average concavity statistics to the screen and save a figure, named using the supplied output filename, containing boxplots of all of the input rivers.
+Following the execution of the LSD code, `export_rivers.py` is used to identify the longest river in each drainage basin and export it to its own `csv` file.
 
 `secondary_analysis.py` Can be run with two command line arguments, to generate secondary statistics, including NCI for a folder full of river data files:
 
@@ -76,16 +92,17 @@ Which will write the average concavity statistics to the screen and save a figur
 $ python secondary_analysis.py <output_filename> <path to folder of river files>
 ```
 
-This file will contain the NCI value for each river, alongside its relief, flow length and overall gradient.
+This file will contain the NCI value for each river, alongside its relief, flow length, overall gradient, Aridity index statistics, a straightness metric and a pit fill metric.
 
-#### `matlab_code/`
+#### `lakes/`
 
-This directory contains the original matlab analysis code (`Concavity.m`) used to calculate and plot river concavity data alongside the example input data (`Af_distance.txt` and `Af_elevation.txt`) provided at the start of the project.
+We have used the [Global Lakes and Wetlands Database](https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database) to clip out lakes from our topographic data, to ensure we are only analysing real channels. A paper describing the data can be found [here](https://www.sciencedirect.com/science/article/pii/S0022169404001404). We are only using the level 1 data, as the level 2 data is not at an appropriate resolution for this global study, details of this process can be seen in [this issue](https://github.com/sgrieve/gdbm/issues/2).
 
-`python_port.py` is a straight port of the matlab code to python, which runs on the same input data and produces identical outputs.
+`clipper.py` is the code used to process the data downloaded from the above links into the appropriate format
 
-`data_to_matlab_fmt.py` is a script to take output data from the LSD code and reformat it into the structure needed to be loaded by the original matlab code or its python port. It is only used for debugging.
+#### `summary_figure/` and `zone_figure/`
 
+Files used to generate some figures.
 
 ## Workflow
 
@@ -107,15 +124,22 @@ This section outlines the steps required to go from the Koppen climate zone rast
 1. `get_bbox.py`
 1. `get_dl_list.py`
 
-#### 3. HPC Processing
+#### 3. Resolution Adjustments
 
-For an array job:
-1. `build_array_params.py`
-2. `legion_array_job.sh`
+We need to get the data resolution for each climate zone tile, so that we can set a globally consistent set of channel extraction parameters.
 
-#### 4. Result Visualisation
+1. Generate resolution job parameter file: `build_array_params_resolution.py`
+1. Write job scripts for your HPC environment, reading in the parameter files generated by `build_array_params_resolution.py`. See the example for UGE: `array_res.sh`.
+1. Dump all the JSON files generated in the previous step into a single directory, and run `area_thresholds.py` to generate the final JSON file needed to run the main HPC processing steps.
 
-1. `concavity.py` and/or `secondary_analysis.py`
+#### 4. HPC Processing
+
+1. Generate job parameter file: `build_array_params.py`
+1. Write job scripts for your HPC environment, reading in the parameter files generated by `build_array_params.py`. See the examples for UGE: `array_{1..4}.sh`.
+
+#### 5. Postprocessing
+
+1. Generate the summary statistics for each climate zone via `secondary_analysis.py`, which can be run as an HPC job using `secondary_job.sh`
 
 
 ## Naming Conventions
@@ -147,5 +171,5 @@ In some cases the sub zones are still too big to be processed efficiently. These
 ## Raw data headers
 
 ```
-row,col,lat,long,elevation,flow length,drainage area,basin key, aridity index
+row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag
 ```
