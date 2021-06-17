@@ -8,7 +8,7 @@
 #$ -l node_type=nxv
 #$ -l h_vmem=180G
 #$ -l h_rt=4:0:0
-#$ -t 1-1
+#$ -t 1-2
 #$ -tc 100
 #$ -l highmem
 
