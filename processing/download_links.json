@@ -152,7 +152,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35W066.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35W067.tif"
     ],
-    "11_11.shp": [
+    "11_11_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18W043.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18W044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18W045.tif",
@@ -358,22 +358,19 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E025.tif"
     ],
-    "11_13_1677fe39_95a5_4ab5_8d1f_9bf019f69eb5.shp": [
+    "11_13_1677fe39_95a5_4ab5_8d1f_9bf019f69eb5_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E033.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E035.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E034.tif"
     ],
     "11_13_2f555127_6623_4517_aca8_1178d275a83d.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E032.tif",
@@ -489,38 +486,45 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E021.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E022.tif"
     ],
-    "11_13_6ef374dd_6a52_46ce_b9b1_23da271b2528.shp": [
+    "11_13_6ef374dd_6a52_46ce_b9b1_23da271b2528_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E035.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E036.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E035.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E036.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E035.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E036.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E035.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E036.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E033.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E034.tif"
+    ],
+    "11_13_6ef374dd_6a52_46ce_b9b1_23da271b2528_1.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E034.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E035.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E036.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E037.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E034.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E035.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E036.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E037.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E034.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E035.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E036.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S12E037.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E034.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E035.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E036.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E036.tif",
@@ -605,29 +609,19 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14E025.tif"
     ],
-    "11_13_ae54e186_eecd_44bd_a742_0e0b03db4fb4.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E025.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E026.tif",
+    "11_13_ae54e186_eecd_44bd_a742_0e0b03db4fb4_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E029.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S19E025.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S19E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S19E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S19E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S19E029.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E025.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E029.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21E025.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21E029.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S22E025.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S22E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S22E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S22E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S22E029.tif"
@@ -855,7 +849,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E138.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E139.tif"
     ],
-    "11_23.shp": [
+    "11_23_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W100.tif",
@@ -966,7 +960,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19W100.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20W100.tif"
     ],
-    "11_25.shp": [
+    "11_25_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E114.tif",
@@ -1241,7 +1235,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E099.tif"
     ],
-    "11_30_578c0943_62b8_49e5_a46e_545cd2e3f4d3.shp": [
+    "11_30_578c0943_62b8_49e5_a46e_545cd2e3f4d3_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19E104.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19E105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19E106.tif",
@@ -1467,7 +1461,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E110.tif"
     ],
-    "11_30_e358017c_1020_4ce1_9d77_73e8aa4b15eb.shp": [
+    "11_30_e358017c_1020_4ce1_9d77_73e8aa4b15eb_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E092.tif",
@@ -1559,7 +1553,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E110.tif"
     ],
-    "11_30_f5cdb3df_027e_49c9_898c_b4efcf72daf6.shp": [
+    "11_30_f5cdb3df_027e_49c9_898c_b4efcf72daf6_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19E080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19E081.tif",
@@ -1648,7 +1642,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E103.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E104.tif"
     ],
-    "11_30_fbcb6c25_c00d_45af_bea9_3b2c502f7600.shp": [
+    "11_30_fbcb6c25_c00d_45af_bea9_3b2c502f7600_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23E086.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23E087.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23E088.tif",
@@ -1705,7 +1699,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E096.tif"
     ],
-    "11_30_fc8ce026_0f80_4733_afac_b796b71d23a9.shp": [
+    "11_30_fc8ce026_0f80_4733_afac_b796b71d23a9_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E075.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E077.tif",
@@ -1810,7 +1804,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W079.tif"
     ],
-    "11_8.shp": [
+    "11_8_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E036.tif",
@@ -1859,11 +1853,11 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E038.tif"
     ],
-    "14_101.shp": [
+    "14_101_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W075.tif"
     ],
-    "14_102.shp": [
+    "14_102_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E021.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E022.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E023.tif"
@@ -1889,11 +1883,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E044.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E047.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E048.tif"
     ],
     "14_105.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W124.tif",
@@ -2473,7 +2463,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E010.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E011.tif"
     ],
-    "14_174_ddc1c40e_c8f1_4732_811b_2c6e1212e9cd.shp": [
+    "14_174_ddc1c40e_c8f1_4732_811b_2c6e1212e9cd_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E003.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E008.tif",
@@ -2685,7 +2675,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E016.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E017.tif"
     ],
-    "14_185.shp": [
+    "14_185_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E033.tif",
@@ -2918,7 +2908,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E023.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E024.tif"
     ],
-    "14_191.shp": [
+    "14_191_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E130.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E131.tif",
@@ -3013,7 +3003,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28W100.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28W101.tif"
     ],
-    "14_197_23b28914_803f_4a5e_9fb7_45f5b45e3e70.shp": [
+    "14_197_23b28914_803f_4a5e_9fb7_45f5b45e3e70_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W096.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W097.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W098.tif",
@@ -3043,7 +3033,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W102.tif"
     ],
-    "14_197_24453204_9ced_4aae_bee9_0a2009a50f3e.shp": [
+    "14_197_24453204_9ced_4aae_bee9_0a2009a50f3e_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W078.tif",
@@ -3075,7 +3065,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39W081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39W082.tif"
     ],
-    "14_197_3330b570_7942_4c7a_90aa_22354509d98d.shp": [
+    "14_197_3330b570_7942_4c7a_90aa_22354509d98d_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W084.tif",
@@ -3173,7 +3163,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37W101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37W102.tif"
     ],
-    "14_197_7405a2dc_fa14_48a1_bdef_d6f844359eda.shp": [
+    "14_197_7405a2dc_fa14_48a1_bdef_d6f844359eda_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W081.tif",
@@ -3225,7 +3215,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39W082.tif"
     ],
-    "14_197_88bb2b74_d815_48b2_a91d_19a6e6a25c4f.shp": [
+    "14_197_88bb2b74_d815_48b2_a91d_19a6e6a25c4f_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W082.tif",
@@ -3255,7 +3245,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W082.tif"
     ],
-    "14_197_9bba0977_8479_443c_8aee_bde0d21f2228.shp": [
+    "14_197_9bba0977_8479_443c_8aee_bde0d21f2228_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W098.tif",
@@ -3268,7 +3258,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28W099.tif"
     ],
-    "14_197_a86846c8_b344_456c_b9f4_d5ff3aa348e0.shp": [
+    "14_197_a86846c8_b344_456c_b9f4_d5ff3aa348e0_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29W089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29W090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29W091.tif",
@@ -3340,7 +3330,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W089.tif"
     ],
-    "14_197_ebdd1c29_fb45_475d_9401_a8b4d80728bc.shp": [
+    "14_197_ebdd1c29_fb45_475d_9401_a8b4d80728bc_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W091.tif",
@@ -3374,7 +3364,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W096.tif"
     ],
-    "14_197_f70268f8_20bc_46fc_bef2_9c1787c28551.shp": [
+    "14_197_f70268f8_20bc_46fc_bef2_9c1787c28551_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W091.tif",
@@ -3502,7 +3492,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02W078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02W079.tif"
     ],
-    "14_24.shp": [
+    "14_24_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38W070.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38W071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38W072.tif",
@@ -3799,7 +3789,7 @@
     "14_60.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W074.tif"
     ],
-    "14_61_386803a4_6681_4c21_9517_72b2a9021f28.shp": [
+    "14_61_386803a4_6681_4c21_9517_72b2a9021f28_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S31E147.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S31E148.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S31E149.tif",
@@ -4054,7 +4044,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E027.tif"
     ],
-    "14_69_5cdc2c0b_0955_4151_9148_5801aa24b309.shp": [
+    "14_69_5cdc2c0b_0955_4151_9148_5801aa24b309_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20W052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20W053.tif",
@@ -4155,7 +4145,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39W060.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39W061.tif"
     ],
-    "14_69_7d41ac3d_a320_4de8_b25f_06ebad90dded.shp": [
+    "14_69_7d41ac3d_a320_4de8_b25f_06ebad90dded_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W056.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W058.tif",
@@ -4193,7 +4183,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35W060.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35W061.tif"
     ],
-    "14_69_8ae4980e_df64_4ca9_b278_55dd411a9f66.shp": [
+    "14_69_8ae4980e_df64_4ca9_b278_55dd411a9f66_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S25W048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S25W049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S25W050.tif",
@@ -4240,7 +4230,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S25W050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S25W051.tif"
     ],
-    "14_69_98fa03aa_99cc_4064_9a71_23cb86363887.shp": [
+    "14_69_98fa03aa_99cc_4064_9a71_23cb86363887_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W063.tif",
@@ -4321,7 +4311,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W065.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W066.tif"
     ],
-    "14_69_da134798_61df_4a6a_934d_3b0c08cea97b.shp": [
+    "14_69_da134798_61df_4a6a_934d_3b0c08cea97b_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S30W053.tif",
@@ -4570,7 +4560,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28E098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28E099.tif"
     ],
-    "14_89_1e1182c0_baa3_4a8d_82b9_e09e976f08f2.shp": [
+    "14_89_1e1182c0_baa3_4a8d_82b9_e09e976f08f2_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E114.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E115.tif",
@@ -4687,7 +4677,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E113.tif"
     ],
-    "14_89_be4ea3f2_e7cb_46ed_8901_95f140c71dad.shp": [
+    "14_89_be4ea3f2_e7cb_46ed_8901_95f140c71dad_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E104.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E106.tif",
@@ -4759,7 +4749,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E113.tif"
     ],
-    "14_89_fc94c899_c2bc_4fd0_9c01_9530438cb2a2.shp": [
+    "14_89_fc94c899_c2bc_4fd0_9c01_9530438cb2a2_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E114.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27E115.tif",
@@ -4826,40 +4816,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E118.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E119.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E120.tif"
-    ],
-    "14_9.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35E173.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E173.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E174.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E175.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E173.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E174.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E175.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E176.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E174.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E175.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E176.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E177.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E178.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E174.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E175.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E176.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E177.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E178.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E173.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E174.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E175.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E176.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E177.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E178.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E173.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E174.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E175.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E176.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E173.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E174.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E175.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E176.tif"
     ],
     "14_90.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E121.tif"
@@ -4951,6 +4907,40 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E081.tif"
     ],
+    "14_9_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35E173.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E173.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E174.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E175.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E173.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E174.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E175.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E176.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E174.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E175.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E176.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E177.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E178.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E174.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E175.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E176.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E177.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E178.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E173.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E174.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E175.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E176.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E177.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40E178.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E173.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E174.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E175.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41E176.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E173.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E174.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E175.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42E176.tif"
+    ],
     "17_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S33W070.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S33W071.tif",
@@ -4980,7 +4970,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E073.tif"
     ],
-    "17_13.shp": [
+    "17_13_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E081.tif",
@@ -5006,7 +4996,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W116.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W117.tif"
     ],
-    "17_17.shp": [
+    "17_17_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W145.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W147.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W148.tif",
@@ -5015,40 +5005,8 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W151.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W152.tif"
     ],
-    "17_18.shp": [],
+    "17_18_0.shp": [],
     "17_19.shp": [],
-    "17_2.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E078.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E079.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E080.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E081.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E082.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E078.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E079.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E080.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E081.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E082.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E078.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E079.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E080.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E081.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E082.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E078.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E079.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E080.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E081.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E082.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E078.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E079.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E080.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E081.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E082.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E083.tif"
-    ],
     "17_20.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58E152.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59E152.tif",
@@ -5062,7 +5020,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59E129.tif"
     ],
     "17_22.shp": [],
-    "17_23.shp": [
+    "17_23_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E156.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E157.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E158.tif",
@@ -5091,7 +5049,7 @@
     "17_24.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N57E157.tif"
     ],
-    "17_25.shp": [
+    "17_25_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W075.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W077.tif",
@@ -5123,7 +5081,15 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W131.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W132.tif"
     ],
-    "17_26_9fb3f4a6_3a07_4194_9cdc_37113336b544.shp": [
+    "17_26_9fb3f4a6_3a07_4194_9cdc_37113336b544_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W134.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W135.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W136.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W134.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W135.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W136.tif"
+    ],
+    "17_26_9fb3f4a6_3a07_4194_9cdc_37113336b544_3.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W128.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W130.tif",
@@ -5131,19 +5097,15 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W132.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W133.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W134.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W135.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W136.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W128.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W130.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W131.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W132.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W133.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W134.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W135.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W136.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W134.tif"
     ],
-    "17_26_e5256063_e36d_47aa_8cc6_6e89798661bc.shp": [
+    "17_26_e5256063_e36d_47aa_8cc6_6e89798661bc_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W136.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W137.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W138.tif",
@@ -5160,19 +5122,46 @@
     "17_27.shp": [],
     "17_28.shp": [],
     "17_29.shp": [],
+    "17_2_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E078.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E079.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E080.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E081.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E082.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30E083.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E078.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E079.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E080.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E081.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E082.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E083.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E078.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E079.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E080.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E081.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E082.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E083.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E078.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E079.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E080.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E081.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E082.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E083.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E078.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E079.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E080.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E081.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E082.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E083.tif"
+    ],
     "17_3.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E080.tif"
     ],
     "17_30.shp": [],
     "17_31.shp": [],
-    "17_32.shp": [],
+    "17_32_0.shp": [],
     "17_33.shp": [],
     "17_34.shp": [],
-    "17_35.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E047.tif"
-    ],
     "17_36.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42W114.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42W115.tif",
@@ -5235,7 +5224,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E030.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E030.tif"
     ],
-    "17_41.shp": [
+    "17_41_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E033.tif",
@@ -5251,8 +5240,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E043.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E033.tif",
@@ -5268,8 +5255,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E043.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E033.tif",
@@ -5285,8 +5270,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E043.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E033.tif",
@@ -5302,8 +5285,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E043.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E033.tif",
@@ -5318,9 +5299,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E042.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E043.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E044.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E047.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E045.tif"
     ],
     "17_42.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E065.tif",
@@ -5476,54 +5455,37 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W122.tif"
     ],
-    "17_50_90dd4ce9_6abe_458a_8168_007acd93cd48.shp": [
+    "17_50_90dd4ce9_6abe_458a_8168_007acd93cd48_3.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W123.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W126.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W127.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W128.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W123.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W126.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W127.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W128.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W123.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W126.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W127.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W128.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W123.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W126.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W127.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W128.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W123.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W126.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W127.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W128.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W129.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W122.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W123.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W124.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W125.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W126.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W127.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W128.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W129.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W127.tif"
     ],
     "17_50_a8189c3b_6ffa_49a1_8081_52865de41280.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W115.tif",
@@ -5542,7 +5504,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W123.tif"
     ],
-    "17_50_e8131374_dec7_4bed_8fd9_461a5f687f15.shp": [
+    "17_50_e8131374_dec7_4bed_8fd9_461a5f687f15_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W122.tif",
@@ -5581,7 +5543,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33W109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33W110.tif"
     ],
-    "17_8.shp": [
+    "17_8_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E075.tif",
@@ -5780,7 +5742,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W070.tif"
     ],
-    "1_100_7aa1c774_3bbd_43a0_9211_5217140507ab.shp": [
+    "1_100_7aa1c774_3bbd_43a0_9211_5217140507ab_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W064.tif",
@@ -5911,7 +5873,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W070.tif"
     ],
-    "1_100_d908889e_0917_4b8c_9088_d8cf1f35fc08.shp": [
+    "1_100_d908889e_0917_4b8c_9088_d8cf1f35fc08_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W064.tif",
@@ -5934,20 +5896,17 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E135.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E136.tif"
     ],
-    "1_102.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E031.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E032.tif",
+    "1_102_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E035.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E031.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E034.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E035.tif"
+    ],
+    "1_102_3.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E035.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E031.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E032.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E035.tif"
     ],
@@ -6001,7 +5960,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E049.tif"
     ],
-    "1_110.shp": [
+    "1_110_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E016.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E017.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E018.tif",
@@ -6312,7 +6271,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S16E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S16E050.tif"
     ],
-    "1_21.shp": [
+    "1_21_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13W039.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S13W040.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14W039.tif",
@@ -6547,7 +6506,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S20E057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21E057.tif"
     ],
-    "1_50.shp": [
+    "1_50_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W055.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W056.tif",
@@ -6597,7 +6556,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09E099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09E100.tif"
     ],
-    "1_54.shp": [
+    "1_54_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N15W088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N15W089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N15W090.tif",
@@ -6731,7 +6690,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S16E167.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S17E167.tif"
     ],
-    "1_70.shp": [
+    "1_70_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E122.tif",
@@ -6770,7 +6729,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09E125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09E126.tif"
     ],
-    "1_73.shp": [
+    "1_73_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06E080.tif",
@@ -7327,14 +7286,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E093.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E094.tif"
     ],
-    "21_1.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W100.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W101.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W100.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W101.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W100.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W101.tif"
-    ],
     "21_10_0bfc7663_d83b_4e05_8f9a_48ca6592bc56.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E115.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E116.tif",
@@ -7475,7 +7426,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E126.tif"
     ],
-    "21_10_261133be_d4e9_4ffc_b672_26e05b42271b.shp": [
+    "21_10_261133be_d4e9_4ffc_b672_26e05b42271b_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E115.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E116.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E117.tif",
@@ -7619,7 +7570,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E114.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E115.tif"
     ],
-    "21_10_321f5f50_1d6c_47a8_8ac5_1129218614cb.shp": [
+    "21_10_321f5f50_1d6c_47a8_8ac5_1129218614cb_3.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E096.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E097.tif",
@@ -7666,13 +7617,15 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E103.tif"
     ],
-    "21_10_331b2346_c52f_40ca_b575_5f6ff45d6fde.shp": [
+    "21_10_331b2346_c52f_40ca_b575_5f6ff45d6fde_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E091.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E091.tif"
+    ],
+    "21_10_331b2346_c52f_40ca_b575_5f6ff45d6fde_2.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E092.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E091.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E092.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E091.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E092.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E092.tif"
     ],
     "21_10_37aedaf1_98f5_4593_a206_70eb1e2b7286.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E113.tif",
@@ -7694,7 +7647,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E102.tif"
     ],
-    "21_10_503f62a7_9c1b_447b_a848_e6b1f87d0db4.shp": [
+    "21_10_503f62a7_9c1b_447b_a848_e6b1f87d0db4_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E103.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E104.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E105.tif",
@@ -8000,7 +7953,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E121.tif"
     ],
-    "21_10_ea9c2c5d_1e8d_4bca_bb0a_3cf51e9f6404.shp": [
+    "21_10_ea9c2c5d_1e8d_4bca_bb0a_3cf51e9f6404_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E127.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E128.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E129.tif",
@@ -8154,7 +8107,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E138.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E139.tif"
     ],
-    "21_10_edac00be_8b17_41b7_816c_318d54fe4f1e.shp": [
+    "21_10_edac00be_8b17_41b7_816c_318d54fe4f1e_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E126.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E127.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E128.tif",
@@ -8246,7 +8199,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E103.tif"
     ],
-    "21_10_fcc9447b_fae6_4307_8729_90d9575e5b12.shp": [
+    "21_10_fcc9447b_fae6_4307_8729_90d9575e5b12_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E092.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E093.tif",
@@ -8300,7 +8253,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E103.tif"
     ],
-    "21_11.shp": [
+    "21_11_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E094.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E096.tif",
@@ -8365,7 +8318,14 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E074.tif"
     ],
-    "21_2.shp": [],
+    "21_1_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W100.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W101.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W100.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W101.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W100.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W101.tif"
+    ],
     "21_20_0be386c9_8ac3_4275_ae9d_4af8124671dd.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E081.tif",
@@ -8527,7 +8487,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E103.tif"
     ],
-    "21_20_5b881503_8d66_4201_9e6c_06cd9ed98c15.shp": [
+    "21_20_5b881503_8d66_4201_9e6c_06cd9ed98c15_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E080.tif",
@@ -8682,6 +8642,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E110.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E111.tif"
     ],
+    "21_2_0.shp": [],
     "21_3.shp": [],
     "21_4.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W103.tif",
@@ -8689,7 +8650,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W103.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W104.tif"
     ],
-    "21_5.shp": [
+    "21_5_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W103.tif",
@@ -8697,7 +8658,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W103.tif"
     ],
-    "21_6.shp": [
+    "21_6_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W092.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W093.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W094.tif",
@@ -8797,7 +8758,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28E107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E107.tif"
     ],
-    "25_10.shp": [],
     "25_100.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W064.tif"
     ],
@@ -8824,21 +8784,29 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E027.tif"
     ],
-    "25_102_04f97274_b806_43ca_b694_4116c9f986cc.shp": [
+    "25_102_04f97274_b806_43ca_b694_4116c9f986cc_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E100.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E103.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E104.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E105.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E106.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E107.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E108.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E100.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E101.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E102.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E103.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E099.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E100.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E101.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E102.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E103.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E099.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E100.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E101.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E102.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E103.tif"
+    ],
+    "25_102_04f97274_b806_43ca_b694_4116c9f986cc_6.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E103.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E104.tif",
@@ -8847,9 +8815,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E108.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E109.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E099.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E100.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E103.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E104.tif",
@@ -8858,9 +8823,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E108.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E109.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E099.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E100.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E103.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E104.tif",
@@ -9195,7 +9157,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E045.tif"
     ],
     "25_102_0d9de61d_6603_4d2d_9bcf_d2b562b1bf95.shp": [],
-    "25_102_12915f0f_529c_428a_afa8_7afdb6f510b8.shp": [],
+    "25_102_12915f0f_529c_428a_afa8_7afdb6f510b8_0.shp": [],
     "25_102_12b5b6d5_0b78_48dd_aadf_904ccfe78290.shp": [],
     "25_102_1a23c5b2_7ba1_444f_86ba_63d63dd8f376_088e79fe_bcfe_48e3_b9ef_96ed72c1d93d.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E066.tif",
@@ -9265,7 +9227,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E067.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E068.tif"
     ],
-    "25_102_1a23c5b2_7ba1_444f_86ba_63d63dd8f376_f24fd1f1_efa2_4aae_b88e_1df5b51c196e.shp": [
+    "25_102_1a23c5b2_7ba1_444f_86ba_63d63dd8f376_f24fd1f1_efa2_4aae_b88e_1df5b51c196e_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E048.tif",
@@ -9430,7 +9392,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58E057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58E058.tif"
     ],
-    "25_102_20dff3ba_8220_4d9c_aed0_74ee8daad4bd.shp": [],
+    "25_102_20dff3ba_8220_4d9c_aed0_74ee8daad4bd_0.shp": [],
     "25_102_271bfc87_8e96_4152_8116_091d1d3b07b0.shp": [],
     "25_102_27fed9e4_cdab_4f90_99b2_cfda162ec18c.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E012.tif",
@@ -9505,7 +9467,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E012.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E013.tif"
     ],
-    "25_102_3cd40270_0713_4a5f_ae04_06ee5c2a7f98.shp": [],
+    "25_102_3cd40270_0713_4a5f_ae04_06ee5c2a7f98_0.shp": [],
     "25_102_3ef908da_db97_489e_8dba_e770ab2d2494.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E003.tif",
@@ -9532,13 +9494,10 @@
     "25_102_4ec0184c_01a7_4b6c_b2b7_72f20b8bb02d.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E047.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E047.tif"
     ],
-    "25_102_4f232b2e_f33b_4100_b9bb_81561d888343.shp": [
+    "25_102_4f232b2e_f33b_4100_b9bb_81561d888343_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E036.tif",
@@ -9625,7 +9584,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E046.tif"
     ],
-    "25_102_512c184c_8c8f_4913_8649_8960531e1747.shp": [
+    "25_102_512c184c_8c8f_4913_8649_8960531e1747_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E013.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E014.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E015.tif",
@@ -9684,7 +9643,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59E100.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59E101.tif"
     ],
-    "25_102_53c5c657_0e1a_4257_bf63_da1f9646c214_5a14d932_96c1_49d4_bef4_7cb41da04f02.shp": [
+    "25_102_53c5c657_0e1a_4257_bf63_da1f9646c214_5a14d932_96c1_49d4_bef4_7cb41da04f02_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E092.tif",
@@ -9786,7 +9745,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59E111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59E112.tif"
     ],
-    "25_102_5429693e_ede8_42e5_9f6b_82257bf79512.shp": [
+    "25_102_5429693e_ede8_42e5_9f6b_82257bf79512_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E092.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E093.tif",
@@ -9816,7 +9775,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E096.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E097.tif"
     ],
-    "25_102_5bafe380_cfc1_4050_b0b4_91058096dd5c.shp": [],
+    "25_102_5bafe380_cfc1_4050_b0b4_91058096dd5c_0.shp": [],
     "25_102_5c70f84a_7cc0_49af_a018_c2bcdc9dfcdc_599e2d88_d9af_4cf9_b839_a4a6ce6cb16e.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E080.tif",
@@ -9901,7 +9860,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E089.tif"
     ],
-    "25_102_5c70f84a_7cc0_49af_a018_c2bcdc9dfcdc_ac98a620_197b_4905_8ad8_5a3280263395.shp": [
+    "25_102_5c70f84a_7cc0_49af_a018_c2bcdc9dfcdc_ac98a620_197b_4905_8ad8_5a3280263395_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E068.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E070.tif",
@@ -10002,7 +9961,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59E155.tif"
     ],
     "25_102_691b0e2f_60c7_472f_97e4_4af9267bd255.shp": [],
-    "25_102_6a3eac2e_0bbc_4a02_a373_ec56ada50545.shp": [],
+    "25_102_6a3eac2e_0bbc_4a02_a373_ec56ada50545_0.shp": [],
     "25_102_6bf0a7d9_2c28_46cf_a1f3_39117d5b8521.shp": [],
     "25_102_6dc51d89_053a_4aec_9663_728219ea43f2.shp": [],
     "25_102_7382c7f4_921a_4eb0_b33f_84801e0668e6.shp": [
@@ -10215,7 +10174,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E087.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E088.tif"
     ],
-    "25_102_76d026da_97b9_4645_9a59_8fa4d0e372a2.shp": [
+    "25_102_76d026da_97b9_4645_9a59_8fa4d0e372a2_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E026.tif",
@@ -10250,7 +10209,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E034.tif"
     ],
     "25_102_78196642_d25e_42cc_90a5_25c5ac50dc00.shp": [],
-    "25_102_7d2a746b_8f68_4cde_ab83_1aee784b22ca.shp": [],
+    "25_102_7d2a746b_8f68_4cde_ab83_1aee784b22ca_0.shp": [],
     "25_102_85e4ae5f_2e4e_41ea_ae52_e1cd5c380273.shp": [],
     "25_102_8919f3d4_a8bf_4a1e_aca9_306c994cf514.shp": [],
     "25_102_8bd66ea2_6c0a_4a68_8ddb_bf56b42b2f48.shp": [
@@ -10359,9 +10318,9 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E137.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E138.tif"
     ],
-    "25_102_8fa7f48f_ce06_4305_b826_21fa20091471.shp": [],
+    "25_102_8fa7f48f_ce06_4305_b826_21fa20091471_0.shp": [],
     "25_102_8fd084cd_13be_4a75_b47f_017dab854ec0.shp": [],
-    "25_102_949751f5_ed6d_4308_9cc1_3f1636783040.shp": [],
+    "25_102_949751f5_ed6d_4308_9cc1_3f1636783040_0.shp": [],
     "25_102_9b851f17_ce00_4cff_991a_b7cefa34c72d.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E135.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E136.tif",
@@ -10424,7 +10383,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E162.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E163.tif"
     ],
-    "25_102_9eec1bf9_f725_4417_a4e6_9c3bb9970660_07d1d7e0_d8a5_439f_b3a9_da71b314d713.shp": [
+    "25_102_9eec1bf9_f725_4417_a4e6_9c3bb9970660_07d1d7e0_d8a5_439f_b3a9_da71b314d713_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E048.tif",
@@ -10613,7 +10572,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E047.tif"
     ],
-    "25_102_a8e17245_17bf_4dca_b6ba_73be4baa04c6.shp": [
+    "25_102_a8e17245_17bf_4dca_b6ba_73be4baa04c6_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E008.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E009.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E010.tif",
@@ -10817,7 +10776,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E036.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E037.tif"
     ],
-    "25_102_aa5fd30e_9601_4eeb_abc2_70339496f513_cf1014e6_b8fe_47bb_b213_a86998cab845.shp": [
+    "25_102_aa5fd30e_9601_4eeb_abc2_70339496f513_cf1014e6_b8fe_47bb_b213_a86998cab845_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E038.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E039.tif",
@@ -10849,7 +10808,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E046.tif"
     ],
-    "25_102_ac4f18af_d68b_469e_94ab_ed89fe1b5249.shp": [
+    "25_102_ac4f18af_d68b_469e_94ab_ed89fe1b5249_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E092.tif",
@@ -11021,30 +10980,25 @@
     ],
     "25_102_b69a3bd9_e4cd_49e9_a596_6f1e584a0054.shp": [],
     "25_102_c76ecbbe_a106_4425_b9b0_2a12e8bee1b0.shp": [],
-    "25_102_c8134de7_b38d_4d09_8241_eb8d58f0f6f7.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E004.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E005.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E006.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E007.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E008.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E009.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E010.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E004.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E005.tif",
+    "25_102_c8134de7_b38d_4d09_8241_eb8d58f0f6f7_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E007.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E008.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E009.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E010.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E004.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E005.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E007.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E008.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E009.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E010.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E009.tif"
     ],
-    "25_102_ca396db1_3673_4fe7_90fa_a010c1f9e4b6.shp": [],
+    "25_102_c8134de7_b38d_4d09_8241_eb8d58f0f6f7_5.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E004.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E005.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E006.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E004.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E005.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E006.tif"
+    ],
+    "25_102_ca396db1_3673_4fe7_90fa_a010c1f9e4b6_0.shp": [],
     "25_102_caee3715_634c_436f_8ef5_3b61c39960c0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E020.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E021.tif",
@@ -11109,7 +11063,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E012.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E013.tif"
     ],
-    "25_102_d018e04f_a790_4963_9cfc_3062fe4c8e18_4bfa715a_bb2b_433b_a939_31240a3324c8.shp": [
+    "25_102_d018e04f_a790_4963_9cfc_3062fe4c8e18_4bfa715a_bb2b_433b_a939_31240a3324c8_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E018.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E019.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E020.tif",
@@ -11239,9 +11193,9 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E003.tif"
     ],
-    "25_102_daef366b_44c7_4958_8761_adddcfaf714c.shp": [],
+    "25_102_daef366b_44c7_4958_8761_adddcfaf714c_0.shp": [],
     "25_102_e0693f54_0b7d_40c1_a02f_b42787c06c42.shp": [],
-    "25_102_e2ae18fa_0345_4e21_b7c3_12d18eee49cf.shp": [
+    "25_102_e2ae18fa_0345_4e21_b7c3_12d18eee49cf_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E026.tif",
@@ -11260,7 +11214,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E029.tif"
     ],
-    "25_102_e5726d05_b15d_4367_b9b8_2f1747d12cfc.shp": [
+    "25_102_e5726d05_b15d_4367_b9b8_2f1747d12cfc_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E160.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E161.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E162.tif",
@@ -11285,7 +11239,7 @@
     ],
     "25_102_e58cd0af_0f06_4a34_b051_5ea8aea6ab9e.shp": [],
     "25_102_e663b31f_5eaf_48e9_b3d8_c963fe12ffbb.shp": [],
-    "25_102_ebf2b3ff_5133_41ab_8e43_74d6cc115a15.shp": [
+    "25_102_ebf2b3ff_5133_41ab_8e43_74d6cc115a15_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E080.tif",
@@ -11379,9 +11333,9 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E023.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E024.tif"
     ],
-    "25_102_f80eac01_7edc_497a_8905_3fe573f95496.shp": [],
+    "25_102_f80eac01_7edc_497a_8905_3fe573f95496_0.shp": [],
     "25_102_f855f5c2_b42f_470d_9dbe_be5fe5203a70.shp": [],
-    "25_102_fa9b1340_ca88_44b5_a4c4_3f363a7c06c3.shp": [
+    "25_102_fa9b1340_ca88_44b5_a4c4_3f363a7c06c3_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E008.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E009.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E010.tif",
@@ -11458,7 +11412,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W117.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W118.tif"
     ],
-    "25_109.shp": [
+    "25_109_2.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W114.tif",
@@ -11466,6 +11420,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41W113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41W114.tif"
     ],
+    "25_10_0.shp": [],
     "25_11.shp": [],
     "25_110.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E032.tif",
@@ -11569,7 +11524,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W002.tif"
     ],
-    "25_124.shp": [
+    "25_124_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E075.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E077.tif",
@@ -11732,7 +11687,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W123.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W124.tif"
     ],
-    "25_138.shp": [
+    "25_138_3.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E103.tif",
@@ -11803,7 +11758,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E011.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56E012.tif"
     ],
-    "25_21.shp": [
+    "25_21_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W154.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W155.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N57W153.tif",
@@ -11814,13 +11769,13 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W154.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W155.tif"
     ],
-    "25_22.shp": [
+    "25_22_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W080.tif"
     ],
-    "25_23.shp": [
+    "25_23_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E008.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E009.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E010.tif",
@@ -11973,7 +11928,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E142.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E143.tif"
     ],
-    "25_44_09964bd1_d3f8_4cea_bede_3a5ad3e44993.shp": [
+    "25_44_09964bd1_d3f8_4cea_bede_3a5ad3e44993_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W079.tif",
@@ -12015,7 +11970,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W084.tif"
     ],
-    "25_44_0b983b45_cace_4f68_872a_9a4a54818748.shp": [
+    "25_44_0b983b45_cace_4f68_872a_9a4a54818748_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W114.tif",
@@ -12069,7 +12024,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W123.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W124.tif"
     ],
-    "25_44_0f4014d8_35bd_42e1_9034_f858da74f1a4.shp": [
+    "25_44_0f4014d8_35bd_42e1_9034_f858da74f1a4_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W126.tif",
@@ -12135,7 +12090,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52W125.tif"
     ],
-    "25_44_1cc6aa52_d202_4574_a38a_ce1b17281769.shp": [
+    "25_44_1cc6aa52_d202_4574_a38a_ce1b17281769_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W107.tif",
@@ -12188,7 +12143,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W139.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W140.tif"
     ],
-    "25_44_1f3dbd08_d2ff_4928_8c3a_f6163f955b8b.shp": [
+    "25_44_1f3dbd08_d2ff_4928_8c3a_f6163f955b8b_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W097.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W099.tif",
@@ -12244,8 +12199,8 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W077.tif"
     ],
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_45e9f90c_58a1_493b_9273_8e6aa77e5176.shp": [],
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_6296ad33_4aa4_487b_99f3_737a3843e2b4.shp": [
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_45e9f90c_58a1_493b_9273_8e6aa77e5176_0.shp": [],
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_6296ad33_4aa4_487b_99f3_737a3843e2b4_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W107.tif",
@@ -12255,7 +12210,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W112.tif"
     ],
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_9ea6a69d_685b_4565_9c90_706355628805.shp": [
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_9ea6a69d_685b_4565_9c90_706355628805_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W097.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W099.tif",
@@ -12266,7 +12221,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W104.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W105.tif"
     ],
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_ee6a34cd_90f5_4276_8531_a22c9a59d61e.shp": [],
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_ee6a34cd_90f5_4276_8531_a22c9a59d61e_0.shp": [],
     "25_44_2b665964_1bea_47e8_9033_0df8457c1ff7.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W096.tif",
@@ -12309,7 +12264,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W102.tif"
     ],
-    "25_44_2c933eb6_cdaf_4ac4_a17d_e348137e755c.shp": [
+    "25_44_2c933eb6_cdaf_4ac4_a17d_e348137e755c_2.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W070.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W072.tif",
@@ -12387,7 +12342,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W084.tif"
     ],
     "25_44_2f438421_378f_4160_9f47_70605f084005.shp": [],
-    "25_44_334819e0_3e28_4309_8ce7_ca1664ef74f6.shp": [
+    "25_44_334819e0_3e28_4309_8ce7_ca1664ef74f6_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W085.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W086.tif",
@@ -12463,7 +12418,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W097.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W098.tif"
     ],
-    "25_44_371afa8a_bfac_40c7_92b0_ce168f4f475c.shp": [
+    "25_44_371afa8a_bfac_40c7_92b0_ce168f4f475c_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W085.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W086.tif",
@@ -12571,7 +12526,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W084.tif"
     ],
-    "25_44_430ee568_7276_48e4_88d2_6a16fdecca27.shp": [
+    "25_44_430ee568_7276_48e4_88d2_6a16fdecca27_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W056.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W058.tif",
@@ -12633,7 +12588,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W110.tif"
     ],
-    "25_44_45dab36e_67d9_4ba0_a243_a73ed6b6ed11.shp": [
+    "25_44_45dab36e_67d9_4ba0_a243_a73ed6b6ed11_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W100.tif",
@@ -12695,7 +12650,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W112.tif"
     ],
-    "25_44_48dd9186_1009_4758_9c2b_37224dd1b7aa.shp": [
+    "25_44_48dd9186_1009_4758_9c2b_37224dd1b7aa_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W107.tif",
@@ -12778,7 +12733,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W127.tif"
     ],
     "25_44_52d23335_b73a_4123_9cac_129c7a60ba8e.shp": [],
-    "25_44_55ad6cdc_6fdf_4056_a2d7_30f5511da5f9.shp": [
+    "25_44_55ad6cdc_6fdf_4056_a2d7_30f5511da5f9_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W068.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W070.tif",
@@ -12829,7 +12784,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W077.tif"
     ],
-    "25_44_56fd4a4e_7b56_4f8c_8a95_a14c2f80707c.shp": [
+    "25_44_56fd4a4e_7b56_4f8c_8a95_a14c2f80707c_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W097.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W099.tif",
@@ -12876,7 +12831,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W104.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W105.tif"
     ],
-    "25_44_65b5f701_3c47_4d9c_8e2b_9ab77f60ed98.shp": [
+    "25_44_65b5f701_3c47_4d9c_8e2b_9ab77f60ed98_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W140.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W141.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W142.tif",
@@ -12884,7 +12839,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W145.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W147.tif"
     ],
-    "25_44_6a5e1c0a_df78_413e_97dd_e6e99f2379e2.shp": [
+    "25_44_6a5e1c0a_df78_413e_97dd_e6e99f2379e2_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W114.tif",
@@ -12971,7 +12926,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W089.tif"
     ],
-    "25_44_723ab065_e143_400f_b278_928302e84341.shp": [
+    "25_44_723ab065_e143_400f_b278_928302e84341_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W091.tif",
@@ -13053,7 +13008,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W089.tif"
     ],
-    "25_44_78b69e3f_e8d2_4384_8daa_3a59fea7f71d.shp": [
+    "25_44_78b69e3f_e8d2_4384_8daa_3a59fea7f71d_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W119.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W121.tif",
@@ -13083,7 +13038,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W125.tif"
     ],
-    "25_44_7adc03e5_77e4_486b_81d6_0ada2df5a305.shp": [
+    "25_44_7adc03e5_77e4_486b_81d6_0ada2df5a305_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W075.tif",
@@ -13123,8 +13078,8 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W077.tif"
     ],
-    "25_44_806c7510_4d8f_463f_a303_ccc3e11f0345.shp": [],
-    "25_44_819409ac_564c_4f60_bd01_b25757d7e950.shp": [
+    "25_44_806c7510_4d8f_463f_a303_ccc3e11f0345_0.shp": [],
+    "25_44_819409ac_564c_4f60_bd01_b25757d7e950_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W056.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W058.tif",
@@ -13187,7 +13142,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W067.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W068.tif"
     ],
-    "25_44_8884fb37_1fbf_4636_b047_83df33f7aeef.shp": [
+    "25_44_8884fb37_1fbf_4636_b047_83df33f7aeef_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W060.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W063.tif",
@@ -13248,9 +13203,9 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W110.tif"
     ],
     "25_44_8a7ed311_0ff0_4c9e_979a_d71e6960bc30.shp": [],
-    "25_44_8dba930d_6e98_4af6_9719_2cd7e762d53c.shp": [],
-    "25_44_990b759d_e7ac_4079_a07d_bba72031c3c9.shp": [],
-    "25_44_9ea01687_adf8_49c1_be38_3e4b259a5f89.shp": [
+    "25_44_8dba930d_6e98_4af6_9719_2cd7e762d53c_0.shp": [],
+    "25_44_990b759d_e7ac_4079_a07d_bba72031c3c9_0.shp": [],
+    "25_44_9ea01687_adf8_49c1_be38_3e4b259a5f89_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W107.tif",
@@ -13334,7 +13289,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W096.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W097.tif"
     ],
-    "25_44_a05f2791_118b_454d_a4b6_dcf9a1aab53a.shp": [
+    "25_44_a05f2791_118b_454d_a4b6_dcf9a1aab53a_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39W111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W111.tif",
@@ -13444,7 +13399,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W118.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W119.tif"
     ],
-    "25_44_a806cb80_3e4d_43a7_9a50_46a04f514eb0.shp": [
+    "25_44_a806cb80_3e4d_43a7_9a50_46a04f514eb0_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N56W126.tif",
@@ -13498,7 +13453,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W135.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W136.tif"
     ],
-    "25_44_ab429454_5145_4256_b64f_65e9e30c8a09.shp": [],
+    "25_44_ab429454_5145_4256_b64f_65e9e30c8a09_0.shp": [],
     "25_44_ac2537fb_47e9_44e7_a35f_0c7200f14575.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W065.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W066.tif",
@@ -13507,7 +13462,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W066.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W067.tif"
     ],
-    "25_44_ad440df4_4231_4bbf_b75e_94bfbc99a123.shp": [
+    "25_44_ad440df4_4231_4bbf_b75e_94bfbc99a123_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W085.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W086.tif",
@@ -13615,8 +13570,8 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W109.tif"
     ],
     "25_44_b8a439e3_6304_415b_b8ee_651531b9540e.shp": [],
-    "25_44_bdf1d879_5ff1_4afc_9ab2_b9cae105a411.shp": [],
-    "25_44_c37f285f_ff46_454b_b708_79c39d4451a4.shp": [
+    "25_44_bdf1d879_5ff1_4afc_9ab2_b9cae105a411_0.shp": [],
+    "25_44_c37f285f_ff46_454b_b708_79c39d4451a4_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W063.tif",
@@ -13647,7 +13602,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W067.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W068.tif"
     ],
-    "25_44_c412194a_bc8b_4f0c_8388_cd92f1ffdc54.shp": [
+    "25_44_c412194a_bc8b_4f0c_8388_cd92f1ffdc54_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W110.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W111.tif",
@@ -13681,7 +13636,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W112.tif"
     ],
-    "25_44_c8600a13_c340_4202_98a5_f7cdb6369fdb.shp": [
+    "25_44_c8600a13_c340_4202_98a5_f7cdb6369fdb_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W085.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W086.tif",
@@ -13743,7 +13698,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W094.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W095.tif"
     ],
-    "25_44_c90ad0c5_baa1_4d42_9585_d71ff7a5cc1b.shp": [
+    "25_44_c90ad0c5_baa1_4d42_9585_d71ff7a5cc1b_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W114.tif",
@@ -13799,7 +13754,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W070.tif"
     ],
-    "25_44_ceb6ac75_475a_455b_b89f_9e2e83c0a835.shp": [
+    "25_44_ceb6ac75_475a_455b_b89f_9e2e83c0a835_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W100.tif",
@@ -13859,7 +13814,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W113.tif"
     ],
-    "25_44_d795e099_c551_422a_a12d_37e86b3837a4.shp": [
+    "25_44_d795e099_c551_422a_a12d_37e86b3837a4_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W068.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W070.tif",
@@ -13926,12 +13881,12 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W080.tif"
     ],
-    "25_44_ddb70efb_8271_45bc_9306_e5e050e895fb.shp": [
+    "25_44_ddb70efb_8271_45bc_9306_e5e050e895fb_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W096.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W097.tif"
     ],
-    "25_44_e16bfd9a_12fa_4deb_a4c5_6d19e0b27b20.shp": [
+    "25_44_e16bfd9a_12fa_4deb_a4c5_6d19e0b27b20_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W160.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W161.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54W162.tif",
@@ -13989,7 +13944,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W164.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N59W165.tif"
     ],
-    "25_44_e63b137c_4245_4c71_b48a_49da1016553a.shp": [],
+    "25_44_e63b137c_4245_4c71_b48a_49da1016553a_0.shp": [],
     "25_44_fe38a323_baab_4c91_a5ba_0af1a0164b30.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W096.tif",
@@ -14074,7 +14029,7 @@
     ],
     "25_51.shp": [],
     "25_52.shp": [],
-    "25_53.shp": [],
+    "25_53_0.shp": [],
     "25_54.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W130.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W131.tif"
@@ -14136,7 +14091,8 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W072.tif"
     ],
     "25_68.shp": [],
-    "25_69.shp": [],
+    "25_69_0.shp": [],
+    "25_69_3.shp": [],
     "25_7.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N54E166.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55E165.tif",
@@ -14162,8 +14118,10 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W107.tif"
     ],
-    "25_75.shp": [],
-    "25_76.shp": [],
+    "25_75_0.shp": [],
+    "25_75_1.shp": [],
+    "25_75_2.shp": [],
+    "25_76_1.shp": [],
     "25_77.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W131.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N55W132.tif"
@@ -14205,13 +14163,12 @@
     "25_87.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44W064.tif"
     ],
-    "25_88.shp": [
+    "25_88_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W095.tif"
     ],
     "25_89.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N58W070.tif"
     ],
-    "25_9.shp": [],
     "25_90.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W130.tif"
     ],
@@ -14239,13 +14196,18 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53W130.tif"
     ],
-    "25_98.shp": [
+    "25_98_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W107.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W108.tif"
+    ],
+    "25_98_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W108.tif"
     ],
     "25_99.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W075.tif"
     ],
+    "25_9_0.shp": [],
     "2_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W058.tif",
@@ -14282,7 +14244,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09E117.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09E118.tif"
     ],
-    "2_102.shp": [
+    "2_102_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07W072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07W073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07W074.tif",
@@ -14339,7 +14301,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E106.tif"
     ],
-    "2_104.shp": [
+    "2_104_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E077.tif",
@@ -14401,7 +14363,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E122.tif"
     ],
-    "2_12.shp": [
+    "2_12_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E033.tif",
@@ -14416,12 +14378,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E035.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E031.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E032.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E033.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E035.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E035.tif"
     ],
     "2_13.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E032.tif"
@@ -14770,7 +14727,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N22E090.tif"
     ],
-    "2_56.shp": [
+    "2_56_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16W094.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16W095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16W096.tif",
@@ -14790,7 +14747,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19W097.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19W098.tif"
     ],
-    "2_57.shp": [
+    "2_57_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17E094.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17E095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18E093.tif",
@@ -14855,8 +14812,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E139.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E140.tif"
     ],
-    "2_60.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W087.tif",
+    "2_60_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12W087.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12W088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13W087.tif",
@@ -14880,10 +14836,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N15W088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N15W089.tif"
     ],
-    "2_64.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E120.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E121.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E122.tif",
+    "2_64_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E122.tif",
@@ -15032,10 +14985,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11E122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11E123.tif"
     ],
-    "2_77.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10W084.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10W085.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10W086.tif",
+    "2_77_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W085.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W086.tif",
@@ -15179,7 +15129,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11W070.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11W071.tif"
     ],
-    "2_78_3d44e11a_d7af_43d4_9dc4_cb3d9debf0be.shp": [
+    "2_78_3d44e11a_d7af_43d4_9dc4_cb3d9debf0be_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W052.tif",
@@ -15233,7 +15183,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W055.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W056.tif"
     ],
-    "2_78_4f1ba6da_4885_409a_a61c_a76a8e2da1bf.shp": [
+    "2_78_4f1ba6da_4885_409a_a61c_a76a8e2da1bf_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W053.tif",
@@ -15433,46 +15383,31 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W066.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W067.tif"
     ],
-    "2_78_9befff3a_dc0b_4720_9958_987b0514e30c.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W049.tif",
+    "2_78_9befff3a_dc0b_4720_9958_987b0514e30c_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W055.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W055.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06W055.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07W055.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W052.tif",
@@ -15525,37 +15460,22 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W070.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W071.tif"
     ],
-    "2_78_ea9a69f6_9e4e_48b1_a53a_03e804fbb4da.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W056.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W057.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W058.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W059.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W060.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W061.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W062.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W056.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W057.tif",
+    "2_78_ea9a69f6_9e4e_48b1_a53a_03e804fbb4da_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W058.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W059.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W060.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W062.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W056.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W058.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W059.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W060.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W062.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W056.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W058.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W059.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W060.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W062.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W056.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W058.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W059.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W060.tif",
@@ -15571,7 +15491,21 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W062.tif"
     ],
-    "2_78_f86b3ef3_7005_4b08_8ba0_0bc6fd42edba.shp": [
+    "2_78_ea9a69f6_9e4e_48b1_a53a_03e804fbb4da_1.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W056.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W057.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02W058.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W056.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W057.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03W058.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W056.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W057.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W058.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W056.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W057.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W058.tif"
+    ],
+    "2_78_f86b3ef3_7005_4b08_8ba0_0bc6fd42edba_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W056.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W057.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00W058.tif",
@@ -15664,7 +15598,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W062.tif"
     ],
-    "2_78_fe8879ad_4c13_4ecf_8485_b39902a9fe56.shp": [
+    "2_78_fe8879ad_4c13_4ecf_8485_b39902a9fe56_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W049.tif",
@@ -15681,7 +15615,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S04W049.tif"
     ],
-    "2_79.shp": [
+    "2_79_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W007.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W008.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W009.tif",
@@ -15754,7 +15688,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08W013.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08W014.tif"
     ],
-    "2_82.shp": [
+    "2_82_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E094.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E095.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E096.tif",
@@ -15833,17 +15767,15 @@
     "2_85.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16E097.tif"
     ],
-    "2_86.shp": [
+    "2_86_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W003.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W003.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W004.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W005.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W003.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W004.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W005.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W004.tif"
     ],
     "2_87_0945e903_81cc_4f48_bbdb_090fb9eb9469.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E014.tif",
@@ -15929,7 +15861,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03E029.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03E030.tif"
     ],
-    "2_87_5ffc9cb7_6586_4532_adf1_e57c4fdac789.shp": [
+    "2_87_5ffc9cb7_6586_4532_adf1_e57c4fdac789_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E017.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E018.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E019.tif",
@@ -16116,7 +16048,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W084.tif"
     ],
-    "2_95.shp": [
+    "2_95_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08W080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08W081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W080.tif",
@@ -16137,7 +16069,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E122.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E122.tif"
     ],
-    "2_98.shp": [
+    "2_98_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E081.tif"
@@ -16516,14 +16448,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E138.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E139.tif"
     ],
-    "3_3.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W043.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W044.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S24W043.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S24W044.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S24W045.tif"
-    ],
     "3_30.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E125.tif",
@@ -16576,6 +16500,14 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E008.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E009.tif"
     ],
+    "3_3_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W043.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W044.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S23W045.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S24W043.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S24W044.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S24W045.tif"
+    ],
     "3_4.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S22E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S22E033.tif",
@@ -16604,7 +16536,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18E120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18E121.tif"
     ],
-    "3_41.shp": [
+    "3_41_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W085.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W086.tif",
@@ -16670,7 +16602,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W083.tif"
     ],
-    "3_48_0a07d550_fe90_4a61_9d41_d738199086f6.shp": [
+    "3_48_0a07d550_fe90_4a61_9d41_d738199086f6_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W090.tif",
@@ -16703,7 +16635,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W091.tif"
     ],
-    "3_48_1da2f997_73fb_4105_9203_9bf1a33ef4fe.shp": [
+    "3_48_1da2f997_73fb_4105_9203_9bf1a33ef4fe_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13W091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13W092.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14W091.tif",
@@ -16747,7 +16679,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W102.tif"
     ],
-    "3_48_86308410_b283_460b_9b72_71af7f5fa896.shp": [
+    "3_48_86308410_b283_460b_9b72_71af7f5fa896_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W100.tif",
@@ -16790,7 +16722,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W106.tif"
     ],
-    "3_49.shp": [
+    "3_49_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19W075.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19W076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19W077.tif",
@@ -16848,7 +16780,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W070.tif"
     ],
-    "3_52.shp": [
+    "3_52_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W096.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W097.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N19W096.tif",
@@ -16887,7 +16819,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23W078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N24W078.tif"
     ],
-    "3_58.shp": [
+    "3_58_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N24W078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N24W079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W078.tif",
@@ -16929,7 +16861,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W084.tif"
     ],
-    "3_62.shp": [
+    "3_62_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W100.tif",
@@ -16940,7 +16872,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23W100.tif"
     ],
-    "3_63.shp": [
+    "3_63_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W107.tif",
@@ -16967,7 +16899,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W108.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W109.tif"
     ],
-    "3_64_035c52a4_0321_4572_8ebf_baae7a726de3.shp": [
+    "3_64_035c52a4_0321_4572_8ebf_baae7a726de3_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E080.tif",
@@ -17002,7 +16934,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E080.tif"
     ],
-    "3_64_20975854_619a_4ed7_8a0f_705c9ad87cda.shp": [
+    "3_64_20975854_619a_4ed7_8a0f_705c9ad87cda_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10E075.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10E077.tif",
@@ -17016,7 +16948,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E078.tif"
     ],
-    "3_64_27f276a3_3b0d_4b98_a558_eed496017387.shp": [
+    "3_64_27f276a3_3b0d_4b98_a558_eed496017387_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17E083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18E082.tif",
@@ -17040,7 +16972,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E086.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E087.tif"
     ],
-    "3_64_30364865_9d9a_43b5_b097_44f8a761d968.shp": [
+    "3_64_30364865_9d9a_43b5_b097_44f8a761d968_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E075.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E076.tif",
@@ -17075,7 +17007,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25E086.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25E087.tif"
     ],
-    "3_64_48fbb8e3_01ce_4cea_acb8_bb8a2e5a7118.shp": [
+    "3_64_48fbb8e3_01ce_4cea_acb8_bb8a2e5a7118_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16E074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17E073.tif",
@@ -17115,7 +17047,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20E081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20E082.tif"
     ],
-    "3_64_7aace021_f86e_4f97_88ab_e6a633c347fb.shp": [
+    "3_64_7aace021_f86e_4f97_88ab_e6a633c347fb_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E085.tif",
@@ -17132,7 +17064,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23E086.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23E087.tif"
     ],
-    "3_64_9342b68e_8dd7_493f_a118_43dce99557a5.shp": [
+    "3_64_9342b68e_8dd7_493f_a118_43dce99557a5_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E087.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21E089.tif",
@@ -17189,7 +17121,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20E077.tif"
     ],
-    "3_64_caca16da_2676_4815_b339_45bc1b206b85.shp": [
+    "3_64_caca16da_2676_4815_b339_45bc1b206b85_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N20E074.tif",
@@ -17403,7 +17335,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10W063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10W064.tif"
     ],
-    "3_76_ba44df5e_01f1_4ba4_b5a2_7a19444d4869.shp": [
+    "3_76_ba44df5e_01f1_4ba4_b5a2_7a19444d4869_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W065.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W066.tif",
@@ -17467,7 +17399,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W072.tif"
     ],
-    "3_77.shp": [
+    "3_77_2.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06E079.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06E080.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06E081.tif",
@@ -17711,7 +17643,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17E104.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17E105.tif"
     ],
-    "3_85_a9d7121e_4c1e_42b0_bae3_d7ededa0849c.shp": [
+    "3_85_a9d7121e_4c1e_42b0_bae3_d7ededa0849c_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E107.tif",
@@ -17836,47 +17768,49 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E007.tif"
     ],
-    "3_87_0f06099d_36e4_4927_8208_a5230aff3ffc.shp": [
+    "3_87_0f06099d_36e4_4927_8208_a5230aff3ffc_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E029.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E030.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E031.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E032.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E029.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E030.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E031.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E032.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E029.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E030.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E031.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E032.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E028.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E029.tif"
+    ],
+    "3_87_0f06099d_36e4_4927_8208_a5230aff3ffc_1.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E029.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E030.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E031.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E032.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E033.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E029.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E030.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E031.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E032.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S06E033.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E029.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E030.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E031.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E032.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S07E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E029.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E030.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E033.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E025.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E026.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E027.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E029.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E030.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S09E031.tif",
@@ -17947,7 +17881,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E038.tif"
     ],
-    "3_87_21ed973f_c702_4b7e_85a1_54e08cd8ceb8.shp": [
+    "3_87_21ed973f_c702_4b7e_85a1_54e08cd8ceb8_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W003.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W007.tif",
@@ -18021,11 +17955,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W009.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W010.tif"
     ],
-    "3_87_342b8989_dfeb_4d77_be5f_5646855dbadf.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E032.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E033.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01E034.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E032.tif",
+    "3_87_342b8989_dfeb_4d77_be5f_5646855dbadf_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E034.tif"
     ],
@@ -18063,7 +17993,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E010.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E011.tif"
     ],
-    "3_87_4d393272_5ca2_4c4e_8de7_5f9941358168.shp": [
+    "3_87_4d393272_5ca2_4c4e_8de7_5f9941358168_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E034.tif",
@@ -18131,7 +18061,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E025.tif"
     ],
-    "3_87_5645abe0_c591_4ace_8c59_39a2f2e42f5d.shp": [
+    "3_87_5645abe0_c591_4ace_8c59_39a2f2e42f5d_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E000.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E004.tif",
@@ -18195,7 +18125,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E017.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08E018.tif"
     ],
-    "3_87_5d05cacd_6bfd_4953_94a1_559dba5aea71.shp": [
+    "3_87_5d05cacd_6bfd_4953_94a1_559dba5aea71_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E034.tif",
@@ -18213,7 +18143,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E035.tif"
     ],
-    "3_87_5e4866d5_104d_4fc6_b4c3_eb4f24e55fda.shp": [
+    "3_87_5e4866d5_104d_4fc6_b4c3_eb4f24e55fda_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W010.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W011.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W012.tif",
@@ -18406,7 +18336,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E017.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04E018.tif"
     ],
-    "3_87_74f4f5f8_a00f_45fb_b064_4ce7eeac7de6.shp": [
+    "3_87_74f4f5f8_a00f_45fb_b064_4ce7eeac7de6_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E027.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E028.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E029.tif",
@@ -18476,7 +18406,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E021.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S11E022.tif"
     ],
-    "3_87_7f1c1ca3_6ce4_455f_9d83_1ef6ee084439.shp": [
+    "3_87_7f1c1ca3_6ce4_455f_9d83_1ef6ee084439_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N00E034.tif",
@@ -18510,7 +18440,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E038.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E039.tif"
     ],
-    "3_87_97358e35_dc17_4f5a_bb10_a8d71d833eaf.shp": [
+    "3_87_97358e35_dc17_4f5a_bb10_a8d71d833eaf_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E004.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E005.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E006.tif",
@@ -18536,7 +18466,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10E010.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10E011.tif"
     ],
-    "3_87_a6850476_b6be_4be8_aba3_54f2fb721b9d.shp": [
+    "3_87_a6850476_b6be_4be8_aba3_54f2fb721b9d_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E000.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N08E002.tif",
@@ -18631,7 +18561,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E032.tif"
     ],
-    "3_87_b89ba06e_6eab_440a_a9d3_33b67ec010c1.shp": [
+    "3_87_b89ba06e_6eab_440a_a9d3_33b67ec010c1_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03E009.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03E010.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03E011.tif",
@@ -18642,7 +18572,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E010.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E011.tif"
     ],
-    "3_87_c26dbe9a_56b3_49c3_9b53_8044d4a4d779.shp": [
+    "3_87_c26dbe9a_56b3_49c3_9b53_8044d4a4d779_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S02E027.tif",
@@ -18676,7 +18606,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E031.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E032.tif"
     ],
-    "3_87_ce566307_9640_439c_936d_223ff887830d.shp": [
+    "3_87_ce566307_9640_439c_936d_223ff887830d_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E027.tif",
@@ -18737,11 +18667,10 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W015.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W016.tif"
     ],
-    "3_87_d58a8165_04e0_4136_a513_5a3998122465.shp": [
+    "3_87_d58a8165_04e0_4136_a513_5a3998122465_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N04W003.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E000.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W003.tif"
@@ -18862,7 +18791,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13W003.tif"
     ],
-    "3_87_fc1cd7e8_bf7d_448c_a923_b64eedafdc5e.shp": [
+    "3_87_fc1cd7e8_bf7d_448c_a923_b64eedafdc5e_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S03E018.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S03E019.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S03E020.tif",
@@ -18888,7 +18817,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05E025.tif"
     ],
-    "3_87_fc411a83_9f8a_486c_84a4_85f4c9268240.shp": [
+    "3_87_fc411a83_9f8a_486c_84a4_85f4c9268240_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E036.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N01E038.tif",
@@ -19017,7 +18946,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11E025.tif"
     ],
-    "3_88.shp": [
+    "3_88_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W079.tif",
@@ -19266,7 +19195,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14W058.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14W059.tif"
     ],
-    "3_91_1a690767_45a5_444e_a425_9d02fd53751e.shp": [
+    "3_91_1a690767_45a5_444e_a425_9d02fd53751e_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S17W046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S17W047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S17W048.tif",
@@ -19536,7 +19465,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14W067.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S14W068.tif"
     ],
-    "3_91_75612dfc_ca1f_447f_b886_44dd7af19020.shp": [
+    "3_91_75612dfc_ca1f_447f_b886_44dd7af19020_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W036.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S08W037.tif",
@@ -19700,7 +19629,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10W062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10W063.tif"
     ],
-    "3_91_c5c17dd1_5c23_4361_a3c3_77b331aa7027.shp": [
+    "3_91_c5c17dd1_5c23_4361_a3c3_77b331aa7027_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S17W040.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S17W041.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S17W042.tif",
@@ -19736,7 +19665,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21W045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S21W046.tif"
     ],
-    "3_91_d90ea277_9a29_4e14_95e6_f16f50431950.shp": [
+    "3_91_d90ea277_9a29_4e14_95e6_f16f50431950_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S03W040.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S03W041.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S03W042.tif",
@@ -20309,7 +20238,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07W072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07W073.tif"
     ],
-    "4_16.shp": [
+    "4_16_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02E035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N02E036.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N03E035.tif",
@@ -20644,7 +20573,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30W113.tif"
     ],
-    "4_20_24d36e65_f9b2_4413_8b5c_753d1aae3c6e.shp": [
+    "4_20_24d36e65_f9b2_4413_8b5c_753d1aae3c6e_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30W115.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30W116.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30W117.tif",
@@ -20767,11 +20696,15 @@
     "4_23.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W112.tif"
     ],
-    "4_24.shp": [
+    "4_24_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W110.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W110.tif"
+    ],
+    "4_24_1.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W109.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N25W110.tif"
     ],
     "4_25.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N24W101.tif",
@@ -21757,7 +21690,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30W006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N30W007.tif"
     ],
-    "4_27_774d4d4a_e109_43ad_ba0c_4f7c0ca39d54.shp": [
+    "4_27_774d4d4a_e109_43ad_ba0c_4f7c0ca39d54_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16W008.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16W009.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N16W010.tif",
@@ -21999,7 +21932,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26E056.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26E057.tif"
     ],
-    "4_27_98619533_a11d_4613_bec4_acb10dbe0bbc.shp": [
+    "4_27_98619533_a11d_4613_bec4_acb10dbe0bbc_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E046.tif",
@@ -22490,7 +22423,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N24E029.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N24E030.tif"
     ],
-    "4_27_c583b2b3_b87c_4f0e_9db6_da026b8dc7fe.shp": [
+    "4_27_c583b2b3_b87c_4f0e_9db6_da026b8dc7fe_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N29E046.tif",
@@ -23155,7 +23088,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E049.tif"
     ],
-    "4_31.shp": [
+    "4_31_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W070.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N11W071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12W070.tif",
@@ -24448,13 +24381,13 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N52E090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N53E090.tif"
     ],
-    "5_28.shp": [
+    "5_28_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W121.tif"
     ],
-    "5_29.shp": [
+    "5_29_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E090.tif",
@@ -24532,23 +24465,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37W003.tif"
     ],
-    "5_37.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W114.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W115.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W116.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W117.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W118.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W119.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W120.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W121.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W114.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W115.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W116.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W117.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W118.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W119.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W120.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W121.tif",
+    "5_37_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W114.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W115.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36W116.tif",
@@ -24776,7 +24693,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E065.tif"
     ],
-    "5_47_15a89eb7_5ad2_4a12_a8e0_7c29381c4514.shp": [
+    "5_47_15a89eb7_5ad2_4a12_a8e0_7c29381c4514_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E065.tif",
@@ -24789,9 +24706,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E074.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E075.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E076.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E065.tif",
@@ -24804,9 +24718,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E074.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E075.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E076.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E065.tif",
@@ -24819,9 +24730,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E074.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E075.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E076.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E065.tif",
@@ -24834,9 +24742,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E074.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E075.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E076.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E065.tif",
@@ -24849,9 +24754,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E074.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E075.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E076.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E063.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E064.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E065.tif",
@@ -24863,15 +24765,9 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E074.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E075.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E076.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E077.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E074.tif"
     ],
-    "5_47_845e16c1_7ce5_4341_9770_375539269e95.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E050.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E051.tif",
+    "5_47_845e16c1_7ce5_4341_9770_375539269e95_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E054.tif",
@@ -24884,8 +24780,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E055.tif",
@@ -24897,7 +24791,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E055.tif",
@@ -24909,7 +24802,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E054.tif",
@@ -24922,8 +24814,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E054.tif",
@@ -24936,7 +24826,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E054.tif",
@@ -24950,8 +24839,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E063.tif"
     ],
-    "5_47_a7d99a69_2911_4378_9505_76ee3c35406a.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E049.tif",
+    "5_47_a7d99a69_2911_4378_9505_76ee3c35406a_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E052.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E054.tif",
@@ -25005,7 +24893,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E052.tif",
@@ -25020,7 +24907,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E052.tif",
@@ -25035,7 +24921,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E063.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47E052.tif",
@@ -25171,7 +25056,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W003.tif"
     ],
-    "5_58.shp": [
+    "5_58_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E052.tif",
@@ -25259,7 +25144,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E091.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E092.tif"
     ],
-    "5_60_13f68f3b_ea88_4707_93dc_e5d915beb616.shp": [
+    "5_60_13f68f3b_ea88_4707_93dc_e5d915beb616_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E073.tif",
@@ -25688,7 +25573,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E089.tif"
     ],
-    "5_60_db5766db_d07a_4303_aa8c_b28529b902ff.shp": [
+    "5_60_db5766db_d07a_4303_aa8c_b28529b902ff_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E075.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E076.tif",
@@ -25815,7 +25700,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S01W078.tif"
     ],
-    "5_8.shp": [
+    "5_8_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N06W073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07W072.tif",
@@ -26232,7 +26117,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E148.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E149.tif"
     ],
-    "6_11_dbd488b2_eefb_4934_a163_2627b72cc529.shp": [
+    "6_11_dbd488b2_eefb_4934_a163_2627b72cc529_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S16E128.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S16E129.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S16E130.tif",
@@ -26468,7 +26353,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S10E038.tif"
     ],
-    "6_26.shp": [
+    "6_26_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W038.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S05W039.tif",
@@ -26963,7 +26848,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S26E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S26E034.tif"
     ],
-    "6_38_8a371cc7_fa5d_4d34_a87b_5d92561d29d6.shp": [
+    "6_38_8a371cc7_fa5d_4d34_a87b_5d92561d29d6_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E023.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S18E025.tif",
@@ -27113,7 +26998,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W099.tif"
     ],
-    "6_42.shp": [
+    "6_42_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N17W072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N18W073.tif"
@@ -27442,7 +27327,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E033.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E034.tif"
     ],
-    "6_69.shp": [
+    "6_69_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E038.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E039.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E040.tif",
@@ -27739,7 +27624,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23E073.tif"
     ],
-    "6_82.shp": [
+    "6_82_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23W107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23W108.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N23W110.tif",
@@ -27825,7 +27710,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N26W108.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N27W108.tif"
     ],
-    "6_84.shp": [
+    "6_84_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W098.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W099.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N21W100.tif",
@@ -27998,7 +27883,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10E032.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N10E033.tif"
     ],
-    "6_88_2cef54de_62c8_465e_ae46_d45432038fde.shp": [
+    "6_88_2cef54de_62c8_465e_ae46_d45432038fde_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E000.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E002.tif",
@@ -28013,8 +27898,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E011.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E012.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E013.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E014.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12E015.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12W001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N12W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E000.tif",
@@ -28031,8 +27914,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E011.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E012.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E013.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E014.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13E015.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13W001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N13W002.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E000.tif",
@@ -28049,12 +27930,10 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E011.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E012.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E013.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E014.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14E015.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14W001.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N14W002.tif"
     ],
-    "6_88_3ccbdb3f_eac0_45a4_a3d9_4d9bf1ceb2ca.shp": [
+    "6_88_3ccbdb3f_eac0_45a4_a3d9_4d9bf1ceb2ca_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E038.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05E039.tif",
@@ -29003,112 +28882,13 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E026.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E027.tif"
     ],
-    "7_29.shp": [
+    "7_29_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W108.tif"
     ],
-    "7_3.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W066.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W067.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W068.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W069.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W070.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W071.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W072.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W073.tif"
+    "7_29_1.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W107.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W108.tif"
     ],
     "7_30.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W121.tif",
@@ -29316,7 +29096,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W105.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W106.tif"
     ],
-    "7_36_2824398c_0e1f_4905_a0f5_5b0d9510901a.shp": [
+    "7_36_2824398c_0e1f_4905_a0f5_5b0d9510901a_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W113.tif",
@@ -29359,7 +29139,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41W106.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42W106.tif"
     ],
-    "7_36_373f50b4_21db_490a_8baf_b7f43899f248.shp": [
+    "7_36_373f50b4_21db_490a_8baf_b7f43899f248_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W113.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W114.tif",
@@ -29391,7 +29171,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W115.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W116.tif"
     ],
-    "7_36_3a709628_a06e_44dd_b3f5_ff6c760dc4db.shp": [
+    "7_36_3a709628_a06e_44dd_b3f5_ff6c760dc4db_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32W112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33W111.tif",
@@ -29540,7 +29320,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28W107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N28W108.tif"
     ],
-    "7_36_7be652de_1d6a_4b01_bda5_69a73c8545b0.shp": [
+    "7_36_7be652de_1d6a_4b01_bda5_69a73c8545b0_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W107.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W108.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W109.tif",
@@ -29849,6 +29629,109 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39W111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39W112.tif"
     ],
+    "7_3_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S40W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S41W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S42W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S43W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S45W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S46W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S47W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S48W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W066.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W067.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W068.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S52W073.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W069.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W070.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W071.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S53W073.tif"
+    ],
     "7_4.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S44W071.tif"
     ],
@@ -29939,7 +29822,7 @@
     "7_53.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38W109.tif"
     ],
-    "7_54.shp": [
+    "7_54_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W118.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W119.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45W120.tif",
@@ -30243,7 +30126,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W117.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W118.tif"
     ],
-    "7_76.shp": [
+    "7_76_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N47W102.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W101.tif",
@@ -30255,7 +30138,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49E102.tif"
     ],
-    "7_78.shp": [
+    "7_78_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W120.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48W121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W120.tif",
@@ -30288,7 +30171,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W110.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51W110.tif"
     ],
-    "7_81.shp": [
+    "7_81_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E114.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E115.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E116.tif",
@@ -30401,7 +30284,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41W007.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41W008.tif"
     ],
-    "7_87.shp": [
+    "7_87_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E038.tif"
     ],
@@ -30437,7 +30320,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E035.tif"
     ],
-    "7_89.shp": [
+    "7_89_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E043.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E045.tif",
@@ -30458,7 +30341,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E039.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E040.tif"
     ],
-    "7_91.shp": [
+    "7_91_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E021.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E022.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E023.tif",
@@ -30470,7 +30353,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E016.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E017.tif"
     ],
-    "7_93.shp": [
+    "7_93_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W005.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W007.tif",
@@ -30481,7 +30364,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42W006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42W007.tif"
     ],
-    "7_94_02dcf21f_d337_471e_ad6c_3af773f80711.shp": [
+    "7_94_02dcf21f_d337_471e_ad6c_3af773f80711_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E073.tif",
@@ -30581,7 +30464,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E122.tif"
     ],
-    "7_94_0d95852b_822c_4743_800c_5e961b27e5dc.shp": [
+    "7_94_0d95852b_822c_4743_800c_5e961b27e5dc_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E089.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E091.tif",
@@ -30673,47 +30556,27 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E059.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N32E060.tif"
     ],
-    "7_94_1c802546_b30b_4a28_abe9_311fd61d0603.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E044.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E044.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E051.tif",
+    "7_94_1c802546_b30b_4a28_abe9_311fd61d0603_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E050.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E050.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E050.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E051.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E050.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E051.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E049.tif"
     ],
     "7_94_20620731_b4bc_45d2_803a_1a1f148afffe.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E062.tif",
@@ -30829,8 +30692,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E112.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E113.tif"
     ],
-    "7_94_31a2bb69_2412_4186_a866_6962cf5c53c4.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E076.tif",
+    "7_94_31a2bb69_2412_4186_a866_6962cf5c53c4_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E079.tif",
@@ -30838,7 +30700,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E079.tif",
@@ -30846,7 +30707,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E079.tif",
@@ -30854,7 +30714,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E079.tif",
@@ -30862,7 +30721,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E079.tif",
@@ -30870,7 +30728,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E081.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E083.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E076.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E077.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E079.tif",
@@ -30879,7 +30736,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E082.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E083.tif"
     ],
-    "7_94_352d3bdc_b1a7_4827_9d40_3a728382cfc5.shp": [
+    "7_94_352d3bdc_b1a7_4827_9d40_3a728382cfc5_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E087.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E088.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N48E089.tif",
@@ -30917,7 +30774,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E094.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N51E095.tif"
     ],
-    "7_94_35e8a724_ced1_49ae_8a79_f4a5e78230b5.shp": [
+    "7_94_35e8a724_ced1_49ae_8a79_f4a5e78230b5_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E093.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E094.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E095.tif",
@@ -31107,11 +30964,9 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E054.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E050.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E053.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E054.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E053.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E054.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E054.tif"
     ],
-    "7_94_4963f1d7_95d1_47e3_9589_b9589ac595e2.shp": [
+    "7_94_4963f1d7_95d1_47e3_9589_b9589ac595e2_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E065.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E066.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E067.tif",
@@ -31203,7 +31058,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E078.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E079.tif"
     ],
-    "7_94_5b31aaae_580d_41b4_b92d_923b04111484.shp": [
+    "7_94_5b31aaae_580d_41b4_b92d_923b04111484_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E085.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E086.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N31E087.tif",
@@ -31243,7 +31098,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E101.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E102.tif"
     ],
-    "7_94_6c14f0b5_8acb_496d_879b_bdcf64b86ab9.shp": [
+    "7_94_6c14f0b5_8acb_496d_879b_bdcf64b86ab9_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E044.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E046.tif",
@@ -31335,7 +31190,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E060.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50E061.tif"
     ],
-    "7_94_70584069_dcaa_4e99_a511_701752c08c61.shp": [
+    "7_94_70584069_dcaa_4e99_a511_701752c08c61_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E085.tif",
@@ -31481,7 +31336,6 @@
     "7_94_89e3cea9_cf8f_483c_a868_14183151a10a.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E048.tif"
     ],
@@ -31678,12 +31532,12 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E092.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N45E093.tif"
     ],
-    "7_94_b5826a7a_e1a1_4df0_b128_011f2574f372.shp": [
+    "7_94_b5826a7a_e1a1_4df0_b128_011f2574f372_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E074.tif"
     ],
-    "7_94_bb6f1329_2eb7_4c6a_90fd_1b3f1efb4cd7.shp": [
+    "7_94_bb6f1329_2eb7_4c6a_90fd_1b3f1efb4cd7_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E062.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46E063.tif",
@@ -31869,7 +31723,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E061.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E062.tif"
     ],
-    "7_94_deb38112_ea01_4010_8461_0cd091e6b0e9.shp": [
+    "7_94_deb38112_ea01_4010_8461_0cd091e6b0e9_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E083.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E084.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E085.tif",
@@ -31898,37 +31752,25 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E090.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E091.tif"
     ],
-    "7_94_e84cd8ac_7660_4288_8ea9_f4521d9b3a88.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E045.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E046.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E047.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E053.tif",
+    "7_94_e84cd8ac_7660_4288_8ea9_f4521d9b3a88_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E052.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N39E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E048.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E049.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E050.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E052.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40E053.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E045.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E046.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E047.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E052.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E053.tif"
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E049.tif"
     ],
-    "7_94_f347f193_0f9f_452c_b3db_d5d1f356faba.shp": [
+    "7_94_f347f193_0f9f_452c_b3db_d5d1f356faba_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E110.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E112.tif",
@@ -31939,14 +31781,15 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E111.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E112.tif"
     ],
-    "8_0.shp": [
+    "8_0_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W073.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S49W074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W072.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W073.tif"
+    ],
+    "8_0_1.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S50W074.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W072.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W073.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S51W074.tif"
     ],
@@ -32025,7 +31868,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N05W075.tif"
     ],
-    "8_14.shp": [
+    "8_14_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E034.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E035.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N07E036.tif",
@@ -32110,19 +31953,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W071.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N09W072.tif"
     ],
-    "8_2.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E139.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E140.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E141.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E139.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E140.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E141.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E139.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E140.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E141.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E140.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E141.tif"
-    ],
     "8_20.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N33E074.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E074.tif"
@@ -32200,6 +32030,19 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W119.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N46W120.tif"
     ],
+    "8_2_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E139.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E140.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E141.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E139.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E140.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S37E141.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E139.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E140.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S38E141.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E140.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S39E141.tif"
+    ],
     "8_3.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S33E134.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S33E135.tif",
@@ -32233,7 +32076,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E016.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N44E017.tif"
     ],
-    "8_33.shp": [
+    "8_33_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W125.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N50W124.tif",
@@ -32323,13 +32166,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E023.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E024.tif"
     ],
-    "8_45.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N41E049.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N42E048.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43E050.tif"
-    ],
-    "8_46.shp": [
+    "8_46_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E007.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N37E008.tif",
@@ -32525,7 +32362,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W124.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N49W125.tif"
     ],
-    "8_48_a0607cad_cb26_4dd5_a142_d22afe9d3f27.shp": [
+    "8_48_a0607cad_cb26_4dd5_a142_d22afe9d3f27_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W121.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35W122.tif",
@@ -32619,14 +32456,6 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E024.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E025.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N35E026.tif"
-    ],
-    "8_6.shp": [
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E138.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E139.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35E138.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35E139.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E138.tif",
-        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E139.tif"
     ],
     "8_60.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E069.tif",
@@ -32725,6 +32554,14 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W109.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W110.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34W111.tif"
+    ],
+    "8_6_0.shp": [
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E138.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S34E139.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35E138.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S35E139.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E138.tif",
+        "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S36E139.tif"
     ],
     "8_7.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S03E036.tif",
@@ -32837,7 +32674,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W009.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N43W010.tif"
     ],
-    "8_72.shp": [
+    "8_72_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W005.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W006.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N40W007.tif",
@@ -32857,7 +32694,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E029.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E030.tif"
     ],
-    "8_74_8dd9f6f1_6168_49b3_b023_150460955c39.shp": [
+    "8_74_8dd9f6f1_6168_49b3_b023_150460955c39_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E038.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E039.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E040.tif",
@@ -32954,7 +32791,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E037.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E038.tif"
     ],
-    "8_74_b5dd1959_b93b_4845_b619_8793a6275db4.shp": [
+    "8_74_b5dd1959_b93b_4845_b619_8793a6275db4_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E041.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E042.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N34E043.tif",
@@ -33111,7 +32948,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E014.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E015.tif"
     ],
-    "8_76.shp": [
+    "8_76_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E021.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E022.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N36E023.tif",
@@ -33168,7 +33005,7 @@
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E022.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/N38E023.tif"
     ],
-    "8_8.shp": [
+    "8_8_0.shp": [
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S31W069.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S31W070.tif",
         "s3://raster/SRTM_GL1/SRTM_GL1_srtm/S31W071.tif",

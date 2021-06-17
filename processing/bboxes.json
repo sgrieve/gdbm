@@ -127,7 +127,7 @@
         "west_max": true,
         "west_min": true
     },
-    "11_11.shp": {
+    "11_11_0.shp": {
         "bbox": [
             -17.200000000000003,
             -23.80000000000001,
@@ -223,11 +223,11 @@
         "west_max": false,
         "west_min": false
     },
-    "11_13_1677fe39_95a5_4ab5_8d1f_9bf019f69eb5.shp": {
+    "11_13_1677fe39_95a5_4ab5_8d1f_9bf019f69eb5_0.shp": {
         "bbox": [
             -7.900000000000006,
             -9.850000000000001,
-            35.20000000000002,
+            34.01027343402602,
             31.60000000000001
         ],
         "south_max": true,
@@ -287,12 +287,28 @@
         "west_max": false,
         "west_min": false
     },
-    "11_13_6ef374dd_6a52_46ce_b9b1_23da271b2528.shp": {
+    "11_13_6ef374dd_6a52_46ce_b9b1_23da271b2528_0.shp": {
+        "bbox": [
+            -9.850000000000001,
+            -13.700000000000003,
+            34.61907710641382,
+            31.60000000000001
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            36,
+            "south"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
+    "11_13_6ef374dd_6a52_46ce_b9b1_23da271b2528_1.shp": {
         "bbox": [
             -9.850000000000001,
             -13.700000000000003,
             37.80000000000001,
-            31.60000000000001
+            34.38333375957252
         ],
         "south_max": true,
         "south_min": true,
@@ -351,12 +367,12 @@
         "west_max": false,
         "west_min": false
     },
-    "11_13_ae54e186_eecd_44bd_a742_0e0b03db4fb4.shp": {
+    "11_13_ae54e186_eecd_44bd_a742_0e0b03db4fb4_1.shp": {
         "bbox": [
             -17.550000000000004,
             -21.0,
             29.950000000000003,
-            25.700000000000017
+            27.100000000000023
         ],
         "south_max": true,
         "south_min": true,
@@ -607,7 +623,7 @@
         "west_max": false,
         "west_min": false
     },
-    "11_23.shp": {
+    "11_23_0.shp": {
         "bbox": [
             27.0,
             18.299999999999997,
@@ -639,7 +655,7 @@
         "west_max": true,
         "west_min": true
     },
-    "11_25.shp": {
+    "11_25_0.shp": {
         "bbox": [
             24.39999999999999,
             22.299999999999997,
@@ -799,7 +815,7 @@
         "west_max": false,
         "west_min": false
     },
-    "11_30_578c0943_62b8_49e5_a46e_545cd2e3f4d3.shp": {
+    "11_30_578c0943_62b8_49e5_a46e_545cd2e3f4d3_0.shp": {
         "bbox": [
             23.45,
             19.5,
@@ -895,7 +911,7 @@
         "west_max": false,
         "west_min": false
     },
-    "11_30_e358017c_1020_4ce1_9d77_73e8aa4b15eb.shp": {
+    "11_30_e358017c_1020_4ce1_9d77_73e8aa4b15eb_0.shp": {
         "bbox": [
             30.299999999999997,
             27.4,
@@ -927,7 +943,7 @@
         "west_max": false,
         "west_min": false
     },
-    "11_30_f5cdb3df_027e_49c9_898c_b4efcf72daf6.shp": {
+    "11_30_f5cdb3df_027e_49c9_898c_b4efcf72daf6_0.shp": {
         "bbox": [
             23.499999999999996,
             19.599999999999994,
@@ -959,7 +975,7 @@
         "west_max": false,
         "west_min": false
     },
-    "11_30_fbcb6c25_c00d_45af_bea9_3b2c502f7600.shp": {
+    "11_30_fbcb6c25_c00d_45af_bea9_3b2c502f7600_0.shp": {
         "bbox": [
             27.4,
             23.499999999999996,
@@ -975,7 +991,7 @@
         "west_max": false,
         "west_min": false
     },
-    "11_30_fc8ce026_0f80_4733_afac_b796b71d23a9.shp": {
+    "11_30_fc8ce026_0f80_4733_afac_b796b71d23a9_0.shp": {
         "bbox": [
             31.349999999999998,
             27.4,
@@ -1087,7 +1103,7 @@
         "west_max": true,
         "west_min": true
     },
-    "11_8.shp": {
+    "11_8_0.shp": {
         "bbox": [
             -1.2000000000000028,
             -3.5,
@@ -1183,7 +1199,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_101.shp": {
+    "14_101_0.shp": {
         "bbox": [
             40.8,
             40.5,
@@ -1199,7 +1215,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_102.shp": {
+    "14_102_0.shp": {
         "bbox": [
             40.9,
             40.199999999999996,
@@ -1233,9 +1249,9 @@
     },
     "14_104.shp": {
         "bbox": [
-            43.0,
-            40.9,
-            48.20000000000002,
+            42.9,
+            40.90646394190651,
+            48.130620513616826,
             44.900000000000006
         ],
         "south_max": false,
@@ -2495,7 +2511,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_174_ddc1c40e_c8f1_4732_811b_2c6e1212e9cd.shp": {
+    "14_174_ddc1c40e_c8f1_4732_811b_2c6e1212e9cd_0.shp": {
         "bbox": [
             48.849999999999994,
             41.4,
@@ -2703,7 +2719,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_185.shp": {
+    "14_185_0.shp": {
         "bbox": [
             45.3,
             40.0,
@@ -2815,7 +2831,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_191.shp": {
+    "14_191_0.shp": {
         "bbox": [
             38.8,
             31.0,
@@ -2927,7 +2943,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_23b28914_803f_4a5e_9fb7_45f5b45e3e70.shp": {
+    "14_197_23b28914_803f_4a5e_9fb7_45f5b45e3e70_0.shp": {
         "bbox": [
             35.349999999999994,
             32.5,
@@ -2943,7 +2959,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_24453204_9ced_4aae_bee9_0a2009a50f3e.shp": {
+    "14_197_24453204_9ced_4aae_bee9_0a2009a50f3e_0.shp": {
         "bbox": [
             39.699999999999996,
             36.099999999999994,
@@ -2959,7 +2975,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_3330b570_7942_4c7a_90aa_22354509d98d.shp": {
+    "14_197_3330b570_7942_4c7a_90aa_22354509d98d_0.shp": {
         "bbox": [
             39.099999999999994,
             36.099999999999994,
@@ -3007,7 +3023,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_7405a2dc_fa14_48a1_bdef_d6f844359eda.shp": {
+    "14_197_7405a2dc_fa14_48a1_bdef_d6f844359eda_0.shp": {
         "bbox": [
             32.5,
             25.5,
@@ -3039,7 +3055,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_88bb2b74_d815_48b2_a91d_19a6e6a25c4f.shp": {
+    "14_197_88bb2b74_d815_48b2_a91d_19a6e6a25c4f_0.shp": {
         "bbox": [
             36.099999999999994,
             32.5,
@@ -3055,7 +3071,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_9bba0977_8479_443c_8aee_bde0d21f2228.shp": {
+    "14_197_9bba0977_8479_443c_8aee_bde0d21f2228_0.shp": {
         "bbox": [
             28.9,
             25.299999999999997,
@@ -3071,7 +3087,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_a86846c8_b344_456c_b9f4_d5ff3aa348e0.shp": {
+    "14_197_a86846c8_b344_456c_b9f4_d5ff3aa348e0_0.shp": {
         "bbox": [
             32.5,
             29.099999999999994,
@@ -3103,7 +3119,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_ebdd1c29_fb45_475d_9401_a8b4d80728bc.shp": {
+    "14_197_ebdd1c29_fb45_475d_9401_a8b4d80728bc_0.shp": {
         "bbox": [
             38.199999999999996,
             35.349999999999994,
@@ -3119,7 +3135,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_197_f70268f8_20bc_46fc_bef2_9c1787c28551.shp": {
+    "14_197_f70268f8_20bc_46fc_bef2_9c1787c28551_0.shp": {
         "bbox": [
             35.349999999999994,
             32.5,
@@ -3343,7 +3359,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_24.shp": {
+    "14_24_0.shp": {
         "bbox": [
             -38.0,
             -53.400000000000006,
@@ -3999,7 +4015,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_61_386803a4_6681_4c21_9517_72b2a9021f28.shp": {
+    "14_61_386803a4_6681_4c21_9517_72b2a9021f28_0.shp": {
         "bbox": [
             -30.650000000000006,
             -38.5,
@@ -4175,7 +4191,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_69_5cdc2c0b_0955_4151_9148_5801aa24b309.shp": {
+    "14_69_5cdc2c0b_0955_4151_9148_5801aa24b309_0.shp": {
         "bbox": [
             -20.0,
             -24.975,
@@ -4223,7 +4239,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_69_7d41ac3d_a320_4de8_b25f_06ebad90dded.shp": {
+    "14_69_7d41ac3d_a320_4de8_b25f_06ebad90dded_0.shp": {
         "bbox": [
             -29.950000000000003,
             -34.925000000000004,
@@ -4239,7 +4255,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_69_8ae4980e_df64_4ca9_b278_55dd411a9f66.shp": {
+    "14_69_8ae4980e_df64_4ca9_b278_55dd411a9f66_0.shp": {
         "bbox": [
             -24.975,
             -29.950000000000003,
@@ -4271,7 +4287,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_69_98fa03aa_99cc_4064_9a71_23cb86363887.shp": {
+    "14_69_98fa03aa_99cc_4064_9a71_23cb86363887_0.shp": {
         "bbox": [
             -29.950000000000003,
             -34.925000000000004,
@@ -4303,7 +4319,7 @@
         "west_max": true,
         "west_min": true
     },
-    "14_69_da134798_61df_4a6a_934d_3b0c08cea97b.shp": {
+    "14_69_da134798_61df_4a6a_934d_3b0c08cea97b_0.shp": {
         "bbox": [
             -29.950000000000003,
             -35.0,
@@ -4671,7 +4687,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_89_1e1182c0_baa3_4a8d_82b9_e09e976f08f2.shp": {
+    "14_89_1e1182c0_baa3_4a8d_82b9_e09e976f08f2_0.shp": {
         "bbox": [
             27.599999999999994,
             22.89999999999999,
@@ -4703,7 +4719,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_89_be4ea3f2_e7cb_46ed_8901_95f140c71dad.shp": {
+    "14_89_be4ea3f2_e7cb_46ed_8901_95f140c71dad_0.shp": {
         "bbox": [
             27.599999999999994,
             21.89999999999999,
@@ -4719,7 +4735,7 @@
         "west_max": false,
         "west_min": false
     },
-    "14_89_fc94c899_c2bc_4fd0_9c01_9530438cb2a2.shp": {
+    "14_89_fc94c899_c2bc_4fd0_9c01_9530438cb2a2_0.shp": {
         "bbox": [
             33.3,
             27.599999999999994,
@@ -4731,22 +4747,6 @@
         "utm_zone": [
             49,
             "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "14_9.shp": {
-        "bbox": [
-            -34.900000000000006,
-            -41.599999999999994,
-            178.5,
-            173.10000000000002
-        ],
-        "south_max": true,
-        "south_min": true,
-        "utm_zone": [
-            59,
-            "south"
         ],
         "west_max": false,
         "west_min": false
@@ -4911,6 +4911,22 @@
         "west_max": false,
         "west_min": false
     },
+    "14_9_0.shp": {
+        "bbox": [
+            -34.900000000000006,
+            -41.599999999999994,
+            178.5,
+            173.10000000000002
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            59,
+            "south"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
     "17_0.shp": {
         "bbox": [
             -32.900000000000006,
@@ -4991,10 +5007,10 @@
         "west_max": false,
         "west_min": false
     },
-    "17_13.shp": {
+    "17_13_0.shp": {
         "bbox": [
             47.3,
-            46.3,
+            46.4,
             82.5,
             81.10000000000002
         ],
@@ -5055,7 +5071,7 @@
         "west_max": true,
         "west_min": true
     },
-    "17_17.shp": {
+    "17_17_0.shp": {
         "bbox": [
             62.599999999999994,
             59.2,
@@ -5071,7 +5087,7 @@
         "west_max": true,
         "west_min": true
     },
-    "17_18.shp": {
+    "17_18_0.shp": {
         "bbox": [
             61.5,
             61.4,
@@ -5102,22 +5118,6 @@
         ],
         "west_max": true,
         "west_min": true
-    },
-    "17_2.shp": {
-        "bbox": [
-            34.8,
-            30.9,
-            83.10000000000002,
-            78.30000000000001
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            44,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
     },
     "17_20.shp": {
         "bbox": [
@@ -5167,7 +5167,7 @@
         "west_max": false,
         "west_min": false
     },
-    "17_23.shp": {
+    "17_23_0.shp": {
         "bbox": [
             58.4,
             52.1,
@@ -5199,7 +5199,7 @@
         "west_max": false,
         "west_min": false
     },
-    "17_25.shp": {
+    "17_25_1.shp": {
         "bbox": [
             56.4,
             55.1,
@@ -5231,11 +5231,11 @@
         "west_max": true,
         "west_min": true
     },
-    "17_26_9fb3f4a6_3a07_4194_9cdc_37113336b544.shp": {
+    "17_26_9fb3f4a6_3a07_4194_9cdc_37113336b544_0.shp": {
         "bbox": [
             60.7,
-            58.75,
-            -127.9,
+            58.8,
+            -133.7786407470703,
             -135.2
         ],
         "south_max": false,
@@ -5247,7 +5247,23 @@
         "west_max": true,
         "west_min": true
     },
-    "17_26_e5256063_e36d_47aa_8cc6_6e89798661bc.shp": {
+    "17_26_9fb3f4a6_3a07_4194_9cdc_37113336b544_3.shp": {
+        "bbox": [
+            60.099999999999994,
+            58.75,
+            -127.9,
+            -133.8258514404297
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            8,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "17_26_e5256063_e36d_47aa_8cc6_6e89798661bc_0.shp": {
         "bbox": [
             62.3,
             58.75,
@@ -5311,6 +5327,22 @@
         "west_max": false,
         "west_min": false
     },
+    "17_2_0.shp": {
+        "bbox": [
+            34.8,
+            30.9,
+            83.10000000000002,
+            78.30000000000001
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            44,
+            "north"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
     "17_3.shp": {
         "bbox": [
             33.8,
@@ -5359,10 +5391,10 @@
         "west_max": false,
         "west_min": false
     },
-    "17_32.shp": {
+    "17_32_0.shp": {
         "bbox": [
             64.6,
-            61.2,
+            61.98400115966797,
             -111.7,
             -116.19999999999999
         ],
@@ -5406,22 +5438,6 @@
         ],
         "west_max": true,
         "west_min": true
-    },
-    "17_35.shp": {
-        "bbox": [
-            43.8,
-            43.0,
-            49.5,
-            48.0
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            39,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
     },
     "17_36.shp": {
         "bbox": [
@@ -5519,11 +5535,11 @@
         "west_max": false,
         "west_min": false
     },
-    "17_41.shp": {
+    "17_41_0.shp": {
         "bbox": [
             40.699999999999996,
             36.8,
-            47.30000000000001,
+            45.70000000000002,
             31.80000000000001
         ],
         "south_max": false,
@@ -5695,12 +5711,12 @@
         "west_max": true,
         "west_min": true
     },
-    "17_50_90dd4ce9_6abe_458a_8168_007acd93cd48.shp": {
+    "17_50_90dd4ce9_6abe_458a_8168_007acd93cd48_3.shp": {
         "bbox": [
-            54.9,
+            53.36392593383789,
             49.699999999999996,
             -121.69999999999999,
-            -128.5
+            -126.69999999999999
         ],
         "south_max": false,
         "south_min": false,
@@ -5743,7 +5759,7 @@
         "west_max": true,
         "west_min": true
     },
-    "17_50_e8131374_dec7_4bed_8fd9_461a5f687f15.shp": {
+    "17_50_e8131374_dec7_4bed_8fd9_461a5f687f15_0.shp": {
         "bbox": [
             46.8,
             38.699999999999996,
@@ -5791,7 +5807,7 @@
         "west_max": true,
         "west_min": true
     },
-    "17_8.shp": {
+    "17_8_0.shp": {
         "bbox": [
             35.599999999999994,
             32.4,
@@ -5951,7 +5967,7 @@
         "west_max": true,
         "west_min": true
     },
-    "1_100_7aa1c774_3bbd_43a0_9211_5217140507ab.shp": {
+    "1_100_7aa1c774_3bbd_43a0_9211_5217140507ab_0.shp": {
         "bbox": [
             0.3999999999999915,
             -3.1000000000000085,
@@ -5999,7 +6015,7 @@
         "west_max": true,
         "west_min": true
     },
-    "1_100_d908889e_0917_4b8c_9088_d8cf1f35fc08.shp": {
+    "1_100_d908889e_0917_4b8c_9088_d8cf1f35fc08_0.shp": {
         "bbox": [
             -3.1000000000000085,
             -5.700000000000003,
@@ -6031,14 +6047,30 @@
         "west_max": false,
         "west_min": false
     },
-    "1_102.shp": {
+    "1_102_1.shp": {
         "bbox": [
-            0.7999999999999972,
-            -1.3000000000000114,
-            35.30000000000001,
-            32.0
+            0.5999999999999943,
+            -0.39840397238731384,
+            35.0,
+            33.40525436401367
         ],
         "south_max": false,
+        "south_min": true,
+        "utm_zone": [
+            36,
+            "south"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
+    "1_102_3.shp": {
+        "bbox": [
+            -0.10000000000000853,
+            -1.2000000000000028,
+            35.30000000000001,
+            34.03500747680664
+        ],
+        "south_max": true,
         "south_min": true,
         "utm_zone": [
             36,
@@ -6175,7 +6207,7 @@
         "west_max": false,
         "west_min": false
     },
-    "1_110.shp": {
+    "1_110_0.shp": {
         "bbox": [
             2.5999999999999943,
             -3.6000000000000085,
@@ -6543,7 +6575,7 @@
         "west_max": false,
         "west_min": false
     },
-    "1_21.shp": {
+    "1_21_0.shp": {
         "bbox": [
             -12.700000000000003,
             -18.5,
@@ -7055,7 +7087,7 @@
         "west_max": false,
         "west_min": false
     },
-    "1_50.shp": {
+    "1_50_0.shp": {
         "bbox": [
             9.199999999999989,
             4.299999999999997,
@@ -7119,7 +7151,7 @@
         "west_max": false,
         "west_min": false
     },
-    "1_54.shp": {
+    "1_54_0.shp": {
         "bbox": [
             17.5,
             15.099999999999994,
@@ -7407,7 +7439,7 @@
         "west_max": false,
         "west_min": false
     },
-    "1_70.shp": {
+    "1_70_0.shp": {
         "bbox": [
             17.39999999999999,
             14.099999999999994,
@@ -7455,7 +7487,7 @@
         "west_max": false,
         "west_min": false
     },
-    "1_73.shp": {
+    "1_73_0.shp": {
         "bbox": [
             7.5,
             5.8999999999999915,
@@ -7983,22 +8015,6 @@
         "west_max": false,
         "west_min": false
     },
-    "21_1.shp": {
-        "bbox": [
-            46.099999999999994,
-            44.9,
-            -99.5,
-            -100.5
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            14,
-            "north"
-        ],
-        "west_max": true,
-        "west_min": true
-    },
     "21_10_0bfc7663_d83b_4e05_8f9a_48ca6592bc56.shp": {
         "bbox": [
             58.4,
@@ -8047,7 +8063,7 @@
         "west_max": false,
         "west_min": false
     },
-    "21_10_261133be_d4e9_4ffc_b672_26e05b42271b.shp": {
+    "21_10_261133be_d4e9_4ffc_b672_26e05b42271b_0.shp": {
         "bbox": [
             46.45,
             40.875,
@@ -8095,7 +8111,7 @@
         "west_max": false,
         "west_min": false
     },
-    "21_10_321f5f50_1d6c_47a8_8ac5_1129218614cb.shp": {
+    "21_10_321f5f50_1d6c_47a8_8ac5_1129218614cb_3.shp": {
         "bbox": [
             55.8,
             51.975,
@@ -8111,12 +8127,28 @@
         "west_max": false,
         "west_min": false
     },
-    "21_10_331b2346_c52f_40ca_b575_5f6ff45d6fde.shp": {
+    "21_10_331b2346_c52f_40ca_b575_5f6ff45d6fde_0.shp": {
         "bbox": [
             53.6,
-            51.975,
-            92.69999999999999,
+            52.66470647979847,
+            91.90956363406686,
             91.30000000000001
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            46,
+            "north"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
+    "21_10_331b2346_c52f_40ca_b575_5f6ff45d6fde_2.shp": {
+        "bbox": [
+            52.68653869628906,
+            51.975,
+            92.44689178466797,
+            91.5
         ],
         "south_max": false,
         "south_min": false,
@@ -8159,7 +8191,7 @@
         "west_max": false,
         "west_min": false
     },
-    "21_10_503f62a7_9c1b_447b_a848_e6b1f87d0db4.shp": {
+    "21_10_503f62a7_9c1b_447b_a848_e6b1f87d0db4_0.shp": {
         "bbox": [
             51.975,
             46.8,
@@ -8239,7 +8271,7 @@
         "west_max": false,
         "west_min": false
     },
-    "21_10_ea9c2c5d_1e8d_4bca_bb0a_3cf51e9f6404.shp": {
+    "21_10_ea9c2c5d_1e8d_4bca_bb0a_3cf51e9f6404_0.shp": {
         "bbox": [
             57.1,
             52.425,
@@ -8271,7 +8303,7 @@
         "west_max": false,
         "west_min": false
     },
-    "21_10_edac00be_8b17_41b7_816c_318d54fe4f1e.shp": {
+    "21_10_edac00be_8b17_41b7_816c_318d54fe4f1e_0.shp": {
         "bbox": [
             46.45,
             40.875,
@@ -8303,7 +8335,7 @@
         "west_max": false,
         "west_min": false
     },
-    "21_10_fcc9447b_fae6_4307_8729_90d9575e5b12.shp": {
+    "21_10_fcc9447b_fae6_4307_8729_90d9575e5b12_0.shp": {
         "bbox": [
             51.975,
             48.9,
@@ -8319,11 +8351,11 @@
         "west_max": false,
         "west_min": false
     },
-    "21_11.shp": {
+    "21_11_0.shp": {
         "bbox": [
             35.099999999999994,
             34.599999999999994,
-            97.19999999999999,
+            97.11262149175008,
             94.5
         ],
         "south_max": false,
@@ -8463,17 +8495,17 @@
         "west_max": false,
         "west_min": false
     },
-    "21_2.shp": {
+    "21_1_0.shp": {
         "bbox": [
-            62.2,
-            60.8,
-            -99.69999999999999,
-            -102.1
+            46.099999999999994,
+            44.9,
+            -99.5,
+            -100.41277309744513
         ],
         "south_max": false,
         "south_min": false,
         "utm_zone": [
-            13,
+            14,
             "north"
         ],
         "west_max": true,
@@ -8543,7 +8575,7 @@
         "west_max": false,
         "west_min": false
     },
-    "21_20_5b881503_8d66_4201_9e6c_06cd9ed98c15.shp": {
+    "21_20_5b881503_8d66_4201_9e6c_06cd9ed98c15_0.shp": {
         "bbox": [
             33.05,
             29.099999999999994,
@@ -8591,6 +8623,22 @@
         "west_max": false,
         "west_min": false
     },
+    "21_2_0.shp": {
+        "bbox": [
+            62.2,
+            60.8,
+            -99.69999999999999,
+            -102.1
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            13,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
     "21_3.shp": {
         "bbox": [
             64.3,
@@ -8623,9 +8671,9 @@
         "west_max": true,
         "west_min": true
     },
-    "21_5.shp": {
+    "21_5_1.shp": {
         "bbox": [
-            47.8,
+            47.59929275512695,
             46.199999999999996,
             -100.89999999999999,
             -102.69999999999999
@@ -8639,7 +8687,7 @@
         "west_max": true,
         "west_min": true
     },
-    "21_6.shp": {
+    "21_6_0.shp": {
         "bbox": [
             48.699999999999996,
             47.5,
@@ -8799,22 +8847,6 @@
         "west_max": false,
         "west_min": false
     },
-    "25_10.shp": {
-        "bbox": [
-            66.0,
-            63.8,
-            -15.0,
-            -22.799999999999983
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            27,
-            "north"
-        ],
-        "west_max": true,
-        "west_min": true
-    },
     "25_100.shp": {
         "bbox": [
             45.4,
@@ -8879,17 +8911,33 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_04f97274_b806_43ca_b694_4116c9f986cc.shp": {
+    "25_102_04f97274_b806_43ca_b694_4116c9f986cc_0.shp": {
         "bbox": [
             56.349999999999994,
             53.5,
-            109.19999999999999,
+            103.33891296386719,
             100.0
         ],
         "south_max": false,
         "south_min": false,
         "utm_zone": [
             47,
+            "north"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
+    "25_102_04f97274_b806_43ca_b694_4116c9f986cc_6.shp": {
+        "bbox": [
+            56.349999999999994,
+            54.29154586791992,
+            109.19999999999999,
+            102.88079833984375
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            48,
             "north"
         ],
         "west_max": false,
@@ -9087,7 +9135,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_12915f0f_529c_428a_afa8_7afdb6f510b8.shp": {
+    "25_102_12915f0f_529c_428a_afa8_7afdb6f510b8_0.shp": {
         "bbox": [
             64.275,
             60.3125,
@@ -9183,7 +9231,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_1a23c5b2_7ba1_444f_86ba_63d63dd8f376_f24fd1f1_efa2_4aae_b88e_1df5b51c196e.shp": {
+    "25_102_1a23c5b2_7ba1_444f_86ba_63d63dd8f376_f24fd1f1_efa2_4aae_b88e_1df5b51c196e_0.shp": {
         "bbox": [
             51.9875,
             50.24375,
@@ -9279,7 +9327,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_20dff3ba_8220_4d9c_aed0_74ee8daad4bd.shp": {
+    "25_102_20dff3ba_8220_4d9c_aed0_74ee8daad4bd_0.shp": {
         "bbox": [
             73.8,
             69.4375,
@@ -9375,7 +9423,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_3cd40270_0713_4a5f_ae04_06ee5c2a7f98.shp": {
+    "25_102_3cd40270_0713_4a5f_ae04_06ee5c2a7f98_0.shp": {
         "bbox": [
             68.23750000000001,
             64.275,
@@ -9409,9 +9457,9 @@
     },
     "25_102_4ec0184c_01a7_4b6c_b2b7_72f20b8bb02d.shp": {
         "bbox": [
-            44.199999999999996,
+            43.599999999999994,
             42.8,
-            49.20000000000002,
+            47.62247038173676,
             46.45000000000002
         ],
         "south_max": false,
@@ -9423,7 +9471,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_4f232b2e_f33b_4100_b9bb_81561d888343.shp": {
+    "25_102_4f232b2e_f33b_4100_b9bb_81561d888343_0.shp": {
         "bbox": [
             47.625,
             45.44375,
@@ -9455,7 +9503,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_512c184c_8c8f_4913_8649_8960531e1747.shp": {
+    "25_102_512c184c_8c8f_4913_8649_8960531e1747_0.shp": {
         "bbox": [
             60.3125,
             56.349999999999994,
@@ -9519,7 +9567,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_53c5c657_0e1a_4257_bf63_da1f9646c214_5a14d932_96c1_49d4_bef4_7cb41da04f02.shp": {
+    "25_102_53c5c657_0e1a_4257_bf63_da1f9646c214_5a14d932_96c1_49d4_bef4_7cb41da04f02_0.shp": {
         "bbox": [
             58.53124999999999,
             56.349999999999994,
@@ -9567,7 +9615,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_5429693e_ede8_42e5_9f6b_82257bf79512.shp": {
+    "25_102_5429693e_ede8_42e5_9f6b_82257bf79512_0.shp": {
         "bbox": [
             53.425,
             50.5,
@@ -9583,7 +9631,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_5bafe380_cfc1_4050_b0b4_91058096dd5c.shp": {
+    "25_102_5bafe380_cfc1_4050_b0b4_91058096dd5c_0.shp": {
         "bbox": [
             64.275,
             60.3125,
@@ -9631,7 +9679,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_5c70f84a_7cc0_49af_a018_c2bcdc9dfcdc_ac98a620_197b_4905_8ad8_5a3280263395.shp": {
+    "25_102_5c70f84a_7cc0_49af_a018_c2bcdc9dfcdc_ac98a620_197b_4905_8ad8_5a3280263395_0.shp": {
         "bbox": [
             54.168749999999996,
             51.9875,
@@ -9695,7 +9743,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_6a3eac2e_0bbc_4a02_a373_ec56ada50545.shp": {
+    "25_102_6a3eac2e_0bbc_4a02_a373_ec56ada50545_0.shp": {
         "bbox": [
             69.4375,
             65.07499999999999,
@@ -9839,7 +9887,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_76d026da_97b9_4645_9a59_8fa4d0e372a2.shp": {
+    "25_102_76d026da_97b9_4645_9a59_8fa4d0e372a2_0.shp": {
         "bbox": [
             47.625,
             45.44375,
@@ -9871,7 +9919,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_7d2a746b_8f68_4cde_ab83_1aee784b22ca.shp": {
+    "25_102_7d2a746b_8f68_4cde_ab83_1aee784b22ca_0.shp": {
         "bbox": [
             67.73750000000001,
             64.275,
@@ -9967,7 +10015,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_8fa7f48f_ce06_4305_b826_21fa20091471.shp": {
+    "25_102_8fa7f48f_ce06_4305_b826_21fa20091471_0.shp": {
         "bbox": [
             72.2,
             68.23750000000001,
@@ -9999,7 +10047,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_949751f5_ed6d_4308_9cc1_3f1636783040.shp": {
+    "25_102_949751f5_ed6d_4308_9cc1_3f1636783040_0.shp": {
         "bbox": [
             65.07499999999999,
             60.71249999999999,
@@ -10047,7 +10095,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_9eec1bf9_f725_4417_a4e6_9c3bb9970660_07d1d7e0_d8a5_439f_b3a9_da71b314d713.shp": {
+    "25_102_9eec1bf9_f725_4417_a4e6_9c3bb9970660_07d1d7e0_d8a5_439f_b3a9_da71b314d713_0.shp": {
         "bbox": [
             54.168749999999996,
             51.9875,
@@ -10143,7 +10191,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_a8e17245_17bf_4dca_b6ba_73be4baa04c6.shp": {
+    "25_102_a8e17245_17bf_4dca_b6ba_73be4baa04c6_0.shp": {
         "bbox": [
             51.9875,
             47.625,
@@ -10207,7 +10255,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_aa5fd30e_9601_4eeb_abc2_70339496f513_cf1014e6_b8fe_47bb_b213_a86998cab845.shp": {
+    "25_102_aa5fd30e_9601_4eeb_abc2_70339496f513_cf1014e6_b8fe_47bb_b213_a86998cab845_0.shp": {
         "bbox": [
             51.9875,
             49.80625,
@@ -10223,7 +10271,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_ac4f18af_d68b_469e_94ab_ed89fe1b5249.shp": {
+    "25_102_ac4f18af_d68b_469e_94ab_ed89fe1b5249_1.shp": {
         "bbox": [
             56.349999999999994,
             53.425,
@@ -10351,11 +10399,27 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_c8134de7_b38d_4d09_8241_eb8d58f0f6f7.shp": {
+    "25_102_c8134de7_b38d_4d09_8241_eb8d58f0f6f7_0.shp": {
         "bbox": [
             47.625,
+            46.43061767568804,
+            9.5,
+            6.300000000000011
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            32,
+            "north"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
+    "25_102_c8134de7_b38d_4d09_8241_eb8d58f0f6f7_5.shp": {
+        "bbox": [
+            46.412994384765625,
             45.6125,
-            10.100000000000023,
+            6.800000000000011,
             5.0
         ],
         "south_max": false,
@@ -10367,7 +10431,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_ca396db1_3673_4fe7_90fa_a010c1f9e4b6.shp": {
+    "25_102_ca396db1_3673_4fe7_90fa_a010c1f9e4b6_0.shp": {
         "bbox": [
             71.2,
             67.73750000000001,
@@ -10415,7 +10479,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_d018e04f_a790_4963_9cfc_3062fe4c8e18_4bfa715a_bb2b_433b_a939_31240a3324c8.shp": {
+    "25_102_d018e04f_a790_4963_9cfc_3062fe4c8e18_4bfa715a_bb2b_433b_a939_31240a3324c8_0.shp": {
         "bbox": [
             56.349999999999994,
             54.168749999999996,
@@ -10511,7 +10575,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_daef366b_44c7_4958_8761_adddcfaf714c.shp": {
+    "25_102_daef366b_44c7_4958_8761_adddcfaf714c_0.shp": {
         "bbox": [
             64.275,
             60.3125,
@@ -10543,7 +10607,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_e2ae18fa_0345_4e21_b7c3_12d18eee49cf.shp": {
+    "25_102_e2ae18fa_0345_4e21_b7c3_12d18eee49cf_0.shp": {
         "bbox": [
             45.44375,
             43.2625,
@@ -10559,7 +10623,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_e5726d05_b15d_4367_b9b8_2f1747d12cfc.shp": {
+    "25_102_e5726d05_b15d_4367_b9b8_2f1747d12cfc_0.shp": {
         "bbox": [
             60.71249999999999,
             56.349999999999994,
@@ -10607,7 +10671,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_ebf2b3ff_5133_41ab_8e43_74d6cc115a15.shp": {
+    "25_102_ebf2b3ff_5133_41ab_8e43_74d6cc115a15_0.shp": {
         "bbox": [
             47.625,
             45.099999999999994,
@@ -10671,7 +10735,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_f80eac01_7edc_497a_8905_3fe573f95496.shp": {
+    "25_102_f80eac01_7edc_497a_8905_3fe573f95496_0.shp": {
         "bbox": [
             64.275,
             60.3125,
@@ -10703,7 +10767,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_102_fa9b1340_ca88_44b5_a4c4_3f363a7c06c3.shp": {
+    "25_102_fa9b1340_ca88_44b5_a4c4_3f363a7c06c3_0.shp": {
         "bbox": [
             60.3125,
             56.349999999999994,
@@ -10831,9 +10895,9 @@
         "west_max": true,
         "west_min": true
     },
-    "25_109.shp": {
+    "25_109_2.shp": {
         "bbox": [
-            41.5,
+            41.099999999999994,
             40.099999999999994,
             -112.0,
             -113.3
@@ -10842,6 +10906,22 @@
         "south_min": false,
         "utm_zone": [
             12,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "25_10_0.shp": {
+        "bbox": [
+            66.0,
+            63.8,
+            -15.0,
+            -22.799999999999983
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            27,
             "north"
         ],
         "west_max": true,
@@ -11103,7 +11183,7 @@
         "west_max": false,
         "west_min": true
     },
-    "25_124.shp": {
+    "25_124_0.shp": {
         "bbox": [
             44.9,
             42.4,
@@ -11343,9 +11423,9 @@
         "west_max": true,
         "west_min": true
     },
-    "25_138.shp": {
+    "25_138_3.shp": {
         "bbox": [
-            51.9,
+            51.63268325725122,
             49.199999999999996,
             105.19999999999999,
             101.30000000000001
@@ -11503,7 +11583,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_21.shp": {
+    "25_21_0.shp": {
         "bbox": [
             58.7,
             56.9,
@@ -11519,7 +11599,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_22.shp": {
+    "25_22_0.shp": {
         "bbox": [
             56.5,
             55.8,
@@ -11535,7 +11615,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_23.shp": {
+    "25_23_0.shp": {
         "bbox": [
             57.5,
             55.4,
@@ -11903,7 +11983,7 @@
         "west_max": false,
         "west_min": false
     },
-    "25_44_09964bd1_d3f8_4cea_bede_3a5ad3e44993.shp": {
+    "25_44_09964bd1_d3f8_4cea_bede_3a5ad3e44993_0.shp": {
         "bbox": [
             44.074999999999996,
             40.137499999999996,
@@ -11919,7 +11999,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_0b983b45_cace_4f68_872a_9a4a54818748.shp": {
+    "25_44_0b983b45_cace_4f68_872a_9a4a54818748_0.shp": {
         "bbox": [
             60.875,
             56.412499999999994,
@@ -11935,7 +12015,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_0f4014d8_35bd_42e1_9034_f858da74f1a4.shp": {
+    "25_44_0f4014d8_35bd_42e1_9034_f858da74f1a4_0.shp": {
         "bbox": [
             56.412499999999994,
             51.949999999999996,
@@ -11967,7 +12047,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_1cc6aa52_d202_4574_a38a_ce1b17281769.shp": {
+    "25_44_1cc6aa52_d202_4574_a38a_ce1b17281769_0.shp": {
         "bbox": [
             59.825,
             55.8875,
@@ -11999,7 +12079,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_1f3dbd08_d2ff_4928_8c3a_f6163f955b8b.shp": {
+    "25_44_1f3dbd08_d2ff_4928_8c3a_f6163f955b8b_0.shp": {
         "bbox": [
             59.825,
             55.8875,
@@ -12031,7 +12111,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_45e9f90c_58a1_493b_9273_8e6aa77e5176.shp": {
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_45e9f90c_58a1_493b_9273_8e6aa77e5176_0.shp": {
         "bbox": [
             65.4,
             63.7625,
@@ -12047,7 +12127,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_6296ad33_4aa4_487b_99f3_737a3843e2b4.shp": {
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_6296ad33_4aa4_487b_99f3_737a3843e2b4_0.shp": {
         "bbox": [
             63.7625,
             59.825,
@@ -12063,7 +12143,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_9ea6a69d_685b_4565_9c90_706355628805.shp": {
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_9ea6a69d_685b_4565_9c90_706355628805_0.shp": {
         "bbox": [
             63.7625,
             59.825,
@@ -12079,7 +12159,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_ee6a34cd_90f5_4276_8531_a22c9a59d61e.shp": {
+    "25_44_2aec770e_d59c_43bb_b1a6_6bb27f90f398_ee6a34cd_90f5_4276_8531_a22c9a59d61e_0.shp": {
         "bbox": [
             67.7,
             63.7625,
@@ -12111,7 +12191,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_2c933eb6_cdaf_4ac4_a17d_e348137e755c.shp": {
+    "25_44_2c933eb6_cdaf_4ac4_a17d_e348137e755c_2.shp": {
         "bbox": [
             48.012499999999996,
             44.074999999999996,
@@ -12143,7 +12223,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_334819e0_3e28_4309_8ce7_ca1664ef74f6.shp": {
+    "25_44_334819e0_3e28_4309_8ce7_ca1664ef74f6_0.shp": {
         "bbox": [
             48.012499999999996,
             44.074999999999996,
@@ -12159,7 +12239,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_371afa8a_bfac_40c7_92b0_ce168f4f475c.shp": {
+    "25_44_371afa8a_bfac_40c7_92b0_ce168f4f475c_0.shp": {
         "bbox": [
             44.074999999999996,
             40.387499999999996,
@@ -12207,7 +12287,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_430ee568_7276_48e4_88d2_6a16fdecca27.shp": {
+    "25_44_430ee568_7276_48e4_88d2_6a16fdecca27_0.shp": {
         "bbox": [
             51.949999999999996,
             48.012499999999996,
@@ -12239,7 +12319,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_45dab36e_67d9_4ba0_a243_a73ed6b6ed11.shp": {
+    "25_44_45dab36e_67d9_4ba0_a243_a73ed6b6ed11_0.shp": {
         "bbox": [
             51.949999999999996,
             48.012499999999996,
@@ -12255,7 +12335,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_48dd9186_1009_4758_9c2b_37224dd1b7aa.shp": {
+    "25_44_48dd9186_1009_4758_9c2b_37224dd1b7aa_0.shp": {
         "bbox": [
             55.8875,
             51.949999999999996,
@@ -12335,7 +12415,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_55ad6cdc_6fdf_4056_a2d7_30f5511da5f9.shp": {
+    "25_44_55ad6cdc_6fdf_4056_a2d7_30f5511da5f9_0.shp": {
         "bbox": [
             59.0,
             55.474999999999994,
@@ -12351,7 +12431,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_56fd4a4e_7b56_4f8c_8a95_a14c2f80707c.shp": {
+    "25_44_56fd4a4e_7b56_4f8c_8a95_a14c2f80707c_0.shp": {
         "bbox": [
             55.8875,
             51.949999999999996,
@@ -12367,7 +12447,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_65b5f701_3c47_4d9c_8e2b_9ab77f60ed98.shp": {
+    "25_44_65b5f701_3c47_4d9c_8e2b_9ab77f60ed98_0.shp": {
         "bbox": [
             60.875,
             59.7,
@@ -12383,7 +12463,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_6a5e1c0a_df78_413e_97dd_e6e99f2379e2.shp": {
+    "25_44_6a5e1c0a_df78_413e_97dd_e6e99f2379e2_0.shp": {
         "bbox": [
             56.412499999999994,
             51.949999999999996,
@@ -12415,7 +12495,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_723ab065_e143_400f_b278_928302e84341.shp": {
+    "25_44_723ab065_e143_400f_b278_928302e84341_0.shp": {
         "bbox": [
             59.825,
             55.8875,
@@ -12447,7 +12527,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_78b69e3f_e8d2_4384_8daa_3a59fea7f71d.shp": {
+    "25_44_78b69e3f_e8d2_4384_8daa_3a59fea7f71d_0.shp": {
         "bbox": [
             51.949999999999996,
             48.099999999999994,
@@ -12463,7 +12543,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_7adc03e5_77e4_486b_81d6_0ada2df5a305.shp": {
+    "25_44_7adc03e5_77e4_486b_81d6_0ada2df5a305_0.shp": {
         "bbox": [
             44.074999999999996,
             40.137499999999996,
@@ -12479,7 +12559,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_806c7510_4d8f_463f_a303_ccc3e11f0345.shp": {
+    "25_44_806c7510_4d8f_463f_a303_ccc3e11f0345_0.shp": {
         "bbox": [
             68.5,
             65.3375,
@@ -12495,7 +12575,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_819409ac_564c_4f60_bd01_b25757d7e950.shp": {
+    "25_44_819409ac_564c_4f60_bd01_b25757d7e950_0.shp": {
         "bbox": [
             55.474999999999994,
             51.949999999999996,
@@ -12511,7 +12591,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_8884fb37_1fbf_4636_b047_83df33f7aeef.shp": {
+    "25_44_8884fb37_1fbf_4636_b047_83df33f7aeef_0.shp": {
         "bbox": [
             48.012499999999996,
             44.074999999999996,
@@ -12559,7 +12639,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_8dba930d_6e98_4af6_9719_2cd7e762d53c.shp": {
+    "25_44_8dba930d_6e98_4af6_9719_2cd7e762d53c_0.shp": {
         "bbox": [
             69.8,
             65.3375,
@@ -12575,7 +12655,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_990b759d_e7ac_4079_a07d_bba72031c3c9.shp": {
+    "25_44_990b759d_e7ac_4079_a07d_bba72031c3c9_0.shp": {
         "bbox": [
             69.5,
             65.2375,
@@ -12591,7 +12671,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_9ea01687_adf8_49c1_be38_3e4b259a5f89.shp": {
+    "25_44_9ea01687_adf8_49c1_be38_3e4b259a5f89_0.shp": {
         "bbox": [
             46.099999999999994,
             40.75,
@@ -12623,7 +12703,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_a05f2791_118b_454d_a4b6_dcf9a1aab53a.shp": {
+    "25_44_a05f2791_118b_454d_a4b6_dcf9a1aab53a_0.shp": {
         "bbox": [
             40.75,
             39.099999999999994,
@@ -12671,7 +12751,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_a806cb80_3e4d_43a7_9a50_46a04f514eb0.shp": {
+    "25_44_a806cb80_3e4d_43a7_9a50_46a04f514eb0_0.shp": {
         "bbox": [
             60.875,
             56.412499999999994,
@@ -12687,7 +12767,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_ab429454_5145_4256_b64f_65e9e30c8a09.shp": {
+    "25_44_ab429454_5145_4256_b64f_65e9e30c8a09_0.shp": {
         "bbox": [
             65.3375,
             60.875,
@@ -12719,7 +12799,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_ad440df4_4231_4bbf_b75e_94bfbc99a123.shp": {
+    "25_44_ad440df4_4231_4bbf_b75e_94bfbc99a123_0.shp": {
         "bbox": [
             51.949999999999996,
             48.012499999999996,
@@ -12783,7 +12863,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_bdf1d879_5ff1_4afc_9ab2_b9cae105a411.shp": {
+    "25_44_bdf1d879_5ff1_4afc_9ab2_b9cae105a411_0.shp": {
         "bbox": [
             65.2375,
             60.875,
@@ -12799,7 +12879,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_c37f285f_ff46_454b_b708_79c39d4451a4.shp": {
+    "25_44_c37f285f_ff46_454b_b708_79c39d4451a4_1.shp": {
         "bbox": [
             58.5,
             55.474999999999994,
@@ -12815,7 +12895,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_c412194a_bc8b_4f0c_8388_cd92f1ffdc54.shp": {
+    "25_44_c412194a_bc8b_4f0c_8388_cd92f1ffdc54_0.shp": {
         "bbox": [
             47.4,
             40.75,
@@ -12831,7 +12911,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_c8600a13_c340_4202_98a5_f7cdb6369fdb.shp": {
+    "25_44_c8600a13_c340_4202_98a5_f7cdb6369fdb_0.shp": {
         "bbox": [
             40.387499999999996,
             36.699999999999996,
@@ -12847,7 +12927,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_c90ad0c5_baa1_4d42_9585_d71ff7a5cc1b.shp": {
+    "25_44_c90ad0c5_baa1_4d42_9585_d71ff7a5cc1b_0.shp": {
         "bbox": [
             51.949999999999996,
             47.625,
@@ -12879,7 +12959,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_ceb6ac75_475a_455b_b89f_9e2e83c0a835.shp": {
+    "25_44_ceb6ac75_475a_455b_b89f_9e2e83c0a835_0.shp": {
         "bbox": [
             48.012499999999996,
             44.074999999999996,
@@ -12911,7 +12991,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_d795e099_c551_422a_a12d_37e86b3837a4.shp": {
+    "25_44_d795e099_c551_422a_a12d_37e86b3837a4_0.shp": {
         "bbox": [
             55.474999999999994,
             51.949999999999996,
@@ -12927,9 +13007,9 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_ddb70efb_8271_45bc_9306_e5e050e895fb.shp": {
+    "25_44_ddb70efb_8271_45bc_9306_e5e050e895fb_0.shp": {
         "bbox": [
-            63.9,
+            63.62485122680664,
             59.825,
             -93.69999999999999,
             -96.425
@@ -12943,7 +13023,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_e16bfd9a_12fa_4deb_a4c5_6d19e0b27b20.shp": {
+    "25_44_e16bfd9a_12fa_4deb_a4c5_6d19e0b27b20_0.shp": {
         "bbox": [
             60.875,
             54.9,
@@ -12959,7 +13039,7 @@
         "west_max": true,
         "west_min": true
     },
-    "25_44_e63b137c_4245_4c71_b48a_49da1016553a.shp": {
+    "25_44_e63b137c_4245_4c71_b48a_49da1016553a_0.shp": {
         "bbox": [
             65.3375,
             60.875,
@@ -13135,11 +13215,11 @@
         "west_max": true,
         "west_min": true
     },
-    "25_53.shp": {
+    "25_53_0.shp": {
         "bbox": [
-            66.7,
+            66.4,
             66.2,
-            -160.2,
+            -160.7,
             -161.3
         ],
         "south_max": false,
@@ -13407,12 +13487,28 @@
         "west_max": true,
         "west_min": true
     },
-    "25_69.shp": {
+    "25_69_0.shp": {
         "bbox": [
             60.9,
-            60.599999999999994,
-            -163.4,
+            60.85871871219941,
+            -164.08206176757812,
             -164.5
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            3,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "25_69_3.shp": {
+        "bbox": [
+            60.9,
+            60.7,
+            -163.4,
+            -163.7
         ],
         "south_max": false,
         "south_min": false,
@@ -13519,11 +13615,11 @@
         "west_max": true,
         "west_min": true
     },
-    "25_75.shp": {
+    "25_75_0.shp": {
         "bbox": [
             65.4,
-            65.2,
-            -166.0,
+            65.3,
+            -166.3,
             -166.4
         ],
         "south_max": false,
@@ -13535,9 +13631,41 @@
         "west_max": true,
         "west_min": true
     },
-    "25_76.shp": {
+    "25_75_1.shp": {
         "bbox": [
-            60.7,
+            65.3,
+            65.2,
+            -166.0,
+            -166.24417237546243
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            3,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "25_75_2.shp": {
+        "bbox": [
+            65.25662994384766,
+            65.2,
+            -166.02218627929688,
+            -166.3
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            3,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "25_76_1.shp": {
+        "bbox": [
+            60.68925759500028,
             60.599999999999994,
             -164.1,
             -164.3
@@ -13743,12 +13871,12 @@
         "west_max": true,
         "west_min": true
     },
-    "25_88.shp": {
+    "25_88_0.shp": {
         "bbox": [
             58.599999999999994,
             58.5,
             -94.19999999999999,
-            -94.3
+            -94.26429748535156
         ],
         "south_max": false,
         "south_min": false,
@@ -13775,22 +13903,6 @@
         "west_max": true,
         "west_min": true
     },
-    "25_9.shp": {
-        "bbox": [
-            63.7,
-            62.9,
-            -168.8,
-            -171.9
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            2,
-            "north"
-        ],
-        "west_max": true,
-        "west_min": true
-    },
     "25_90.shp": {
         "bbox": [
             53.8,
@@ -13809,7 +13921,7 @@
     },
     "25_91.shp": {
         "bbox": [
-            45.8,
+            45.794647216796875,
             45.699999999999996,
             -60.89999999999999,
             -61.0
@@ -13919,12 +14031,28 @@
         "west_max": true,
         "west_min": true
     },
-    "25_98.shp": {
+    "25_98_0.shp": {
         "bbox": [
             50.9,
-            50.599999999999994,
+            50.70451736450195,
             -107.0,
             -107.39999999999999
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            13,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "25_98_1.shp": {
+        "bbox": [
+            50.74992752075195,
+            50.599999999999994,
+            -107.0,
+            -107.3
         ],
         "south_max": false,
         "south_min": false,
@@ -13946,6 +14074,22 @@
         "south_min": false,
         "utm_zone": [
             18,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "25_9_0.shp": {
+        "bbox": [
+            63.7,
+            62.9,
+            -168.8,
+            -171.9
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            2,
             "north"
         ],
         "west_max": true,
@@ -14031,7 +14175,7 @@
         "west_max": false,
         "west_min": false
     },
-    "2_102.shp": {
+    "2_102_0.shp": {
         "bbox": [
             10.399999999999991,
             7.3999999999999915,
@@ -14063,7 +14207,7 @@
         "west_max": false,
         "west_min": false
     },
-    "2_104.shp": {
+    "2_104_0.shp": {
         "bbox": [
             19.89999999999999,
             8.599999999999994,
@@ -14095,12 +14239,12 @@
         "west_max": false,
         "west_min": false
     },
-    "2_12.shp": {
+    "2_12_0.shp": {
         "bbox": [
             1.0999999999999943,
-            -1.8000000000000114,
+            -0.7000000000000028,
             35.5,
-            31.5
+            31.80000000000001
         ],
         "south_max": false,
         "south_min": true,
@@ -14863,7 +15007,7 @@
         "west_max": false,
         "west_min": false
     },
-    "2_56.shp": {
+    "2_56_0.shp": {
         "bbox": [
             19.799999999999997,
             17.0,
@@ -14879,7 +15023,7 @@
         "west_max": true,
         "west_min": true
     },
-    "2_57.shp": {
+    "2_57_0.shp": {
         "bbox": [
             26.599999999999994,
             17.5,
@@ -14943,10 +15087,10 @@
         "west_max": false,
         "west_min": false
     },
-    "2_60.shp": {
+    "2_60_0.shp": {
         "bbox": [
             13.700000000000003,
-            11.699999999999989,
+            12.378644943237305,
             -86.19999999999999,
             -89.0
         ],
@@ -15007,10 +15151,10 @@
         "west_max": true,
         "west_min": true
     },
-    "2_64.shp": {
+    "2_64_0.shp": {
         "bbox": [
             18.599999999999994,
-            13.599999999999994,
+            14.288000106811523,
             122.30000000000001,
             119.80000000000001
         ],
@@ -15231,10 +15375,10 @@
         "west_max": false,
         "west_min": false
     },
-    "2_77.shp": {
+    "2_77_0.shp": {
         "bbox": [
             16.0,
-            10.199999999999989,
+            11.634018898010254,
             -83.19999999999999,
             -86.39999999999999
         ],
@@ -15279,7 +15423,7 @@
         "west_max": true,
         "west_min": true
     },
-    "2_78_3d44e11a_d7af_43d4_9dc4_cb3d9debf0be.shp": {
+    "2_78_3d44e11a_d7af_43d4_9dc4_cb3d9debf0be_0.shp": {
         "bbox": [
             2.8999999999999915,
             -3.9000000000000057,
@@ -15295,7 +15439,7 @@
         "west_max": true,
         "west_min": true
     },
-    "2_78_4f1ba6da_4885_409a_a61c_a76a8e2da1bf.shp": {
+    "2_78_4f1ba6da_4885_409a_a61c_a76a8e2da1bf_0.shp": {
         "bbox": [
             5.5,
             2.8999999999999915,
@@ -15407,11 +15551,11 @@
         "west_max": true,
         "west_min": true
     },
-    "2_78_9befff3a_dc0b_4720_9958_987b0514e30c.shp": {
+    "2_78_9befff3a_dc0b_4720_9958_987b0514e30c_0.shp": {
         "bbox": [
             -3.9000000000000057,
             -7.150000000000006,
-            -46.599999999999994,
+            -49.36866560713216,
             -54.275
         ],
         "south_max": true,
@@ -15455,11 +15599,11 @@
         "west_max": true,
         "west_min": true
     },
-    "2_78_ea9a69f6_9e4e_48b1_a53a_03e804fbb4da.shp": {
+    "2_78_ea9a69f6_9e4e_48b1_a53a_03e804fbb4da_0.shp": {
         "bbox": [
             9.699999999999989,
-            2.8999999999999915,
-            -55.12499999999999,
+            3.1999999999999886,
+            -57.13239288330078,
             -61.95
         ],
         "south_max": false,
@@ -15471,7 +15615,23 @@
         "west_max": true,
         "west_min": true
     },
-    "2_78_f86b3ef3_7005_4b08_8ba0_0bc6fd42edba.shp": {
+    "2_78_ea9a69f6_9e4e_48b1_a53a_03e804fbb4da_1.shp": {
+        "bbox": [
+            5.199999999999989,
+            2.8999999999999915,
+            -55.12499999999999,
+            -57.665531158447266
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            21,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "2_78_f86b3ef3_7005_4b08_8ba0_0bc6fd42edba_0.shp": {
         "bbox": [
             2.8999999999999915,
             -3.9000000000000057,
@@ -15503,7 +15663,7 @@
         "west_max": true,
         "west_min": true
     },
-    "2_78_fe8879ad_4c13_4ecf_8485_b39902a9fe56.shp": {
+    "2_78_fe8879ad_4c13_4ecf_8485_b39902a9fe56_0.shp": {
         "bbox": [
             -0.5,
             -3.9000000000000057,
@@ -15519,7 +15679,7 @@
         "west_max": true,
         "west_min": true
     },
-    "2_79.shp": {
+    "2_79_0.shp": {
         "bbox": [
             11.299999999999997,
             4.3999999999999915,
@@ -15583,7 +15743,7 @@
         "west_max": true,
         "west_min": true
     },
-    "2_82.shp": {
+    "2_82_0.shp": {
         "bbox": [
             17.599999999999994,
             5.8999999999999915,
@@ -15647,12 +15807,12 @@
         "west_max": false,
         "west_min": false
     },
-    "2_86.shp": {
+    "2_86_0.shp": {
         "bbox": [
             6.299999999999997,
             4.799999999999997,
             -1.799999999999983,
-            -4.099999999999994
+            -3.8449424927524523
         ],
         "south_max": false,
         "south_min": false,
@@ -15727,7 +15887,7 @@
         "west_max": false,
         "west_min": false
     },
-    "2_87_5ffc9cb7_6586_4532_adf1_e57c4fdac789.shp": {
+    "2_87_5ffc9cb7_6586_4532_adf1_e57c4fdac789_0.shp": {
         "bbox": [
             0.0,
             -4.200000000000003,
@@ -15935,7 +16095,7 @@
         "west_max": true,
         "west_min": true
     },
-    "2_95.shp": {
+    "2_95_0.shp": {
         "bbox": [
             9.599999999999994,
             8.799999999999997,
@@ -15983,7 +16143,7 @@
         "west_max": false,
         "west_min": false
     },
-    "2_98.shp": {
+    "2_98_0.shp": {
         "bbox": [
             7.8999999999999915,
             7.099999999999994,
@@ -16719,22 +16879,6 @@
         "west_max": false,
         "west_min": false
     },
-    "3_3.shp": {
-        "bbox": [
-            -22.200000000000003,
-            -23.10000000000001,
-            -42.900000000000006,
-            -44.0
-        ],
-        "south_max": true,
-        "south_min": true,
-        "utm_zone": [
-            23,
-            "south"
-        ],
-        "west_max": true,
-        "west_min": true
-    },
     "3_30.shp": {
         "bbox": [
             -1.6000000000000085,
@@ -16895,6 +17039,22 @@
         "west_max": false,
         "west_min": false
     },
+    "3_3_0.shp": {
+        "bbox": [
+            -22.200000000000003,
+            -23.10000000000001,
+            -42.900000000000006,
+            -44.0
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            23,
+            "south"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
     "3_4.shp": {
         "bbox": [
             -21.400000000000006,
@@ -16927,7 +17087,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_41.shp": {
+    "3_41_0.shp": {
         "bbox": [
             15.599999999999994,
             9.399999999999991,
@@ -17039,7 +17199,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_48_0a07d550_fe90_4a61_9d41_d738199086f6.shp": {
+    "3_48_0a07d550_fe90_4a61_9d41_d738199086f6_0.shp": {
         "bbox": [
             21.599999999999994,
             17.749999999999993,
@@ -17055,7 +17215,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_48_1da2f997_73fb_4105_9203_9bf1a33ef4fe.shp": {
+    "3_48_1da2f997_73fb_4105_9203_9bf1a33ef4fe_0.shp": {
         "bbox": [
             17.749999999999993,
             13.899999999999991,
@@ -17103,7 +17263,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_48_86308410_b283_460b_9b72_71af7f5fa896.shp": {
+    "3_48_86308410_b283_460b_9b72_71af7f5fa896_0.shp": {
         "bbox": [
             21.299999999999997,
             17.749999999999993,
@@ -17119,7 +17279,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_49.shp": {
+    "3_49_0.shp": {
         "bbox": [
             23.200000000000003,
             19.799999999999997,
@@ -17183,7 +17343,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_52.shp": {
+    "3_52_0.shp": {
         "bbox": [
             19.299999999999997,
             18.299999999999997,
@@ -17279,7 +17439,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_58.shp": {
+    "3_58_0.shp": {
         "bbox": [
             25.200000000000003,
             24.299999999999997,
@@ -17359,11 +17519,11 @@
         "west_max": true,
         "west_min": true
     },
-    "3_62.shp": {
+    "3_62_0.shp": {
         "bbox": [
             23.39999999999999,
             21.5,
-            -97.6,
+            -97.68515618492832,
             -99.6
         ],
         "south_max": false,
@@ -17375,7 +17535,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_63.shp": {
+    "3_63_0.shp": {
         "bbox": [
             26.0,
             21.5,
@@ -17391,7 +17551,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_64_035c52a4_0321_4572_8ebf_baae7a726de3.shp": {
+    "3_64_035c52a4_0321_4572_8ebf_baae7a726de3_0.shp": {
         "bbox": [
             16.9,
             12.45,
@@ -17423,7 +17583,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_64_20975854_619a_4ed7_8a0f_705c9ad87cda.shp": {
+    "3_64_20975854_619a_4ed7_8a0f_705c9ad87cda_0.shp": {
         "bbox": [
             12.45,
             10.599999999999994,
@@ -17439,7 +17599,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_64_27f276a3_3b0d_4b98_a558_eed496017387.shp": {
+    "3_64_27f276a3_3b0d_4b98_a558_eed496017387_0.shp": {
         "bbox": [
             21.599999999999994,
             17.39999999999999,
@@ -17455,7 +17615,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_64_30364865_9d9a_43b5_b097_44f8a761d968.shp": {
+    "3_64_30364865_9d9a_43b5_b097_44f8a761d968_0.shp": {
         "bbox": [
             16.9,
             12.45,
@@ -17487,7 +17647,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_64_48fbb8e3_01ce_4cea_acb8_bb8a2e5a7118.shp": {
+    "3_64_48fbb8e3_01ce_4cea_acb8_bb8a2e5a7118_0.shp": {
         "bbox": [
             18.0,
             16.9,
@@ -17519,12 +17679,12 @@
         "west_max": false,
         "west_min": false
     },
-    "3_64_7aace021_f86e_4f97_88ab_e6a633c347fb.shp": {
+    "3_64_7aace021_f86e_4f97_88ab_e6a633c347fb_0.shp": {
         "bbox": [
             23.799999999999997,
             21.599999999999994,
             87.82500000000003,
-            83.80000000000001
+            83.92616271972656
         ],
         "south_max": false,
         "south_min": false,
@@ -17535,7 +17695,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_64_9342b68e_8dd7_493f_a118_43dce99557a5.shp": {
+    "3_64_9342b68e_8dd7_493f_a118_43dce99557a5_0.shp": {
         "bbox": [
             25.799999999999997,
             21.599999999999994,
@@ -17583,9 +17743,9 @@
         "west_max": false,
         "west_min": false
     },
-    "3_64_caca16da_2676_4815_b339_45bc1b206b85.shp": {
+    "3_64_caca16da_2676_4815_b339_45bc1b206b85_0.shp": {
         "bbox": [
-            24.799999999999997,
+            24.761350631713867,
             20.849999999999998,
             77.67500000000003,
             72.60000000000002
@@ -17887,7 +18047,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_76_ba44df5e_01f1_4ba4_b5a2_7a19444d4869.shp": {
+    "3_76_ba44df5e_01f1_4ba4_b5a2_7a19444d4869_0.shp": {
         "bbox": [
             11.199999999999989,
             5.449999999999989,
@@ -17903,9 +18063,9 @@
         "west_max": true,
         "west_min": true
     },
-    "3_77.shp": {
+    "3_77_2.shp": {
         "bbox": [
-            9.799999999999997,
+            9.535583922508925,
             6.099999999999994,
             81.90000000000003,
             79.69999999999999
@@ -18159,7 +18319,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_85_a9d7121e_4c1e_42b0_bae3_d7ededa0849c.shp": {
+    "3_85_a9d7121e_4c1e_42b0_bae3_d7ededa0849c_0.shp": {
         "bbox": [
             16.89999999999999,
             13.724999999999998,
@@ -18255,12 +18415,28 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_0f06099d_36e4_4927_8208_a5230aff3ffc.shp": {
+    "3_87_0f06099d_36e4_4927_8208_a5230aff3ffc_0.shp": {
+        "bbox": [
+            -4.57500000000001,
+            -7.0,
+            29.739417509346495,
+            25.275000000000006
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            35,
+            "south"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
+    "3_87_0f06099d_36e4_4927_8208_a5230aff3ffc_1.shp": {
         "bbox": [
             -4.57500000000001,
             -8.0,
             33.900000000000006,
-            25.275000000000006
+            29.59162139892578
         ],
         "south_max": true,
         "south_min": true,
@@ -18303,7 +18479,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_21ed973f_c702_4b7e_85a1_54e08cd8ceb8.shp": {
+    "3_87_21ed973f_c702_4b7e_85a1_54e08cd8ceb8_0.shp": {
         "bbox": [
             8.699999999999996,
             4.699999999999989,
@@ -18335,12 +18511,12 @@
         "west_max": true,
         "west_min": true
     },
-    "3_87_342b8989_dfeb_4d77_be5f_5646855dbadf.shp": {
+    "3_87_342b8989_dfeb_4d77_be5f_5646855dbadf_0.shp": {
         "bbox": [
-            -1.0,
+            -1.141413164119363,
             -1.4625000000000092,
             34.5,
-            33.0
+            33.780616760253906
         ],
         "south_max": true,
         "south_min": true,
@@ -18367,7 +18543,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_4d393272_5ca2_4c4e_8de7_5f9941358168.shp": {
+    "3_87_4d393272_5ca2_4c4e_8de7_5f9941358168_0.shp": {
         "bbox": [
             7.724999999999994,
             4.687499999999993,
@@ -18399,7 +18575,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_5645abe0_c591_4ace_8c59_39a2f2e42f5d.shp": {
+    "3_87_5645abe0_c591_4ace_8c59_39a2f2e42f5d_0.shp": {
         "bbox": [
             8.699999999999996,
             5.9999999999999964,
@@ -18431,7 +18607,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_5d05cacd_6bfd_4953_94a1_559dba5aea71.shp": {
+    "3_87_5d05cacd_6bfd_4953_94a1_559dba5aea71_0.shp": {
         "bbox": [
             4.687499999999993,
             1.6499999999999915,
@@ -18447,7 +18623,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_5e4866d5_104d_4fc6_b4c3_eb4f24e55fda.shp": {
+    "3_87_5e4866d5_104d_4fc6_b4c3_eb4f24e55fda_0.shp": {
         "bbox": [
             14.099999999999994,
             11.399999999999995,
@@ -18543,7 +18719,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_74f4f5f8_a00f_45fb_b064_4ce7eeac7de6.shp": {
+    "3_87_74f4f5f8_a00f_45fb_b064_4ce7eeac7de6_0.shp": {
         "bbox": [
             1.6499999999999915,
             -1.4625000000000092,
@@ -18591,7 +18767,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_7f1c1ca3_6ce4_455f_9d83_1ef6ee084439.shp": {
+    "3_87_7f1c1ca3_6ce4_455f_9d83_1ef6ee084439_0.shp": {
         "bbox": [
             1.6499999999999915,
             -1.4625000000000092,
@@ -18607,7 +18783,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_97358e35_dc17_4f5a_bb10_a8d71d833eaf.shp": {
+    "3_87_97358e35_dc17_4f5a_bb10_a8d71d833eaf_0.shp": {
         "bbox": [
             10.849999999999998,
             8.699999999999996,
@@ -18623,7 +18799,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_a6850476_b6be_4be8_aba3_54f2fb721b9d.shp": {
+    "3_87_a6850476_b6be_4be8_aba3_54f2fb721b9d_0.shp": {
         "bbox": [
             10.849999999999998,
             8.699999999999996,
@@ -18687,7 +18863,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_b89ba06e_6eab_440a_a9d3_33b67ec010c1.shp": {
+    "3_87_b89ba06e_6eab_440a_a9d3_33b67ec010c1_0.shp": {
         "bbox": [
             5.9999999999999964,
             3.299999999999997,
@@ -18703,7 +18879,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_c26dbe9a_56b3_49c3_9b53_8044d4a4d779.shp": {
+    "3_87_c26dbe9a_56b3_49c3_9b53_8044d4a4d779_0.shp": {
         "bbox": [
             -1.4625000000000092,
             -4.57500000000001,
@@ -18719,7 +18895,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_ce566307_9640_439c_936d_223ff887830d.shp": {
+    "3_87_ce566307_9640_439c_936d_223ff887830d_0.shp": {
         "bbox": [
             4.687499999999993,
             1.6499999999999915,
@@ -18751,11 +18927,11 @@
         "west_max": true,
         "west_min": true
     },
-    "3_87_d58a8165_04e0_4136_a513_5a3998122465.shp": {
+    "3_87_d58a8165_04e0_4136_a513_5a3998122465_0.shp": {
         "bbox": [
             5.9999999999999964,
             4.8999999999999915,
-            1.0,
+            0.9226788878440857,
             -2.1999999999999886
         ],
         "south_max": false,
@@ -18831,9 +19007,9 @@
         "west_max": false,
         "west_min": true
     },
-    "3_87_fc1cd7e8_bf7d_448c_a923_b64eedafdc5e.shp": {
+    "3_87_fc1cd7e8_bf7d_448c_a923_b64eedafdc5e_0.shp": {
         "bbox": [
-            -2.200000000000003,
+            -2.2609868835082207,
             -4.57500000000001,
             25.275000000000006,
             18.41250000000001
@@ -18847,12 +19023,12 @@
         "west_max": false,
         "west_min": false
     },
-    "3_87_fc411a83_9f8a_486c_84a4_85f4c9268240.shp": {
+    "3_87_fc411a83_9f8a_486c_84a4_85f4c9268240_0.shp": {
         "bbox": [
             4.687499999999993,
             1.6499999999999915,
             39.400000000000006,
-            36.900000000000006
+            36.97075467724656
         ],
         "south_max": false,
         "south_min": false,
@@ -18895,7 +19071,7 @@
         "west_max": false,
         "west_min": false
     },
-    "3_88.shp": {
+    "3_88_0.shp": {
         "bbox": [
             -0.5,
             -11.200000000000003,
@@ -18991,10 +19167,10 @@
         "west_max": true,
         "west_min": true
     },
-    "3_91_1a690767_45a5_444e_a425_9d02fd53751e.shp": {
+    "3_91_1a690767_45a5_444e_a425_9d02fd53751e_0.shp": {
         "bbox": [
             -16.60000000000001,
-            -19.400000000000006,
+            -19.0,
             -45.09999999999999,
             -50.89999999999999
         ],
@@ -19103,7 +19279,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_91_75612dfc_ca1f_447f_b886_44dd7af19020.shp": {
+    "3_91_75612dfc_ca1f_447f_b886_44dd7af19020_0.shp": {
         "bbox": [
             -7.3500000000000085,
             -13.100000000000009,
@@ -19167,7 +19343,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_91_c5c17dd1_5c23_4361_a3c3_77b331aa7027.shp": {
+    "3_91_c5c17dd1_5c23_4361_a3c3_77b331aa7027_0.shp": {
         "bbox": [
             -16.60000000000001,
             -20.10000000000001,
@@ -19183,7 +19359,7 @@
         "west_max": true,
         "west_min": true
     },
-    "3_91_d90ea277_9a29_4e14_95e6_f16f50431950.shp": {
+    "3_91_d90ea277_9a29_4e14_95e6_f16f50431950_0.shp": {
         "bbox": [
             -2.5,
             -7.3500000000000085,
@@ -19567,11 +19743,11 @@
         "west_max": true,
         "west_min": true
     },
-    "4_16.shp": {
+    "4_16_0.shp": {
         "bbox": [
             4.0,
             2.0999999999999943,
-            36.70000000000002,
+            36.548445645312114,
             35.10000000000002
         ],
         "south_max": false,
@@ -19775,7 +19951,7 @@
         "west_max": true,
         "west_min": true
     },
-    "4_20_24d36e65_f9b2_4413_8b5c_753d1aae3c6e.shp": {
+    "4_20_24d36e65_f9b2_4413_8b5c_753d1aae3c6e_0.shp": {
         "bbox": [
             37.199999999999996,
             30.049999999999994,
@@ -19887,12 +20063,28 @@
         "west_max": true,
         "west_min": true
     },
-    "4_24.shp": {
+    "4_24_0.shp": {
         "bbox": [
             26.299999999999997,
+            25.599999999999994,
+            -108.89806450909734,
+            -109.39999999999999
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            12,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "4_24_1.shp": {
+        "bbox": [
+            25.700000000000003,
             25.39999999999999,
             -108.6,
-            -109.39999999999999
+            -109.0
         ],
         "south_max": false,
         "south_min": false,
@@ -20319,7 +20511,7 @@
         "west_max": false,
         "west_min": true
     },
-    "4_27_774d4d4a_e109_43ad_ba0c_4f7c0ca39d54.shp": {
+    "4_27_774d4d4a_e109_43ad_ba0c_4f7c0ca39d54_0.shp": {
         "bbox": [
             18.374999999999993,
             16.337499999999995,
@@ -20415,7 +20607,7 @@
         "west_max": false,
         "west_min": false
     },
-    "4_27_98619533_a11d_4613_bec4_acb10dbe0bbc.shp": {
+    "4_27_98619533_a11d_4613_bec4_acb10dbe0bbc_0.shp": {
         "bbox": [
             34.4,
             32.71249999999999,
@@ -20591,7 +20783,7 @@
         "west_max": false,
         "west_min": false
     },
-    "4_27_c583b2b3_b87c_4f0e_9db6_da026b8dc7fe.shp": {
+    "4_27_c583b2b3_b87c_4f0e_9db6_da026b8dc7fe_0.shp": {
         "bbox": [
             32.71249999999999,
             29.824999999999996,
@@ -20879,7 +21071,7 @@
         "west_max": false,
         "west_min": false
     },
-    "4_31.shp": {
+    "4_31_0.shp": {
         "bbox": [
             12.199999999999989,
             11.5,
@@ -21807,7 +21999,7 @@
         "west_max": false,
         "west_min": false
     },
-    "5_28.shp": {
+    "5_28_0.shp": {
         "bbox": [
             47.3,
             46.099999999999994,
@@ -21823,7 +22015,7 @@
         "west_max": true,
         "west_min": true
     },
-    "5_29.shp": {
+    "5_29_0.shp": {
         "bbox": [
             50.699999999999996,
             47.199999999999996,
@@ -21967,10 +22159,10 @@
         "west_max": true,
         "west_min": true
     },
-    "5_37.shp": {
+    "5_37_0.shp": {
         "bbox": [
             41.199999999999996,
-            35.0,
+            36.023048400878906,
             -113.5,
             -120.3
         ],
@@ -22159,11 +22351,11 @@
         "west_max": false,
         "west_min": false
     },
-    "5_47_15a89eb7_5ad2_4a12_a8e0_7c29381c4514.shp": {
+    "5_47_15a89eb7_5ad2_4a12_a8e0_7c29381c4514_0.shp": {
         "bbox": [
-            46.699999999999996,
+            46.599999999999994,
             41.75,
-            77.10000000000002,
+            74.01992122984964,
             63.20000000000002
         ],
         "south_max": false,
@@ -22175,12 +22367,12 @@
         "west_max": false,
         "west_min": false
     },
-    "5_47_845e16c1_7ce5_4341_9770_375539269e95.shp": {
+    "5_47_845e16c1_7ce5_4341_9770_375539269e95_0.shp": {
         "bbox": [
             41.75,
             36.3,
             63.20000000000002,
-            49.70000000000002
+            52.431370230282056
         ],
         "south_max": false,
         "south_min": false,
@@ -22191,12 +22383,12 @@
         "west_max": false,
         "west_min": false
     },
-    "5_47_a7d99a69_2911_4378_9505_76ee3c35406a.shp": {
+    "5_47_a7d99a69_2911_4378_9505_76ee3c35406a_0.shp": {
         "bbox": [
             47.199999999999996,
             41.75,
             63.20000000000002,
-            49.30000000000001
+            50.224159240722656
         ],
         "south_max": false,
         "south_min": false,
@@ -22383,7 +22575,7 @@
         "west_max": false,
         "west_min": true
     },
-    "5_58.shp": {
+    "5_58_0.shp": {
         "bbox": [
             35.3,
             31.4,
@@ -22447,7 +22639,7 @@
         "west_max": false,
         "west_min": false
     },
-    "5_60_13f68f3b_ea88_4707_93dc_e5d915beb616.shp": {
+    "5_60_13f68f3b_ea88_4707_93dc_e5d915beb616_0.shp": {
         "bbox": [
             39.25,
             35.925,
@@ -22607,7 +22799,7 @@
         "west_max": false,
         "west_min": false
     },
-    "5_60_db5766db_d07a_4303_aa8c_b28529b902ff.shp": {
+    "5_60_db5766db_d07a_4303_aa8c_b28529b902ff_0.shp": {
         "bbox": [
             35.925,
             32.599999999999994,
@@ -22687,7 +22879,7 @@
         "west_max": true,
         "west_min": true
     },
-    "5_8.shp": {
+    "5_8_0.shp": {
         "bbox": [
             7.599999999999994,
             7.0,
@@ -22959,7 +23151,7 @@
         "west_max": false,
         "west_min": false
     },
-    "6_11_dbd488b2_eefb_4934_a163_2627b72cc529.shp": {
+    "6_11_dbd488b2_eefb_4934_a163_2627b72cc529_0.shp": {
         "bbox": [
             -15.100000000000009,
             -18.250000000000007,
@@ -23215,7 +23407,7 @@
         "west_max": false,
         "west_min": false
     },
-    "6_26.shp": {
+    "6_26_0.shp": {
         "bbox": [
             -4.800000000000011,
             -12.800000000000011,
@@ -23583,7 +23775,7 @@
         "west_max": false,
         "west_min": false
     },
-    "6_38_8a371cc7_fa5d_4d34_a87b_5d92561d29d6.shp": {
+    "6_38_8a371cc7_fa5d_4d34_a87b_5d92561d29d6_0.shp": {
         "bbox": [
             -17.800000000000004,
             -23.050000000000008,
@@ -23711,7 +23903,7 @@
         "west_max": true,
         "west_min": true
     },
-    "6_42.shp": {
+    "6_42_1.shp": {
         "bbox": [
             18.599999999999994,
             17.700000000000003,
@@ -24175,7 +24367,7 @@
         "west_max": false,
         "west_min": false
     },
-    "6_69.shp": {
+    "6_69_0.shp": {
         "bbox": [
             37.0,
             33.199999999999996,
@@ -24463,7 +24655,7 @@
         "west_max": false,
         "west_min": false
     },
-    "6_82.shp": {
+    "6_82_0.shp": {
         "bbox": [
             34.3,
             23.799999999999997,
@@ -24495,7 +24687,7 @@
         "west_max": true,
         "west_min": true
     },
-    "6_84.shp": {
+    "6_84_0.shp": {
         "bbox": [
             31.9,
             21.099999999999994,
@@ -24623,11 +24815,11 @@
         "west_max": false,
         "west_min": false
     },
-    "6_88_2cef54de_62c8_465e_ae46_d45432038fde.shp": {
+    "6_88_2cef54de_62c8_465e_ae46_d45432038fde_0.shp": {
         "bbox": [
             14.799999999999997,
             12.549999999999997,
-            15.100000000000009,
+            13.875328536019342,
             -1.1999999999999957
         ],
         "south_max": false,
@@ -24639,7 +24831,7 @@
         "west_max": false,
         "west_min": true
     },
-    "6_88_3ccbdb3f_eac0_45a4_a3d9_4d9bf1ceb2ca.shp": {
+    "6_88_3ccbdb3f_eac0_45a4_a3d9_4d9bf1ceb2ca_0.shp": {
         "bbox": [
             10.625,
             5.549999999999997,
@@ -25295,10 +25487,10 @@
         "west_max": false,
         "west_min": false
     },
-    "7_29.shp": {
+    "7_29_0.shp": {
         "bbox": [
             50.9,
-            50.599999999999994,
+            50.70451736450195,
             -107.0,
             -107.39999999999999
         ],
@@ -25311,18 +25503,18 @@
         "west_max": true,
         "west_min": true
     },
-    "7_3.shp": {
+    "7_29_1.shp": {
         "bbox": [
-            -39.70000000000002,
-            -52.5,
-            -65.6,
-            -72.89999999999999
+            50.74992752075195,
+            50.599999999999994,
+            -107.0,
+            -107.3
         ],
-        "south_max": true,
-        "south_min": true,
+        "south_max": false,
+        "south_min": false,
         "utm_zone": [
-            18,
-            "south"
+            13,
+            "north"
         ],
         "west_max": true,
         "west_min": true
@@ -25487,7 +25679,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_36_2824398c_0e1f_4905_a0f5_5b0d9510901a.shp": {
+    "7_36_2824398c_0e1f_4905_a0f5_5b0d9510901a_0.shp": {
         "bbox": [
             40.5,
             35.4,
@@ -25519,7 +25711,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_36_373f50b4_21db_490a_8baf_b7f43899f248.shp": {
+    "7_36_373f50b4_21db_490a_8baf_b7f43899f248_0.shp": {
         "bbox": [
             45.599999999999994,
             40.5,
@@ -25535,7 +25727,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_36_3a709628_a06e_44dd_b3f5_ff6c760dc4db.shp": {
+    "7_36_3a709628_a06e_44dd_b3f5_ff6c760dc4db_0.shp": {
         "bbox": [
             35.4,
             32.9,
@@ -25615,7 +25807,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_36_7be652de_1d6a_4b01_bda5_69a73c8545b0.shp": {
+    "7_36_7be652de_1d6a_4b01_bda5_69a73c8545b0_0.shp": {
         "bbox": [
             45.5,
             35.4,
@@ -25771,6 +25963,22 @@
         "utm_zone": [
             12,
             "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "7_3_0.shp": {
+        "bbox": [
+            -39.70000000000002,
+            -52.5,
+            -65.6,
+            -72.78233370661737
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            18,
+            "south"
         ],
         "west_max": true,
         "west_min": true
@@ -26031,7 +26239,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_54.shp": {
+    "7_54_0.shp": {
         "bbox": [
             48.099999999999994,
             45.3,
@@ -26415,7 +26623,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_76.shp": {
+    "7_76_0.shp": {
         "bbox": [
             48.0,
             47.4,
@@ -26447,7 +26655,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_78.shp": {
+    "7_78_0.shp": {
         "bbox": [
             49.9,
             48.4,
@@ -26511,7 +26719,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_81.shp": {
+    "7_81_0.shp": {
         "bbox": [
             39.3,
             36.0,
@@ -26607,7 +26815,7 @@
         "west_max": false,
         "west_min": true
     },
-    "7_87.shp": {
+    "7_87_0.shp": {
         "bbox": [
             38.699999999999996,
             38.199999999999996,
@@ -26639,7 +26847,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_89.shp": {
+    "7_89_0.shp": {
         "bbox": [
             40.3,
             38.199999999999996,
@@ -26687,7 +26895,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_91.shp": {
+    "7_91_0.shp": {
         "bbox": [
             40.599999999999994,
             39.3,
@@ -26719,7 +26927,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_93.shp": {
+    "7_93_0.shp": {
         "bbox": [
             42.199999999999996,
             40.4,
@@ -26735,7 +26943,7 @@
         "west_max": true,
         "west_min": true
     },
-    "7_94_02dcf21f_d337_471e_ad6c_3af773f80711.shp": {
+    "7_94_02dcf21f_d337_471e_ad6c_3af773f80711_0.shp": {
         "bbox": [
             41.849999999999994,
             38.58749999999999,
@@ -26783,7 +26991,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_0d95852b_822c_4743_800c_5e961b27e5dc.shp": {
+    "7_94_0d95852b_822c_4743_800c_5e961b27e5dc_0.shp": {
         "bbox": [
             54.9,
             51.6375,
@@ -26847,11 +27055,11 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_1c802546_b30b_4a28_abe9_311fd61d0603.shp": {
+    "7_94_1c802546_b30b_4a28_abe9_311fd61d0603_0.shp": {
         "bbox": [
             46.324999999999996,
-            41.849999999999994,
-            51.900000000000006,
+            43.199999999999996,
+            49.13130875255904,
             44.400000000000006
         ],
         "south_max": false,
@@ -26911,12 +27119,12 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_31a2bb69_2412_4186_a866_6962cf5c53c4.shp": {
+    "7_94_31a2bb69_2412_4186_a866_6962cf5c53c4_0.shp": {
         "bbox": [
             46.699999999999996,
             41.849999999999994,
             83.60000000000001,
-            76.19999999999999
+            77.10000000000002
         ],
         "south_max": false,
         "south_min": false,
@@ -26927,7 +27135,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_352d3bdc_b1a7_4827_9d40_3a728382cfc5.shp": {
+    "7_94_352d3bdc_b1a7_4827_9d40_3a728382cfc5_0.shp": {
         "bbox": [
             51.6375,
             48.375,
@@ -26943,7 +27151,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_35e8a724_ced1_49ae_8a79_f4a5e78230b5.shp": {
+    "7_94_35e8a724_ced1_49ae_8a79_f4a5e78230b5_0.shp": {
         "bbox": [
             48.375,
             45.287499999999994,
@@ -27041,7 +27249,7 @@
     },
     "7_94_47cc0ea1_aacf_4cd7_9ba0_69279cc70c40.shp": {
         "bbox": [
-            38.58749999999999,
+            37.0,
             35.324999999999996,
             54.10000000000001,
             50.20000000000002
@@ -27055,7 +27263,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_4963f1d7_95d1_47e3_9589_b9589ac595e2.shp": {
+    "7_94_4963f1d7_95d1_47e3_9589_b9589ac595e2_0.shp": {
         "bbox": [
             46.324999999999996,
             41.849999999999994,
@@ -27071,7 +27279,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_5b31aaae_580d_41b4_b92d_923b04111484.shp": {
+    "7_94_5b31aaae_580d_41b4_b92d_923b04111484_0.shp": {
         "bbox": [
             34.4625,
             32.0,
@@ -27119,7 +27327,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_6c14f0b5_8acb_496d_879b_bdcf64b86ab9.shp": {
+    "7_94_6c14f0b5_8acb_496d_879b_bdcf64b86ab9_0.shp": {
         "bbox": [
             50.5,
             46.324999999999996,
@@ -27135,7 +27343,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_70584069_dcaa_4e99_a511_701752c08c61.shp": {
+    "7_94_70584069_dcaa_4e99_a511_701752c08c61_0.shp": {
         "bbox": [
             48.375,
             45.287499999999994,
@@ -27217,9 +27425,9 @@
     },
     "7_94_89e3cea9_cf8f_483c_a868_14183151a10a.shp": {
         "bbox": [
-            42.599999999999994,
+            42.3,
             41.849999999999994,
-            49.10000000000002,
+            48.56330581800073,
             47.900000000000006
         ],
         "south_max": false,
@@ -27283,7 +27491,7 @@
         "bbox": [
             46.324999999999996,
             45.099999999999994,
-            74.5,
+            74.05860137939453,
             63.80000000000001
         ],
         "south_max": false,
@@ -27343,7 +27551,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_b5826a7a_e1a1_4df0_b128_011f2574f372.shp": {
+    "7_94_b5826a7a_e1a1_4df0_b128_011f2574f372_0.shp": {
         "bbox": [
             38.58749999999999,
             38.199999999999996,
@@ -27359,7 +27567,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_bb6f1329_2eb7_4c6a_90fd_1b3f1efb4cd7.shp": {
+    "7_94_bb6f1329_2eb7_4c6a_90fd_1b3f1efb4cd7_0.shp": {
         "bbox": [
             50.8,
             46.324999999999996,
@@ -27439,7 +27647,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_deb38112_ea01_4010_8461_0cd091e6b0e9.shp": {
+    "7_94_deb38112_ea01_4010_8461_0cd091e6b0e9_0.shp": {
         "bbox": [
             36.925,
             34.4625,
@@ -27455,11 +27663,11 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_e84cd8ac_7660_4288_8ea9_f4521d9b3a88.shp": {
+    "7_94_e84cd8ac_7660_4288_8ea9_f4521d9b3a88_0.shp": {
         "bbox": [
             41.849999999999994,
-            38.58749999999999,
-            53.70000000000002,
+            39.199999999999996,
+            50.36804962158203,
             45.30000000000001
         ],
         "south_max": false,
@@ -27471,7 +27679,7 @@
         "west_max": false,
         "west_min": false
     },
-    "7_94_f347f193_0f9f_452c_b3db_d5d1f356faba.shp": {
+    "7_94_f347f193_0f9f_452c_b3db_d5d1f356faba_0.shp": {
         "bbox": [
             36.925,
             34.3,
@@ -27487,11 +27695,27 @@
         "west_max": false,
         "west_min": false
     },
-    "8_0.shp": {
+    "8_0_0.shp": {
         "bbox": [
             -49.0,
-            -50.400000000000006,
+            -49.62328281356494,
             -71.39999999999999,
+            -72.89999999999999
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            18,
+            "south"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "8_0_1.shp": {
+        "bbox": [
+            -49.30000000000001,
+            -50.19542114503922,
+            -72.3,
             -73.3
         ],
         "south_max": true,
@@ -27583,7 +27807,7 @@
         "west_max": true,
         "west_min": true
     },
-    "8_14.shp": {
+    "8_14_0.shp": {
         "bbox": [
             12.799999999999997,
             7.199999999999989,
@@ -27678,22 +27902,6 @@
         ],
         "west_max": true,
         "west_min": true
-    },
-    "8_2.shp": {
-        "bbox": [
-            -35.5,
-            -38.400000000000006,
-            141.90000000000003,
-            139.3
-        ],
-        "south_max": true,
-        "south_min": true,
-        "utm_zone": [
-            54,
-            "south"
-        ],
-        "west_max": false,
-        "west_min": false
     },
     "8_20.shp": {
         "bbox": [
@@ -27855,6 +28063,22 @@
         "west_max": true,
         "west_min": true
     },
+    "8_2_0.shp": {
+        "bbox": [
+            -35.5,
+            -38.400000000000006,
+            141.90000000000003,
+            139.3
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            54,
+            "south"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
     "8_3.shp": {
         "bbox": [
             -32.60000000000001,
@@ -27919,7 +28143,7 @@
         "west_max": false,
         "west_min": false
     },
-    "8_33.shp": {
+    "8_33_0.shp": {
         "bbox": [
             50.5,
             49.4,
@@ -28127,23 +28351,7 @@
         "west_max": false,
         "west_min": false
     },
-    "8_45.shp": {
-        "bbox": [
-            43.099999999999994,
-            41.4,
-            50.10000000000002,
-            48.10000000000002
-        ],
-        "south_max": false,
-        "south_min": false,
-        "utm_zone": [
-            39,
-            "north"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
-    "8_46.shp": {
+    "8_46_0.shp": {
         "bbox": [
             45.0,
             37.9,
@@ -28223,7 +28431,7 @@
         "west_max": true,
         "west_min": true
     },
-    "8_48_a0607cad_cb26_4dd5_a142_d22afe9d3f27.shp": {
+    "8_48_a0607cad_cb26_4dd5_a142_d22afe9d3f27_0.shp": {
         "bbox": [
             41.39999999999999,
             34.599999999999994,
@@ -28431,22 +28639,6 @@
         "west_max": false,
         "west_min": false
     },
-    "8_6.shp": {
-        "bbox": [
-            -33.2,
-            -35.7,
-            139.20000000000005,
-            138.10000000000002
-        ],
-        "south_max": true,
-        "south_min": true,
-        "utm_zone": [
-            54,
-            "south"
-        ],
-        "west_max": false,
-        "west_min": false
-    },
     "8_60.shp": {
         "bbox": [
             35.8,
@@ -28607,6 +28799,22 @@
         "west_max": true,
         "west_min": true
     },
+    "8_6_0.shp": {
+        "bbox": [
+            -33.2,
+            -35.7,
+            139.20000000000005,
+            138.10000000000002
+        ],
+        "south_max": true,
+        "south_min": true,
+        "utm_zone": [
+            54,
+            "south"
+        ],
+        "west_max": false,
+        "west_min": false
+    },
     "8_7.shp": {
         "bbox": [
             -2.200000000000003,
@@ -28655,7 +28863,7 @@
         "west_max": true,
         "west_min": true
     },
-    "8_72.shp": {
+    "8_72_0.shp": {
         "bbox": [
             42.199999999999996,
             40.4,
@@ -28703,11 +28911,11 @@
         "west_max": false,
         "west_min": false
     },
-    "8_74_8dd9f6f1_6168_49b3_b023_150460955c39.shp": {
+    "8_74_8dd9f6f1_6168_49b3_b023_150460955c39_0.shp": {
         "bbox": [
             40.0,
             36.64999999999999,
-            51.60000000000002,
+            51.30000000000001,
             38.10000000000002
         ],
         "south_max": false,
@@ -28735,7 +28943,7 @@
         "west_max": false,
         "west_min": false
     },
-    "8_74_b5dd1959_b93b_4845_b619_8793a6275db4.shp": {
+    "8_74_b5dd1959_b93b_4845_b619_8793a6275db4_0.shp": {
         "bbox": [
             36.64999999999999,
             35.0,
@@ -28799,7 +29007,7 @@
         "west_max": false,
         "west_min": false
     },
-    "8_76.shp": {
+    "8_76_0.shp": {
         "bbox": [
             42.4,
             36.4,
@@ -28847,7 +29055,7 @@
         "west_max": false,
         "west_min": false
     },
-    "8_8.shp": {
+    "8_8_0.shp": {
         "bbox": [
             -31.0,
             -43.5,
