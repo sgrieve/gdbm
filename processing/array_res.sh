@@ -5,9 +5,8 @@
 #$ -N gdbm-resolution
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
-#$ -l node_type=sm
+#$ -l node_type=nxv
 #$ -l h_vmem=64G
-#$ -l highmem
 #$ -l h_rt=0:30:0
 #$ -t 1-1818
 #$ -tc 100
