@@ -76,7 +76,7 @@ $3 - north or south
 
 #### `LSD_code/`
 
-This project lightly modifies the LSDTopoTools `chi_mapping_tool.cpp` and `LSDChiTools.cpp` files to generate the required output data from the clipped SRTM tiles. These patches should be applied to this [2018 release of LSDTopoTools](https://zenodo.org/record/1291889), by copying these 2 files into the appropriate folders in the LSDTopoTools installation and making the driver file with the command: `make -f chi_mapping_tool.make`.
+This project provides a driver file `gdbm_analysis.cpp` and associated makefile, `gdbm_analysis.make` and a lightly modified version of `LSDChiTools.cpp` to generate the required output data from the clipped SRTM tiles. These patches should be applied to this [2018 release of LSDTopoTools](https://zenodo.org/record/1291889), by copying these 3 files into the appropriate folders in the LSDTopoTools installation and making the driver file with the command: `make -f gdbm_analysis.make`.
 
 If you need guidance on getting started with LSDTopoTools, see [this user guide](http://lsdtopotools.github.io/LSDTT_book/).
 
