@@ -56,27 +56,17 @@ int main (int nNumberofArgs,char *argv[])
     exit(EXIT_SUCCESS);
   }
 
-  string path_name = argv[1];
-  string f_name = argv[2];
-
-  // maps for setting default parameters
-  map<string,int> int_default_map;
-  map<string,float> float_default_map;
-  map<string,bool> bool_default_map;
-  map<string,string> string_default_map;
-
   // Basic DEM preprocessing
   float min_slope_for_fill = 0.0001;
 
-  // location of the files
-  string DATA_DIR = argv[3];
-  string DEM_ID = argv[4];
-  string OUT_DIR = argv[5];
-  string OUT_ID = argv[6];
-
-  int threshold_contributing_pixels = atoi(argv[7]);
-  int minimum_basin_size_pixels = atoi(argv[8]);
-  int maximum_basin_size_pixels = atoi(argv[9]);
+  // load our input args from the runner.sh script
+  string DATA_DIR = argv[1];
+  string DEM_ID = argv[2];
+  string OUT_DIR = argv[3];
+  string OUT_ID = argv[4];
+  int threshold_contributing_pixels = atoi(argv[5]);
+  int minimum_basin_size_pixels = atoi(argv[6]);
+  int maximum_basin_size_pixels = atoi(argv[7]);
 
   string raster_ext = "bil";
 
