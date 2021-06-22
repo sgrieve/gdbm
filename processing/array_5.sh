@@ -8,7 +8,7 @@
 #$ -l node_type=nxv
 #$ -l h_vmem=128G
 #$ -l h_rt=4:0:0
-#$ -t 1-6
+#$ -t 1-8
 #$ -tc 100
 
 module load gdal/2.3.1
