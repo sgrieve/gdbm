@@ -30,7 +30,7 @@ rm *.tif
 rm *.vrt
 
 # Run the LSD code (on HPC)
-/data/home/faw513/LSDTopoTools_ChiMudd2014/driver_functions_MuddChi2014/chi_mapping_tool.exe /data/home/faw513/gdbm/processing/ SRTM.driver /data/Geog-c2s2/gdbm/$1/ $1 /data/Geog-c2s2/gdbm/$1/ $1 $4 $5 $6
+/data/home/faw513/LSDTopoTools_ChiMudd2014/driver_functions_MuddChi2014/chi_mapping_tool.exe /data/Geog-c2s2/gdbm/$1/ $1 /data/Geog-c2s2/gdbm/$1/ $1 $4 $5 $6
 
 # Extract the rivers from the output data
 python /data/home/faw513/gdbm/postprocessing/export_rivers.py $1_MChiSegmented.csv
