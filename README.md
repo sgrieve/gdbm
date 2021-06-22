@@ -84,10 +84,10 @@ If you need guidance on getting started with LSDTopoTools, see [this user guide]
 
 Following the execution of the LSD code, `export_rivers.py` is used to identify the longest river in each drainage basin and export it to its own `csv` file.
 
-`secondary_analysis.py` Can be run with two command line arguments, to generate secondary statistics, including NCI for a folder full of river data files:
+`secondary_analysis.py` Must be run with one command line argument, to generate secondary statistics, including NCI for a all of the generated river files from the processing steps:
 
 ```
-$ python secondary_analysis.py <output_filename> <path to folder of river files>
+$ python secondary_analysis.py <climate zone>
 ```
 
 This file will contain the NCI value for each river, alongside its relief, flow length, overall gradient, Aridity index statistics, a straightness metric and a pit fill metric.
