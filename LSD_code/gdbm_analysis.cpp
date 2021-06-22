@@ -47,7 +47,7 @@ int main (int nNumberofArgs,char *argv[])
 {
 
   //Test for correct input arguments
-  if (nNumberofArgs!=10)
+  if (nNumberofArgs!=8)
   {
     cout << "Incorrect number of arguments - please refer to processing/runner.sh" << endl;
     cout << "to see how the interface to this code works." << endl;
