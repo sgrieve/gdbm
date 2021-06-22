@@ -90,7 +90,7 @@ Following the execution of the LSD code, `export_rivers.py` is used to identify 
 $ python secondary_analysis.py <climate zone>
 ```
 
-This file will contain the NCI value for each river, alongside its relief, flow length, overall gradient, Aridity index statistics, a straightness metric and a pit fill metric.
+This file will contain the NCI value for each river, alongside its relief, flow length, overall gradient, Aridity Index statistics, a straightness metric and a pit fill metric.
 
 #### `lakes/`
 
