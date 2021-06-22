@@ -1,4 +1,3 @@
-
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //
 // Copyright (C) 2016-2021 Simon M. Mudd & Stuart W.D. Grieve
@@ -208,7 +207,7 @@ int main (int nNumberofArgs,char *argv[])
                           DrainageArea, chi_coordinate, target_nodes,
                           n_iterations, skip, minimum_segment_length, sigma);
 
-  string csv_full_fname = OUT_DIR+OUT_ID+"_MChiSegmented.csv";
+  string csv_full_fname = OUT_DIR+OUT_ID+"_RawBasins.csv";
   cout << "Let me print all the data for you into a csv file called " << csv_full_fname << endl;
   ChiTool.print_data_maps_to_file_full(FlowInfo, csv_full_fname);
   cout << "That is your file printed!" << endl;

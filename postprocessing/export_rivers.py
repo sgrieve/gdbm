@@ -20,7 +20,7 @@ def koppen_number_to_string(filename):
 # Processing the input filename to get the climate zone number and sub number
 input_file = sys.argv[1]
 filename = os.path.basename(input_file)
-sub_zone = filename.split('MChiSegmented')[0][:-1]
+sub_zone = filename.split('RawBasins')[0][:-1]
 
 # This file gives us a list of the row,col of each filled pit above a theshold
 pit_id_file = '{}_pit_id.csv'.format(sub_zone)
@@ -98,11 +98,6 @@ if os.path.isfile(input_file) and os.path.isfile(pit_id_file):
                             pit_flag = '1'
 
                         o.write(','.join(data) + ',' + ai + ',' + pit_flag + '\n')
-
-    # Rename the MChiSegmented file to a more descriptive name
-    new_input_name = input_file.replace('MChiSegmented', 'RawBasins')
-    new_input_name = koppen_number_to_string(new_input_name)
-    os.rename(input_file, new_input_name)
 
     # These two print statements will allow me to grep for failure and success
     print('Successfully generated some river files')

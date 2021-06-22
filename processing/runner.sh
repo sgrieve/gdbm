@@ -33,7 +33,7 @@ rm *.vrt
 /data/home/faw513/LSDTopoTools_ChiMudd2014/driver_functions_MuddChi2014/gdbm_analysis.exe /data/Geog-c2s2/gdbm/$1/ $1 /data/Geog-c2s2/gdbm/$1/ $1 $4 $5 $6
 
 # Extract the rivers from the output data
-python /data/home/faw513/gdbm/postprocessing/export_rivers.py $1_MChiSegmented.csv
+python /data/home/faw513/gdbm/postprocessing/export_rivers.py $1_RawBasins.csv
 
 # Remove the raster files
 rm $1.bil
