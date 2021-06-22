@@ -209,7 +209,7 @@ int main (int nNumberofArgs,char *argv[])
 
   string csv_full_fname = OUT_DIR+OUT_ID+"_RawBasins.csv";
   cout << "Let me print all the data for you into a csv file called " << csv_full_fname << endl;
-  ChiTool.print_data_maps_to_file_full(FlowInfo, csv_full_fname);
+  ChiTool.print_gdbm_data(FlowInfo, csv_full_fname);
   cout << "That is your file printed!" << endl;
 
 }
