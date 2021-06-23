@@ -9344,25 +9344,10 @@ void LSDChiTools::print_gdbm_data(LSDFlowInfo& FlowInfo, string filename)
   // find the number of nodes
   int n_nodes = (node_sequence.size());
 
-  // test to see if there is segment numbering
-  bool have_segments = false;
-  if( segment_counter_map.size() == node_sequence.size())
-  {
-    have_segments = true;
-  }
-
-  // test to see if the fitted elevations have been calculated
-  bool have_segmented_elevation = false;
-  if( segmented_elevation_map.size() == node_sequence.size())
-  {
-    have_segmented_elevation = true;
-  }
-
-
   // open the data file
-  ofstream  chi_data_out;
-  chi_data_out.open(filename.c_str());
-  chi_data_out << "node,row,col,latitude,longitude,chi,elevation,flow_distance,drainage_area,m_chi,b_chi,source_key,basin_key,flowdir" << endl;
+  ofstream  gdbm_data_out;
+  gdbm_data_out.open(filename.c_str());
+  gdbm_data_out << "node,row,col,latitude,longitude,elevation,flow_distance,drainage_area,source_key,basin_key,flowdir" << endl;
 
   if (n_nodes <= 0)
   {
@@ -9376,19 +9361,16 @@ void LSDChiTools::print_gdbm_data(LSDFlowInfo& FlowInfo, string filename)
       FlowInfo.retrieve_current_row_and_col(this_node,row,col);
       get_lat_and_long_locations(row, col, latitude, longitude, Converter);
 
-      chi_data_out << this_node << ","
+      gdbm_data_out << this_node << ","
                    << row << ","
                    << col << ",";
-      chi_data_out.precision(9);
-      chi_data_out << latitude << ","
+      gdbm_data_out.precision(9);
+      gdbm_data_out << latitude << ","
                    << longitude << ",";
-      chi_data_out.precision(5);
-      chi_data_out << chi_data_map[this_node] << ","
-                   << elev_data_map[this_node] << ","
+      gdbm_data_out.precision(5);
+      gdbm_data_out << elev_data_map[this_node] << ","
                    << flow_distance_data_map[this_node] << ","
                    << drainage_area_data_map[this_node] << ","
-                   << M_chi_data_map[this_node] << ","
-                   << b_chi_data_map[this_node] << ","
                    << source_keys_map[this_node] << ","
                    << baselevel_keys_map[this_node] << ","
                    << FlowInfo.get_LocalFlowDirection(row, col) << endl;
@@ -9396,7 +9378,7 @@ void LSDChiTools::print_gdbm_data(LSDFlowInfo& FlowInfo, string filename)
     }
   }
 
-  chi_data_out.close();
+  gdbm_data_out.close();
 
 }
 

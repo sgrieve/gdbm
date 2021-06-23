@@ -13,7 +13,7 @@ median_norm_offsets = []
 
 zone = sys.argv[1]
 
-# The first input argument is the name of the output file, without extension
+# The name of the output file, without extension
 output_filename = '/data/Geog-c2s2/gdbm/{}_data'.format(zone)
 
 # Store the output strings as a list, where the first item is a header
