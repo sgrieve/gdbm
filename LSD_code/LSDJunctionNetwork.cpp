@@ -6562,6 +6562,8 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
   int N_total_juncs = int(first_pruning.size());
   vector<int> second_pruning;
 
+  int removed_count = 0;
+
   for(int this_junc_index = 0; this_junc_index< N_total_juncs; this_junc_index++)
   {
     // get the current node index
@@ -6573,9 +6575,18 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
     {
       second_pruning.push_back( first_pruning[this_junc_index] );
     }
+    else
+    {
+      int pruned_order = get_StreamOrder_of_Junction(first_pruning[this_junc_index]);
+      cout << pruned_order << endl;
+      if (pruned_order == 1)
+      {
+        removed_count++;
+      }
+    }
   }
   cout << "I now have " << second_pruning.size() << " Junctions left." << endl;
-
+  cout << "LOOK HERE: " << removed_count << endl;
   // Now prune based on nesting
   cout << "Now I'm pruning out any nested junctions." << endl;
   vector<int> third_pruning = Prune_Junctions_If_Nested(second_pruning,FlowInfo, FlowAcc);
