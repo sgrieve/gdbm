@@ -6578,7 +6578,6 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
     else
     {
       int pruned_order = get_StreamOrder_of_Junction(first_pruning[this_junc_index]);
-      cout << pruned_order << endl;
       if (pruned_order == 1)
       {
         removed_count++;
