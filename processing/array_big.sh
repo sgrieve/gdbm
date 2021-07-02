@@ -2,14 +2,15 @@
 
 #$ -cwd
 #$ -j y
-#$ -N gdbm-5
+#$ -N gdbm-b
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
 #$ -l node_type=nxv
-#$ -l h_vmem=128G
-#$ -l h_rt=4:0:0
-#$ -t 1-8
-#$ -tc 100
+#$ -l h_vmem=160G
+#$ -l h_rt=8:0:0
+#$ -t 1-4
+#$ -tc 4
+#$ -l highmem
 
 module load gdal/2.3.1
 module load gcc/6.3.0
@@ -21,7 +22,7 @@ source /data/home/faw513/toku-env/bin/activate
 
 # Parse parameter file to get variables.
 number=$SGE_TASK_ID
-paramfile=/data/home/faw513/gdbm/processing/array_params_101_200.txt
+paramfile=/data/home/faw513/gdbm/processing/array_params_big.txt
 
 index=`sed -n ${number}p $paramfile | awk '{print $1}'`
 variable1=`sed -n ${number}p $paramfile | awk '{print $2}'`

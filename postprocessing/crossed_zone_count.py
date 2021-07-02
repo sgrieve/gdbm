@@ -20,14 +20,11 @@ for log in logs:
     zone = re.search("\d+_.+\.bil", log_data)
     zone = koppen[zone[0].split('_')[0]]
 
-    # Getting the before and after values from the log
-    before = re.search("Right, I\'ve pruned those and have \d+ junctions left", log_data)
-    before = int(re.findall('\d+', before[0])[0])
-    after = re.search("I now have \d+ Junctions left", log_data)
-    after = int(re.findall('\d+', after[0])[0])
+    # Getting the count of crossed tile boundaries from the log
+    log_line = re.search("Removed \d+ basins that cross tile boundaries", log_data)
+    count = int(re.findall('\d+', log_line[0])[0])
 
-    crossed_zone_counts[zone].append(before - after)
-
+    crossed_zone_counts[zone].append(count)
 
 print('\nBasins crossing zone or tile boundaries by Koppen Climate Zone:\n')
 total_count = []

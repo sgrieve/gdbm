@@ -1,6 +1,11 @@
 import json
 import sys
 
+# Skip these zones as they need much more time and memory than everything else
+skips = ['1_81.shp', '25_102_a8e17245_17bf_4dca_b6ba_73be4baa04c6_0.shp',
+         '7_94_6c14f0b5_8acb_496d_879b_bdcf64b86ab9_0.shp',
+         '7_94_bb6f1329_2eb7_4c6a_90fd_1b3f1efb4cd7_0.shp']
+
 # Load input args, the first is the lower number of tiles and the second is
 # the upper number of tiles to include in this array job
 lower = int(sys.argv[1])
@@ -24,8 +29,9 @@ for key, urls in links.items():
 
 counts.sort(key=lambda tup: tup[1], reverse=True)
 
-# Filter the data by the input args
-to_process = [x for x in counts if x[1] > lower and x[1] <= upper]
+# Filter the data by the input args, and remove any zones in the skip list
+to_process = [x for x in counts if (x[1] > lower and x[1] <= upper) and
+              (x[0] not in skips)]
 
 # Write the required params for each job into a file in the format:
 # job_id shapefile_name(no extension) utm_zone north/south no-of-tiles drainage_threshold min_basin_size max_basin_size
