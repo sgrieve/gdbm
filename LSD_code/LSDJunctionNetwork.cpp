@@ -6585,7 +6585,7 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
     }
   }
   cout << "I now have " << second_pruning.size() << " Junctions left." << endl;
-  cout << "LOOK HERE: " << removed_count << endl;
+  cout << "Removed " << removed_count << " basins that cross tile boundaries" << endl;
   // Now prune based on nesting
   cout << "Now I'm pruning out any nested junctions." << endl;
   vector<int> third_pruning = Prune_Junctions_If_Nested(second_pruning,FlowInfo, FlowAcc);
