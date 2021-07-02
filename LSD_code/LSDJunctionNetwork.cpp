@@ -6577,6 +6577,9 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
     }
     else
     {
+      // If a basin is influenced by nodata, and does not have any basins nested
+      // within it (e.g. is first order), we want to track it as a basin which
+      // has crossed a tile boundary
       int pruned_order = get_StreamOrder_of_Junction(first_pruning[this_junc_index]);
       if (pruned_order == 1)
       {
@@ -6585,7 +6588,7 @@ vector<int> LSDJunctionNetwork::Prune_Junctions_By_Contributing_Pixel_Window_Rem
     }
   }
   cout << "I now have " << second_pruning.size() << " Junctions left." << endl;
-  cout << "Removed " << removed_count << " basins that cross tile boundaries" << endl;
+  cout << "Removed " << removed_count << " basins that cross tile boundaries." << endl;
   // Now prune based on nesting
   cout << "Now I'm pruning out any nested junctions." << endl;
   vector<int> third_pruning = Prune_Junctions_If_Nested(second_pruning,FlowInfo, FlowAcc);
