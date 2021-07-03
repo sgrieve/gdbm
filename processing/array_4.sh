@@ -2,7 +2,7 @@
 
 #$ -cwd
 #$ -j y
-#$ -N gdbm-5
+#$ -N gdbm-4
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
 #$ -l node_type=nxv
