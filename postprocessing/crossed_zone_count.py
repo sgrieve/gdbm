@@ -1,7 +1,7 @@
 import re
 from glob import glob
 
-logs = glob('/data/Geog-c2s2/gdbm/gdbm-*.o*.*')
+logs = glob('../Results/logs/gdbm-*.o*.*')
 
 koppen = {'1': 'Af', '2': 'Am', '3': 'Aw', '4': 'BWh', '5': 'BWk',
           '6': 'BSh', '7': 'BSk', '8': 'Cs', '11': 'Cw', '14': 'Cf',
