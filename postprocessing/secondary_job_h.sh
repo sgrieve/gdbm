@@ -2,8 +2,8 @@
 
 #$ -cwd
 #$ -j y
-#$ -N gdbm-postpro
-#$ -o /data/Geog-c2s2/gdbm/
+#$ -N gdbm-post-h
+#$ -o /data/Geog-c2s2/gdbm-sensi-h/
 #$ -pe smp 1
 #$ -l node_type=nxv
 #$ -l h_vmem=4G
@@ -22,4 +22,4 @@ paramfile=/data/home/faw513/gdbm/postprocessing/params.txt
 index=`sed -n ${number}p $paramfile | awk '{print $1}'`
 variable1=`sed -n ${number}p $paramfile | awk '{print $2}'`
 
-python /data/home/faw513/gdbm/postprocessing/secondary_analysis.py $variable1
+python /data/home/faw513/gdbm/postprocessing/secondary_analysis_h.py $variable1
