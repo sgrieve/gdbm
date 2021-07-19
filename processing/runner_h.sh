@@ -13,13 +13,13 @@ mkdir $1
 cd $1
 
 # Download the tiles we need
-python /data/home/faw513/gdbm/processing/get_urls.py $1.shp | xargs -n 1 -P 8 -I FILEPATH /data/home/faw513/aws/v2/current/bin/aws s3 cp FILEPATH . --endpoint-url https://opentopography.s3.sdsc.edu --no-sign-request
+python /data/home/faw513/gdbm2/processing/get_urls.py $1.shp | xargs -n 1 -P 8 -I FILEPATH /data/home/faw513/aws/v2/current/bin/aws s3 cp FILEPATH . --endpoint-url https://opentopography.s3.sdsc.edu --no-sign-request
 
 # Build virtual raster from tiles
 gdalbuildvrt input.vrt *.tif
 
 # Clip the merged raster using the corresponding shapefile
-gdalwarp -multi -wo 'NUM_THREADS=val/ALL_CPUS' -srcnodata -32768 -dstnodata -9999 -cutline /data/home/faw513/gdbm/climate_zones/singlepart_files_split/$1.shp -crop_to_cutline -of ENVI input.vrt tmp.bil
+gdalwarp -multi -wo 'NUM_THREADS=val/ALL_CPUS' -srcnodata -32768 -dstnodata -9999 -cutline /data/home/faw513/gdbm2/climate_zones/singlepart_files_split/$1.shp -crop_to_cutline -of ENVI input.vrt tmp.bil
 
 # Reproject the clipped raster to utm and save as a floating point file
 gdalwarp -t_srs '+proj=utm +zone='$2' +datum=WGS84 +'$3'' -of ENVI -ot Float32 tmp.bil $1.bil
@@ -33,7 +33,7 @@ rm *.vrt
 /data/home/faw513/LSDTopoTools_ChiMudd2014/driver_functions_MuddChi2014/gdbm_analysis.exe /data/Geog-c2s2/gdbm-sensi-h/$1/ $1 /data/Geog-c2s2/gdbm-sensi-h/$1/ $1 $4 $5 $6
 
 # Extract the rivers from the output data
-python /data/home/faw513/gdbm/postprocessing/export_rivers.py $1_RawBasins.csv
+python /data/home/faw513/gdbm2/postprocessing/export_rivers.py $1_RawBasins.csv
 
 # Remove the raster files
 rm $1.bil

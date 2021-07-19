@@ -17,9 +17,9 @@ source /data/home/faw513/toku-env/bin/activate
 
 # Parse parameter file to get variables.
 number=$SGE_TASK_ID
-paramfile=/data/home/faw513/gdbm/postprocessing/params.txt
+paramfile=/data/home/faw513/gdbm2/postprocessing/params.txt
 
 index=`sed -n ${number}p $paramfile | awk '{print $1}'`
 variable1=`sed -n ${number}p $paramfile | awk '{print $2}'`
 
-python /data/home/faw513/gdbm/postprocessing/secondary_analysis_l.py $variable1
+python /data/home/faw513/gdbm2/postprocessing/secondary_analysis_l.py $variable1
