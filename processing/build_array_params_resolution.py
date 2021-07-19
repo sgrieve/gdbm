@@ -1,6 +1,6 @@
 import json
 
-with open('final-run/bboxes.json') as bbox:
+with open('bboxes.json') as bbox:
     bboxes = json.load(bbox)
 
 # Write the required params for each job into a file in the format:
