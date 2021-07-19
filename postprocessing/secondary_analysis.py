@@ -91,9 +91,16 @@ for filename in final_file_list:
     # Also need the total river length, river relief, river slope and name
     river_name = os.path.splitext(os.path.basename(filename))[0]
 
-    output.append('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(river_name, NCI, R,
+    # In the case of 2 rivers, we wind up with either a NaN NCI or AI data, so
+    # lets test for that.
+    # calculating the mean AI here because we don't have any walruses in this code
+    AI_mean = np.nanmean(AI)
+
+    if not (np.isnan(NCI) or np.isnan(AI_mean)):
+
+        output.append('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(river_name, NCI, R,
                                                                 FlowLength, R / FlowLength, area,
-                                                                np.nanmean(AI), np.nanmedian(AI),
+                                                                AI_mean, np.nanmedian(AI),
                                                                 np.nanstd(AI), np.nanmin(AI),
                                                                 np.nanmax(AI),
                                                                 np.count_nonzero(~np.isnan(AI)),
