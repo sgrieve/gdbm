@@ -33,4 +33,4 @@ variable5=`sed -n ${number}p $paramfile | awk '{print $7}'`
 variable6=`sed -n ${number}p $paramfile | awk '{print $8}'`
 
 # Run the application.
-sh /data/home/faw513/gdbm/processing/runner.sh $variable1 $variable2 $variable3 $variable4 $variable5 $variable6
+sh /data/home/faw513/gdbm/processing/runner_h.sh $variable1 $variable2 $variable3 $variable4 $variable5 $variable6
