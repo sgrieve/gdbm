@@ -17,7 +17,7 @@ zone = sys.argv[1]
 output_filename = '/data/Geog-c2s2/gdbm-sensi-l/{}_data'.format(zone)
 
 # Store the output strings as a list, where the first item is a header
-output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n,pit_pixel_proportion,pit_lenth_proportion,straightness_proportion\n']
+output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n,pit_pixel_proportion,pit_length_proportion,straightness_proportion\n']
 
 # Get the list of files to be processed
 final_file_list = glob('/data/Geog-c2s2/gdbm-sensi-l/*/{}*river*.csv'.format(zone))
