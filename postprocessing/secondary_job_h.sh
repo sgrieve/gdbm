@@ -5,7 +5,6 @@
 #$ -N gdbm-post-h
 #$ -o /data/Geog-c2s2/gdbm-sensi-h/
 #$ -pe smp 1
-#$ -l node_type=nxv
 #$ -l h_vmem=4G
 #$ -l h_rt=1:0:0
 #$ -t 1-13
