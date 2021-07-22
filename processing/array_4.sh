@@ -5,7 +5,6 @@
 #$ -N gdbm-4
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
-#$ -l node_type=nxv
 #$ -l h_vmem=128G
 #$ -l h_rt=4:0:0
 #$ -t 1-6
