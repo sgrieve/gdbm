@@ -3,7 +3,7 @@ from glob import glob
 zones = ['A', 'B', 'C', 'D']
 
 for zone in zones:
-    filenames = glob('{}*_data.csv'.format(zone))
+    filenames = glob('../../Results/{}*_data.csv'.format(zone))
 
     out_string = ''
 
@@ -16,5 +16,5 @@ for zone in zones:
             lines = f.readlines()
             out_string += ''.join(lines)
 
-    with open('{}_data.csv'.format(zone), 'w') as w:
+    with open('../../Results/{}_data.csv'.format(zone), 'w') as w:
         w.write(out_string)
