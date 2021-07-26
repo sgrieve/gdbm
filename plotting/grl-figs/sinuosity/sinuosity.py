@@ -41,7 +41,7 @@ plots = []
 
 for i, z in enumerate(zones):
     x = []
-    files = glob('/Users/stuart/CardiffProject/Results/{0}*/{0}*_river*.csv'.format(z))
+    files = glob('../../../Results/{0}*/{0}*_river*.csv'.format(z))
     print(z)
     for filename in files:
         data = np.genfromtxt(filename, delimiter=',')
@@ -82,3 +82,4 @@ plt.xticks([0, 1, 2, 3, 4], labels)
 plt.ylabel('Sinuosity ratio')
 
 plt.savefig('Sinuosity.eps')
+plt.savefig('Sinuosity.png')
