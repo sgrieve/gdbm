@@ -9382,6 +9382,59 @@ void LSDChiTools::print_gdbm_data(LSDFlowInfo& FlowInfo, string filename)
 
 }
 
+
+void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string filename)
+{
+
+  // these are for extracting element-wise data from the channel profiles.
+  int this_node, row, col;
+  double latitude,longitude;
+  LSDCoordinateConverterLLandUTM Converter;
+
+  // find the number of nodes
+  int n_nodes = (node_sequence.size());
+
+  // open the data file
+  ofstream  gdbm_data_out;
+  gdbm_data_out.open(filename.c_str());
+  gdbm_data_out << "node,easting,northing,latitude,longitude,elevation,flow_distance,drainage_area,source_key,basin_key,flowdir" << endl;
+
+  if (n_nodes <= 0)
+  {
+    cout << "Cannot print since you have not calculated channel properties yet." << endl;
+  }
+  else
+  {
+    for (int n = 0; n< n_nodes; n++)
+    {
+      this_node = node_sequence[n];
+      FlowInfo.retrieve_current_row_and_col(this_node,row,col);
+      get_lat_and_long_locations(row, col, latitude, longitude, Converter);
+
+      float easting, northing;
+      get_x_and_y_locations(row, col, easting, northing);
+
+      gdbm_data_out << this_node << ","
+                   << easting << ","
+                   << northing << ",";
+      gdbm_data_out.precision(9);
+      gdbm_data_out << latitude << ","
+                   << longitude << ",";
+      gdbm_data_out.precision(5);
+      gdbm_data_out << elev_data_map[this_node] << ","
+                   << flow_distance_data_map[this_node] << ","
+                   << drainage_area_data_map[this_node] << ","
+                   << source_keys_map[this_node] << ","
+                   << baselevel_keys_map[this_node] << ","
+                   << FlowInfo.get_LocalFlowDirection(row, col) << endl;
+
+    }
+  }
+
+  gdbm_data_out.close();
+
+}
+
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 // Print data maps to file
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

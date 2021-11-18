@@ -1145,6 +1145,14 @@ class LSDChiTools
     /// @date 22/06/2021
     void print_gdbm_data(LSDFlowInfo& FlowInfo, string filename);
 
+    /// @brief Code to write out data for gdbm including eastings and northings.
+    /// @param FlowInfo an LSDFlowInfo object
+    /// @param filename The name of the filename to print to (should have full
+    ///   path and the extension .csv
+    /// @author SWDG
+    /// @date 18/11/2021
+    void print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string filename);
+
     /// @brief This prints a csv file with all the knickpoint data
     ///  the columns are:
     ///  latitude,longitude,elevation,flow distance,drainage area,ratio,diff,sign
