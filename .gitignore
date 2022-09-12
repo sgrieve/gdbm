@@ -5,3 +5,7 @@ res_jsons/
 Results/
 lakes/GLWD-level1/*
 dems/*
+plotting/data-paper-figs/*.png
+plotting/data-paper-figs/*.pdf
+plotting/data-paper-figs/*.csv
+plotting/data-paper-figs/*.json
