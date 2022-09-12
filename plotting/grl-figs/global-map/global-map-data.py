@@ -6,7 +6,7 @@ zones = ['Af','Am','Aw','BWh','BWk','BSh','BSk','Cs','Cw','Cf','Ds','Dw','Df']
 
 for zone in zones:
     print(zone)
-    with open('/Users/stuart/gdbm/Results/{}_data_filtered.csv'.format(zone), 'r') as f:
+    with open('/Users/stuart/gdbm/Results/{}_data.csv'.format(zone), 'r') as f:
         reader = csv.reader(f, delimiter=',')
         next(reader)  # Skip the header
 
@@ -23,6 +23,6 @@ for zone in zones:
                 long = first_row_raw[3]
                 out_data.append('{},{},{},{},{},{}\n'.format(name, lat, long, length, area, AI))
 
-with open('global_data_filtered.csv', 'w') as w:
+with open('global_data.csv', 'w') as w:
     for l in out_data:
         w.write(l)
