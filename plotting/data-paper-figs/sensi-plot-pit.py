@@ -29,7 +29,7 @@ for i, zone in enumerate(zones, start=1):
     pc001 = full['NCI'].where(full['pit_length_proportion'] < 0.001)
 
     data = {'100': pc1, '0.5': pc1, '0.1': pc001}
-    df = pd.DataFrame(data)s
+    df = pd.DataFrame(data)
 
     v = sns.violinplot(data=df, inner=None, cut=0, bw=0.1, fontsize=4)
     v.set_xticklabels(v.get_xticklabels())
