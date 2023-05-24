@@ -4,20 +4,21 @@ Code to convert individual river data files into georeferenced UTM shapefiles.
 
 import math
 import numpy as np
-import matplotlib.pyplot as plt
 import fiona
 from shapely.geometry import shape, mapping, LineString
 from glob import glob
-from scipy import stats
 from fiona.crs import from_epsg
 from pyproj import CRS
 import json
 import os.path as path
 
+# this code does not currently work, as it is missing the step to convert the pixel coordinates into the UTM coordinates
+
 # BSk_36_b80a024b_4f67_4bdd_b612_dafa46455008_river_0
 
 # path to river data files
-for filename in glob('/Users/stuart/gdbm/Results/*/*iver*.csv'):
+for filename in glob('/Users/stuart/gdbm/Results/*/BSk_36_b80a024b_4f67_4bdd_b612_dafa46455008_river_0.csv'):
+# for filename in glob('/Users/stuart/gdbm/Results/*/*river_*.csv')
     print(filename)
     data = np.genfromtxt(filename, delimiter=',')
 
