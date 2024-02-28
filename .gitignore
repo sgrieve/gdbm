@@ -9,3 +9,7 @@ plotting/data-paper-figs/*.png
 plotting/data-paper-figs/*.pdf
 plotting/data-paper-figs/*.csv
 plotting/data-paper-figs/*.json
+plotting/hack-analysis/*.csv
+plotting/hack-analysis/*.png
+plotting/hack-analysis/*.pdf
+plotting/hack-analysis/task*.md
