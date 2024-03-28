@@ -62,7 +62,7 @@ if os.path.isfile(input_file) and os.path.isfile(pit_id_file):
         # Select the data we want from the raw file so we have a list of rows of
         # data for each basin.
         for row in reader:
-            basins[row[9]].append((row[1:9] + [row[10]]))
+            basins[row[9]].append((row[1:9] + row[10:13]))
 
     source_path = '/data/Geog-c2s2/ai.tif'
     with rasterio.open(source_path) as src:
@@ -97,7 +97,7 @@ if os.path.isfile(input_file) and os.path.isfile(pit_id_file):
                         if pit_key in pit_keys:
                             pit_flag = '1'
 
-                        o.write(','.join(data) + ',' + ai + ',' + pit_flag + '\n')
+                        o.write(','.join(data[:9]) + ',' + ai + ',' + pit_flag + ',' + ','.join(data[9:]) + '\n')
 
     # These two print statements will allow me to grep for failure and success
     print('Successfully generated some river files')
