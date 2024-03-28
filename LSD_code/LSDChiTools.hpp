@@ -1151,7 +1151,7 @@ class LSDChiTools
     ///   path and the extension .csv
     /// @author SWDG
     /// @date 18/11/2021
-    void print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string filename);
+    void print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, LSDJunctionNetwork& JunctionNetwork, string filename);
 
     /// @brief This prints a csv file with all the knickpoint data
     ///  the columns are:

@@ -9383,7 +9383,7 @@ void LSDChiTools::print_gdbm_data(LSDFlowInfo& FlowInfo, string filename)
 }
 
 
-void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string filename)
+void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, LSDJunctionNetwork& JunctionNetwork, string filename)
 {
 
   // these are for extracting element-wise data from the channel profiles.
@@ -9397,7 +9397,7 @@ void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string
   // open the data file
   ofstream  gdbm_data_out;
   gdbm_data_out.open(filename.c_str());
-  gdbm_data_out << "node,easting,northing,latitude,longitude,elevation,flow_distance,drainage_area,source_key,basin_key,flowdir" << endl;
+  gdbm_data_out << "node,easting,northing,latitude,longitude,elevation,flow_distance,drainage_area,source_key,basin_key,flowdir,perim_pixels,area_pixels" << endl;
 
   if (n_nodes <= 0)
   {
@@ -9405,6 +9405,11 @@ void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string
   }
   else
   {
+
+    int new_junction = NoDataValue;
+    int perim_pixels = 0;
+    int area_pixels = 0;
+
     for (int n = 0; n< n_nodes; n++)
     {
       this_node = node_sequence[n];
@@ -9413,6 +9418,15 @@ void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string
 
       float easting, northing;
       get_x_and_y_locations(row, col, easting, northing);
+
+      new_junction = JunctionNetwork.get_Junction_of_Node(this_node, FlowInfo);
+
+      if (new_junction != NoDataValue){
+        LSDBasin basin(new_junction, FlowInfo, JunctionNetwork);
+        basin.set_Perimeter(FlowInfo);
+        perim_pixels = basin.get_Perimeter_nodes().size();
+        area_pixels = basin.get_NumberOfCells();
+      }
 
       gdbm_data_out << this_node << ","
                    << easting << ","
@@ -9426,7 +9440,9 @@ void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, string
                    << drainage_area_data_map[this_node] << ","
                    << source_keys_map[this_node] << ","
                    << baselevel_keys_map[this_node] << ","
-                   << FlowInfo.get_LocalFlowDirection(row, col) << endl;
+                   << FlowInfo.get_LocalFlowDirection(row, col) << ","
+                   << perim_pixels << ","
+                   << area_pixels << endl;
 
     }
   }
