@@ -14,6 +14,7 @@ This workflow has been designed to run on the QMUL Apocrita supercomputer (which
   - gcc 6.3.0
   - python 3.6.3
   - proj 5.2.0
+  - postgres 15.1
 
 ## Directory Structure
 
@@ -171,5 +172,5 @@ In some cases the sub zones are still too big to be processed efficiently. These
 ## Raw data headers
 
 ```
-row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag
+row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag,perimeter pixel count, area pixel count
 ```
