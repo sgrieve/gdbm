@@ -14,6 +14,7 @@ module load gdal/2.3.1
 module load gcc/6.3.0
 module load python/3.6.3
 module load proj/5.2.0
+module load postgres/15.1
 
 # Using the Tokunaga environment as it has rasterio installed
 source /data/home/faw513/toku-env/bin/activate

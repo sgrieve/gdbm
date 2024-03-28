@@ -14,6 +14,7 @@ module load gdal/2.3.1
 module load gcc/6.3.0
 module load python/3.6.3
 module load proj/5.2.0
+module load postgres/15.1
 
 # Parse parameter file to get variables.
 number=$SGE_TASK_ID
