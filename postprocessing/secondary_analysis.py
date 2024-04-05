@@ -5,7 +5,7 @@ from glob import glob
 import sys
 
 # Reminder of the headers of a river file:
-# row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag
+# row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag,perimeter pixel count, area pixel count
 
 # We collect each file's data into a list of arrays
 offset_elevs = []
@@ -17,7 +17,7 @@ zone = sys.argv[1]
 output_filename = '/data/Geog-c2s2/gdbm/{}_data'.format(zone)
 
 # Store the output strings as a list, where the first item is a header
-output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n,pit_pixel_proportion,pit_length_proportion,straightness_proportion\n']
+output = ['RiverName,NCI,Relief,FlowLength,TotalSlope,Area,ai_mean,ai_median,ai_std,ai_min,ai_max,ai_n,pit_pixel_proportion,pit_length_proportion,straightness_proportion,perimiter_pixels,area_pixels,Gravelius_coefficient\n']
 
 # Get the list of files to be processed
 final_file_list = glob('/data/Geog-c2s2/gdbm/*/{}*river*.csv'.format(zone))
@@ -96,9 +96,18 @@ for filename in final_file_list:
     # calculating the mean AI here because we don't have any walruses in this code
     AI_mean = np.nanmean(AI)
 
+    # calculating GC based on https://doi.org/10.1038/s41467-018-06210-4
+    perimeter_px = data[0, 11]
+    area_px = data[0, 12]
+    relative_res = 0.1 * np.sqrt(area)
+    relative_perim = perimeter_px * relative_res
+    relative_area = area_px * (relative_res ** 2)
+
+    GC = relative_perim / (2 * np.sqrt(np.pi * relative_area))
+
     if not (np.isnan(NCI) or np.isnan(AI_mean)):
 
-        output.append('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(river_name, NCI, R,
+        output.append('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(river_name, NCI, R,
                                                                 FlowLength, R / FlowLength, area,
                                                                 AI_mean, np.nanmedian(AI),
                                                                 np.nanstd(AI), np.nanmin(AI),
@@ -106,8 +115,9 @@ for filename in final_file_list:
                                                                 np.count_nonzero(~np.isnan(AI)),
                                                                 pixel_pit_prop,
                                                                 length_pit_prop,
-                                                                streak_ratio
-                                                                ))
+                                                                streak_ratio,
+                                                                perimeter_px,
+                                                                area_px, GC))
 
 with open('{}.csv'.format(output_filename), 'w') as f:
     for o in output:
