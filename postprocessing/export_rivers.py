@@ -103,13 +103,3 @@ if os.path.isfile(input_file) and os.path.isfile(pit_id_file):
     print('Successfully generated some river files')
 else:
     print('No rivers to process, as the basins file was not found')
-
-
-
-row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,
-pit flag,perimeter pixel count, area pixel count,easting,northing
-
-
-
-node,easting,northing,latitude,longitude,elevation,flow_distance,drainage_area,
-source_key,basin_key,flowdir,perim_pixels,area_pixels,easting,northing
