@@ -6,8 +6,8 @@
 #$ -o /data/Geog-c2s2/gdbm/
 #$ -pe smp 1
 #$ -l h_vmem=128G
-#$ -l h_rt=4:0:0
-#$ -t 1-6
+#$ -l h_rt=9:0:0
+#$ -t 1-12
 #$ -tc 100
 
 module load gdal/2.3.1
