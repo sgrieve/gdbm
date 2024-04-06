@@ -62,7 +62,7 @@ if os.path.isfile(input_file) and os.path.isfile(pit_id_file):
         # Select the data we want from the raw file so we have a list of rows of
         # data for each basin.
         for row in reader:
-            basins[row[9]].append((row[1:9] + row[10:13]))
+            basins[row[9]].append((row[1:9] + row[10:]))
 
     source_path = '/data/Geog-c2s2/ai.tif'
     with rasterio.open(source_path) as src:
@@ -103,3 +103,13 @@ if os.path.isfile(input_file) and os.path.isfile(pit_id_file):
     print('Successfully generated some river files')
 else:
     print('No rivers to process, as the basins file was not found')
+
+
+
+row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,
+pit flag,perimeter pixel count, area pixel count,easting,northing
+
+
+
+node,easting,northing,latitude,longitude,elevation,flow_distance,drainage_area,
+source_key,basin_key,flowdir,perim_pixels,area_pixels,easting,northing

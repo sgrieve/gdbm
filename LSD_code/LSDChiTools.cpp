@@ -9397,7 +9397,7 @@ void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, LSDJun
   // open the data file
   ofstream  gdbm_data_out;
   gdbm_data_out.open(filename.c_str());
-  gdbm_data_out << "node,easting,northing,latitude,longitude,elevation,flow_distance,drainage_area,source_key,basin_key,flowdir,perim_pixels,area_pixels" << endl;
+  gdbm_data_out << "node,row,col,latitude,longitude,elevation,flow_distance,drainage_area,source_key,basin_key,flowdir,perim_pixels,area_pixels,easting,northing" << endl;
 
   if (n_nodes <= 0)
   {
@@ -9429,8 +9429,8 @@ void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, LSDJun
       }
 
       gdbm_data_out << this_node << ","
-                   << easting << ","
-                   << northing << ",";
+                   << row << ","
+                   << col << ",";
       gdbm_data_out.precision(9);
       gdbm_data_out << latitude << ","
                    << longitude << ",";
@@ -9442,7 +9442,9 @@ void LSDChiTools::print_gdbm_data_easting_northing(LSDFlowInfo& FlowInfo, LSDJun
                    << baselevel_keys_map[this_node] << ","
                    << FlowInfo.get_LocalFlowDirection(row, col) << ","
                    << perim_pixels << ","
-                   << area_pixels << endl;
+                   << area_pixels << ","
+                   << easting << ","
+                   << northing << endl;
 
     }
   }

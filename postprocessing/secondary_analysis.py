@@ -5,7 +5,7 @@ from glob import glob
 import sys
 
 # Reminder of the headers of a river file:
-# row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag,perimeter pixel count, area pixel count
+# row,col,lat,long,elevation,flow length,drainage area,basin key,flowdir,aridity index,pit flag,perimeter pixel count, area pixel count,easting,northing
 
 # We collect each file's data into a list of arrays
 offset_elevs = []
