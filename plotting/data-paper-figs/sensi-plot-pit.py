@@ -6,8 +6,8 @@ import warnings
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
-zones = ['../../Results/A_data.csv', '../../Results/B_data.csv',
-         '../../Results/C_data.csv', '../../Results/D_data.csv']
+zones = ['/Users/stuart/gdbm/plotting/hack-analysis/data/A_data.csv', '/Users/stuart/gdbm/plotting/hack-analysis/data/B_data.csv',
+         '/Users/stuart/gdbm/plotting/hack-analysis/data/C_data.csv', '/Users/stuart/gdbm/plotting/hack-analysis/data/D_data.csv']
 
 titles = ['Tropical', 'Arid', 'Temperate', 'Cold']
 

@@ -14,6 +14,8 @@ deltas = pd.read_csv(data)
 
 pc = np.percentile(deltas['d'], 98)
 
+plt.figure(figsize=(5.2, 3.9))
+
 plt.hist(deltas['d'], bins=20, density=False, edgecolor='k', linewidth=0.5)
 max_count = plt.gca().get_ylim()[1] + 100000  # Constant is to create headroom at top of plot
 
@@ -38,5 +40,4 @@ plt.legend()
 plt.tight_layout()
 
 
-# plt.savefig('pit-fill.png')
-plt.savefig('/Users/stuart/Papers/gdbm-data-paper/figs/pit-fill.pdf')
+plt.savefig('pit-fill.pdf')
