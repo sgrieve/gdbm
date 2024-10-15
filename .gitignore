@@ -13,3 +13,5 @@ plotting/hack-analysis/*.csv
 plotting/hack-analysis/*.png
 plotting/hack-analysis/*.pdf
 plotting/hack-analysis/task*.md
+plotting/grl-sup-table/*.csv
+tmp/*

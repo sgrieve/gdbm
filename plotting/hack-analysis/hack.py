@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 def hack(x, h, k):
     return k * (x ** h)
 
-files = glob('D*.csv')
+files = glob('/Users/stuart/gdbm/tmp/small-big/A*.csv')
 
 d = []
 for f in files:
@@ -52,7 +52,7 @@ for file in [x]:
     # plt.plot(x, intercept + (x * slope), 'b-')
 
 
-    plt.savefig('d.png') #.format(file))
+    plt.savefig('a-sb.png') #.format(file))
     plt.clf()
 
 
